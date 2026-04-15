@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing controls_core.egg-info/PKG-INFO
+writing dependency_links to controls_core.egg-info/dependency_links.txt
+writing entry points to controls_core.egg-info/entry_points.txt
+writing requirements to controls_core.egg-info/requires.txt
+writing top-level names to controls_core.egg-info/top_level.txt
+reading manifest file 'controls_core.egg-info/SOURCES.txt'
+writing manifest file 'controls_core.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/lib/python3.14/site-packages/controls-core.egg-link (link to .)
+Installing main_control_node script to /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/lib/controls_core
+
+Installed /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core
+running symlink_data
+symbolically linking /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/resource/controls_core -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/share/ament_index/resource_index/packages
+symbolically linking /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/package.xml -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/share/controls_core

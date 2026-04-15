@@ -112,11 +112,11 @@ def main() -> None:
 
 
         x_vel = 0.0
-        if abs(error) < 0.30:
+        if abs(error) < 0.60:
             y_vel = 0.17
         else:
             y_vel = 0.0
-        z_vel = error * (-0.5)
+        z_vel = error * (-0.4)
 	
         print(f"z_vel: {z_vel:.2f}")
 

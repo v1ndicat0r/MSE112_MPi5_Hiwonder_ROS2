@@ -1,0 +1,53 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/turtlesim/CMakeCache.txt is different than the directory /home/public/ros2ws/build/turtlesim where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+gmake: Warning: File 'Makefile' has modification time 8915535 s in the future
+gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 8915535 s in the future
+gmake[2]: Warning: File 'CMakeFiles/turtlesim_node_autogen_timestamp_deps.dir/build.make' has modification time 7876078 s in the future
+gmake[2]: Warning: File 'CMakeFiles/turtle_teleop_key_autogen_timestamp_deps.dir/build.make' has modification time 7876078 s in the future
+gmake[2]: Warning: File 'CMakeFiles/draw_square_autogen_timestamp_deps.dir/build.make' has modification time 7876078 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/turtlesim_node_autogen_timestamp_deps.dir/build.make' has modification time 7876078 s in the future
+gmake[2]: Warning: File 'CMakeFiles/draw_square_autogen_timestamp_deps.dir/build.make' has modification time 7876078 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/turtle_teleop_key_autogen_timestamp_deps.dir/build.make' has modification time 7876078 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/mimic_autogen_timestamp_deps.dir/build.make' has modification time 7876078 s in the future
+gmake[2]: Warning: File 'CMakeFiles/turtlesim_node_autogen.dir/build.make' has modification time 7876078 s in the future
+gmake[2]: Warning: File 'CMakeFiles/draw_square_autogen.dir/build.make' has modification time 7876078 s in the future
+gmake[2]: Warning: File 'CMakeFiles/turtle_teleop_key_autogen.dir/build.make' has modification time 7876078 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/mimic_autogen_timestamp_deps.dir/build.make' has modification time 7876078 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/turtlesim_node_autogen.dir/build.make' has modification time 7876078 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/turtle_teleop_key_autogen.dir/build.make' has modification time 7876078 s in the future
+gmake[2]: Warning: File 'CMakeFiles/draw_square_autogen.dir/build.make' has modification time 7876078 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/turtle_teleop_key.dir/build.make' has modification time 7876078 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/turtle_teleop_key.dir/build.make' has modification time 7876078 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/draw_square.dir/build.make' has modification time 7876078 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/draw_square.dir/build.make' has modification time 7876078 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/turtlesim_node.dir/build.make' has modification time 7876077 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/turtlesim_node.dir/build.make' has modification time 7876077 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/mimic_autogen.dir/build.make' has modification time 7876077 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/mimic_autogen.dir/build.make' has modification time 7876077 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/mimic.dir/build.make' has modification time 7876077 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/mimic.dir/build.make' has modification time 7876077 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake: warning:  Clock skew detected.  Your build may be incomplete.
