@@ -1,0 +1,89 @@
+[0.028s] Invoking command in '/home/public/ros2ws/build/turtlesim': CMAKE_PREFIX_PATH=/home/public/ros2ws/install/turtlesim_msgs:/home/public/ros2ws/install/turtlesim:/home/public/ros2ws/install/examples_rclcpp_wait_set:/home/public/ros2ws/install/examples_rclcpp_multithreaded_executor:/home/public/ros2ws/install/examples_rclcpp_minimal_timer:/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber:/home/public/ros2ws/install/examples_rclcpp_minimal_service:/home/public/ros2ws/install/examples_rclcpp_minimal_publisher:/home/public/ros2ws/install/examples_rclcpp_minimal_composition:/home/public/ros2ws/install/examples_rclcpp_minimal_client:/home/public/ros2ws/install/examples_rclcpp_minimal_action_server:/home/public/ros2ws/install/examples_rclcpp_minimal_action_client:/home/public/ros2ws/install/examples_rclcpp_cbg_executor:/home/public/ros2ws/install/examples_rclcpp_async_client:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/public/ros2ws/build/turtlesim -- -j4 -l4
+[0.112s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.508s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.521s] -- Found ament_index_cpp: 1.13.3 (/opt/ros/lyrical/share/ament_index_cpp/cmake)
+[0.524s] -- Found geometry_msgs: 5.9.2 (/opt/ros/lyrical/share/geometry_msgs/cmake)
+[0.553s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.559s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.573s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.586s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.924s] -- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+[1.017s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[1.022s] -- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[1.081s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.198s] -- Found rclcpp_action: 32.0.0 (/opt/ros/lyrical/share/rclcpp_action/cmake)
+[1.253s] -- Found std_srvs: 5.9.2 (/opt/ros/lyrical/share/std_srvs/cmake)
+[1.284s] -- Found turtlesim_msgs: 1.10.9 (/home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake)
+[1.322s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[1.541s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.549s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.550s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/public/ros2ws/src/ros_tutorials/turtlesim/include>
+[1.550s] -- Configured cppcheck exclude dirs and/or files: 
+[1.553s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.553s] -- Configured cpplint exclude dirs and/or files: 
+[1.555s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.555s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.556s] -- Added test 'lint_cmake' to check CMake code style
+[1.557s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.560s] -- Added test 'uncrustify' to check C / C++ code style
+[1.560s] -- Configured uncrustify additional arguments: 
+[1.561s] -- Added test 'xmllint' to check XML markup files
+[1.564s] -- Configuring done (1.5s)
+[1.829s] -- Generating done (0.3s)
+[1.908s] -- Build files have been written to: /home/public/ros2ws/build/turtlesim
+[1.977s] [  0%] Built target turtle_teleop_key_autogen_timestamp_deps
+[1.977s] [  0%] Built target turtlesim_node_autogen_timestamp_deps
+[1.977s] [  0%] Built target draw_square_autogen_timestamp_deps
+[2.016s] [  0%] Built target mimic_autogen_timestamp_deps
+[2.043s] [ 15%] [1m[34mAutomatic MOC and UIC for target draw_square[0m
+[2.045s] [ 15%] [1m[34mAutomatic MOC and UIC for target turtle_teleop_key[0m
+[2.045s] [ 15%] [1m[34mAutomatic MOC and UIC for target turtlesim_node[0m
+[2.085s] [ 20%] [1m[34mAutomatic MOC and UIC for target mimic[0m
+[2.120s] [ 20%] Built target draw_square_autogen
+[2.120s] [ 20%] Built target turtlesim_node_autogen
+[2.131s] [ 20%] Built target turtle_teleop_key_autogen
+[2.147s] [ 20%] Built target mimic_autogen
+[2.240s] [ 50%] Built target mimic
+[2.240s] [ 50%] Built target turtle_teleop_key
+[2.242s] [ 65%] Built target draw_square
+[2.255s] [100%] Built target turtlesim_node
+[2.271s] Invoked command in '/home/public/ros2ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/home/public/ros2ws/install/turtlesim_msgs:/home/public/ros2ws/install/turtlesim:/home/public/ros2ws/install/examples_rclcpp_wait_set:/home/public/ros2ws/install/examples_rclcpp_multithreaded_executor:/home/public/ros2ws/install/examples_rclcpp_minimal_timer:/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber:/home/public/ros2ws/install/examples_rclcpp_minimal_service:/home/public/ros2ws/install/examples_rclcpp_minimal_publisher:/home/public/ros2ws/install/examples_rclcpp_minimal_composition:/home/public/ros2ws/install/examples_rclcpp_minimal_client:/home/public/ros2ws/install/examples_rclcpp_minimal_action_server:/home/public/ros2ws/install/examples_rclcpp_minimal_action_client:/home/public/ros2ws/install/examples_rclcpp_cbg_executor:/home/public/ros2ws/install/examples_rclcpp_async_client:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/public/ros2ws/build/turtlesim -- -j4 -l4
+[2.274s] Invoking command in '/home/public/ros2ws/build/turtlesim': CMAKE_PREFIX_PATH=/home/public/ros2ws/install/turtlesim_msgs:/home/public/ros2ws/install/turtlesim:/home/public/ros2ws/install/examples_rclcpp_wait_set:/home/public/ros2ws/install/examples_rclcpp_multithreaded_executor:/home/public/ros2ws/install/examples_rclcpp_minimal_timer:/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber:/home/public/ros2ws/install/examples_rclcpp_minimal_service:/home/public/ros2ws/install/examples_rclcpp_minimal_publisher:/home/public/ros2ws/install/examples_rclcpp_minimal_composition:/home/public/ros2ws/install/examples_rclcpp_minimal_client:/home/public/ros2ws/install/examples_rclcpp_minimal_action_server:/home/public/ros2ws/install/examples_rclcpp_minimal_action_client:/home/public/ros2ws/install/examples_rclcpp_cbg_executor:/home/public/ros2ws/install/examples_rclcpp_async_client:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/public/ros2ws/build/turtlesim
+[2.284s] -- Install configuration: ""
+[2.285s] -- Execute custom install script
+[2.286s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim/lib/turtlesim/turtlesim_node
+[2.286s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim/lib/turtlesim/turtle_teleop_key
+[2.286s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim/lib/turtlesim/draw_square
+[2.287s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim/lib/turtlesim/mimic
+[2.288s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py
+[2.288s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+[2.289s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+[2.290s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+[2.290s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+[2.290s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim/share/turtlesim/environment/path.sh
+[2.290s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim/share/turtlesim/environment/path.dsv
+[2.291s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim/share/turtlesim/local_setup.bash
+[2.291s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim/share/turtlesim/local_setup.fish
+[2.292s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim/share/turtlesim/local_setup.sh
+[2.292s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim/share/turtlesim/local_setup.zsh
+[2.293s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim/share/turtlesim/local_setup.dsv
+[2.293s] -- Symlinking: /home/public/ros2ws/install/turtlesim/share/turtlesim/package.dsv
+[2.306s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+[2.307s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+[2.307s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+[2.307s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim/share/turtlesim/package.xml
+[2.307s] -- Up-to-date: /home/public/ros2ws/install/turtlesim/share/turtlesim/images
+[2.308s] -- Up-to-date: /home/public/ros2ws/install/turtlesim/share/turtlesim/images/kilted.png
+[2.308s] -- Up-to-date: /home/public/ros2ws/install/turtlesim/share/turtlesim/images/eloquent.png
+[2.308s] -- Up-to-date: /home/public/ros2ws/install/turtlesim/share/turtlesim/images/jazzy.png
+[2.308s] -- Up-to-date: /home/public/ros2ws/install/turtlesim/share/turtlesim/images/bouncy.png
+[2.308s] -- Up-to-date: /home/public/ros2ws/install/turtlesim/share/turtlesim/images/galactic.png
+[2.308s] -- Up-to-date: /home/public/ros2ws/install/turtlesim/share/turtlesim/images/foxy.png
+[2.308s] -- Up-to-date: /home/public/ros2ws/install/turtlesim/share/turtlesim/images/humble.png
+[2.308s] -- Up-to-date: /home/public/ros2ws/install/turtlesim/share/turtlesim/images/dashing.png
+[2.308s] -- Up-to-date: /home/public/ros2ws/install/turtlesim/share/turtlesim/images/crystal.png
+[2.308s] -- Up-to-date: /home/public/ros2ws/install/turtlesim/share/turtlesim/images/iron.png
+[2.309s] -- Up-to-date: /home/public/ros2ws/install/turtlesim/share/turtlesim/images/lyrical.png
+[2.309s] -- Up-to-date: /home/public/ros2ws/install/turtlesim/share/turtlesim/images/ardent.png
+[2.309s] -- Up-to-date: /home/public/ros2ws/install/turtlesim/share/turtlesim/images/rolling.png
+[2.311s] Invoked command in '/home/public/ros2ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/home/public/ros2ws/install/turtlesim_msgs:/home/public/ros2ws/install/turtlesim:/home/public/ros2ws/install/examples_rclcpp_wait_set:/home/public/ros2ws/install/examples_rclcpp_multithreaded_executor:/home/public/ros2ws/install/examples_rclcpp_minimal_timer:/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber:/home/public/ros2ws/install/examples_rclcpp_minimal_service:/home/public/ros2ws/install/examples_rclcpp_minimal_publisher:/home/public/ros2ws/install/examples_rclcpp_minimal_composition:/home/public/ros2ws/install/examples_rclcpp_minimal_client:/home/public/ros2ws/install/examples_rclcpp_minimal_action_server:/home/public/ros2ws/install/examples_rclcpp_minimal_action_client:/home/public/ros2ws/install/examples_rclcpp_cbg_executor:/home/public/ros2ws/install/examples_rclcpp_async_client:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/public/ros2ws/build/turtlesim

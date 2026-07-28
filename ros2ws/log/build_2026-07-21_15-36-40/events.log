@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.000280] (-) JobUnselected: {'identifier': 'controls_core'}
+[0.000369] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000514] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000586] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000604] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000851] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000872] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000889] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001019] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001222] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001268] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001284] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001316] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.001347] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001377] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.001407] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001423] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001454] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001483] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001515] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001544] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001574] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001590] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001620] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001655] (-) JobUnselected: {'identifier': 'turtlesim_msgs'}
+[0.001693] (hiwonder_board) JobQueued: {'identifier': 'hiwonder_board', 'dependencies': OrderedDict()}
+[0.001731] (hiwonder_board) JobStarted: {'identifier': 'hiwonder_board'}
+[0.099686] (-) TimerEvent: {}
+[0.200079] (-) TimerEvent: {}
+[0.300690] (-) TimerEvent: {}
+[0.403903] (-) TimerEvent: {}
+[0.504817] (-) TimerEvent: {}
+[0.605392] (-) TimerEvent: {}
+[0.705728] (-) TimerEvent: {}
+[0.806084] (-) TimerEvent: {}
+[0.906441] (-) TimerEvent: {}
+[1.006763] (-) TimerEvent: {}
+[1.107080] (-) TimerEvent: {}
+[1.207461] (-) TimerEvent: {}
+[1.307959] (-) TimerEvent: {}
+[1.333286] (hiwonder_board) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/hiwonder_board', 'build', '--build-base', '/home/public/ros2ws/build/hiwonder_board/build', 'install', '--record', '/home/public/ros2ws/build/hiwonder_board/install.log', '--install-scripts', '$base/lib/hiwonder_board', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/public/ros2ws/src/hiwonder_board', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'admin', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/public/ros2ws/install/turtlesim_msgs/lib:/home/public/ros2ws/install/examples_rclcpp_wait_set/lib:/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib:/home/public/ros2ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/aarch64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/admin', 'OLDPWD': '/home/public', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'C.UTF-8', 'MANAGERPID': '3137', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3161', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=0613852e01361c9bf0effc3669dfda2a', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/public/ros2ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'admin', 'MANAGERPIDFDID': '717', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'admin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': 'c75ea39708ba42cf8eb0f97e79216905', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '46b325db7867804b9a1cc0046a1f6a7b', 'LC_ADDRESS': 'C.UTF-8', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'C.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FESHN3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/public/ros2ws/install/turtlesim:/home/public/ros2ws/install/turtlesim_msgs:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/examples_rclcpp_wait_set:/home/public/ros2ws/install/examples_rclcpp_multithreaded_executor:/home/public/ros2ws/install/examples_rclcpp_minimal_timer:/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber:/home/public/ros2ws/install/examples_rclcpp_minimal_service:/home/public/ros2ws/install/examples_rclcpp_minimal_publisher:/home/public/ros2ws/install/examples_rclcpp_minimal_composition:/home/public/ros2ws/install/examples_rclcpp_minimal_client:/home/public/ros2ws/install/examples_rclcpp_minimal_action_server:/home/public/ros2ws/install/examples_rclcpp_minimal_action_client:/home/public/ros2ws/install/examples_rclcpp_cbg_executor:/home/public/ros2ws/install/examples_rclcpp_async_client:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'C.UTF-8', 'GSK_RENDERER': 'gl', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/public/ros2ws/build/hiwonder_board', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=0613852e01361c9bf0effc3669dfda2a', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/public/ros2ws/build/hiwonder_board/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/ros2ws/install/hiwonder_board/lib/python3.14/site-packages:/home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages:/home/public/ros2ws/install/launch_testing_examples/lib/python3.14/site-packages:/home/public/ros2ws/install/hiwonder_board/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_minimal_service/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_minimal_publisher/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_minimal_client/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_minimal_action_server/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_minimal_action_client/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_guard_conditions/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_executors/lib/python3.14/site-packages:/home/public/ros2ws/install/controls_core/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/public/ros2ws/install/turtlesim:/home/public/ros2ws/install/turtlesim_msgs:/home/public/ros2ws/install/examples_rclcpp_wait_set:/home/public/ros2ws/install/examples_rclcpp_multithreaded_executor:/home/public/ros2ws/install/examples_rclcpp_minimal_timer:/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber:/home/public/ros2ws/install/examples_rclcpp_minimal_service:/home/public/ros2ws/install/examples_rclcpp_minimal_publisher:/home/public/ros2ws/install/examples_rclcpp_minimal_composition:/home/public/ros2ws/install/examples_rclcpp_minimal_client:/home/public/ros2ws/install/examples_rclcpp_minimal_action_server:/home/public/ros2ws/install/examples_rclcpp_minimal_action_client:/home/public/ros2ws/install/examples_rclcpp_cbg_executor:/home/public/ros2ws/install/examples_rclcpp_async_client:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor'}, 'shell': False}
+[1.408063] (-) TimerEvent: {}
+[1.508474] (-) TimerEvent: {}
+[1.608987] (-) TimerEvent: {}
+[1.709429] (-) TimerEvent: {}
+[1.762943] (hiwonder_board) StdoutLine: {'line': b'running egg_info\n'}
+[1.788718] (hiwonder_board) StdoutLine: {'line': b'writing ../../build/hiwonder_board/hiwonder_board.egg-info/PKG-INFO\n'}
+[1.790591] (hiwonder_board) StdoutLine: {'line': b'writing dependency_links to ../../build/hiwonder_board/hiwonder_board.egg-info/dependency_links.txt\n'}
+[1.792461] (hiwonder_board) StdoutLine: {'line': b'writing entry points to ../../build/hiwonder_board/hiwonder_board.egg-info/entry_points.txt\n'}
+[1.793517] (hiwonder_board) StdoutLine: {'line': b'writing requirements to ../../build/hiwonder_board/hiwonder_board.egg-info/requires.txt\n'}
+[1.793918] (hiwonder_board) StdoutLine: {'line': b'writing top-level names to ../../build/hiwonder_board/hiwonder_board.egg-info/top_level.txt\n'}
+[1.809528] (-) TimerEvent: {}
+[1.853572] (hiwonder_board) StdoutLine: {'line': b"reading manifest file '../../build/hiwonder_board/hiwonder_board.egg-info/SOURCES.txt'\n"}
+[1.854933] (hiwonder_board) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.856305] (hiwonder_board) StdoutLine: {'line': b"writing manifest file '../../build/hiwonder_board/hiwonder_board.egg-info/SOURCES.txt'\n"}
+[1.856867] (hiwonder_board) StdoutLine: {'line': b'running build\n'}
+[1.857064] (hiwonder_board) StdoutLine: {'line': b'running build_py\n'}
+[1.857536] (hiwonder_board) StdoutLine: {'line': b'copying hiwonder_board/__init__.py -> /home/public/ros2ws/build/hiwonder_board/build/lib/hiwonder_board\n'}
+[1.857990] (hiwonder_board) StdoutLine: {'line': b'copying hiwonder_board/hiwonder_board_node.py -> /home/public/ros2ws/build/hiwonder_board/build/lib/hiwonder_board\n'}
+[1.858517] (hiwonder_board) StdoutLine: {'line': b'copying hiwonder_board/subscriber_member_function.py -> /home/public/ros2ws/build/hiwonder_board/build/lib/hiwonder_board\n'}
+[1.858910] (hiwonder_board) StdoutLine: {'line': b'copying hiwonder_board/publisher_member_function.py -> /home/public/ros2ws/build/hiwonder_board/build/lib/hiwonder_board\n'}
+[1.859565] (hiwonder_board) StdoutLine: {'line': b'copying hiwonder_board/py.typed -> /home/public/ros2ws/build/hiwonder_board/build/lib/hiwonder_board\n'}
+[1.859957] (hiwonder_board) StdoutLine: {'line': b'running install\n'}
+[1.867347] (hiwonder_board) StdoutLine: {'line': b'running install_lib\n'}
+[1.893988] (hiwonder_board) StdoutLine: {'line': b'copying /home/public/ros2ws/build/hiwonder_board/build/lib/hiwonder_board/hiwonder_board_node.py -> /home/public/ros2ws/install/hiwonder_board/lib/python3.14/site-packages/hiwonder_board\n'}
+[1.897141] (hiwonder_board) StdoutLine: {'line': b'byte-compiling /home/public/ros2ws/install/hiwonder_board/lib/python3.14/site-packages/hiwonder_board/hiwonder_board_node.py to hiwonder_board_node.cpython-314.pyc\n'}
+[1.908452] (hiwonder_board) StdoutLine: {'line': b'running install_data\n'}
+[1.908972] (hiwonder_board) StdoutLine: {'line': b'copying resource/hiwonder_board -> /home/public/ros2ws/install/hiwonder_board/share/ament_index/resource_index/packages\n'}
+[1.909327] (hiwonder_board) StdoutLine: {'line': b'copying package.xml -> /home/public/ros2ws/install/hiwonder_board/share/hiwonder_board\n'}
+[1.909572] (hiwonder_board) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.909672] (-) TimerEvent: {}
+[1.935201] (hiwonder_board) StdoutLine: {'line': b"removing '/home/public/ros2ws/install/hiwonder_board/lib/python3.14/site-packages/hiwonder_board-0.0.0-py3.14.egg-info' (and everything under it)\n"}
+[1.935562] (hiwonder_board) StdoutLine: {'line': b'Copying ../../build/hiwonder_board/hiwonder_board.egg-info to /home/public/ros2ws/install/hiwonder_board/lib/python3.14/site-packages/hiwonder_board-0.0.0-py3.14.egg-info\n'}
+[1.937272] (hiwonder_board) StdoutLine: {'line': b'running install_scripts\n'}
+[2.009796] (-) TimerEvent: {}
+[2.079641] (hiwonder_board) StdoutLine: {'line': b'Installing hiwonder_board_node script to /home/public/ros2ws/install/hiwonder_board/lib/hiwonder_board\n'}
+[2.080126] (hiwonder_board) StdoutLine: {'line': b'Installing test_listener script to /home/public/ros2ws/install/hiwonder_board/lib/hiwonder_board\n'}
+[2.081625] (hiwonder_board) StdoutLine: {'line': b'Installing test_talker script to /home/public/ros2ws/install/hiwonder_board/lib/hiwonder_board\n'}
+[2.082884] (hiwonder_board) StdoutLine: {'line': b"writing list of installed files to '/home/public/ros2ws/build/hiwonder_board/install.log'\n"}
+[2.109963] (-) TimerEvent: {}
+[2.210551] (-) TimerEvent: {}
+[2.213322] (hiwonder_board) CommandEnded: {'returncode': 0}
+[2.236752] (hiwonder_board) JobEnded: {'identifier': 'hiwonder_board', 'rc': 0}
+[2.237808] (-) EventReactorShutdown: {}

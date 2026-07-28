@@ -1,0 +1,229 @@
+[0.000000] (-) TimerEvent: {}
+[0.000648] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000825] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000926] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001012] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001073] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001134] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001218] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001253] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001280] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001308] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001333] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001355] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.001373] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001396] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.001413] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001430] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001448] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001467] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001494] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001519] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001535] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001553] (-) JobUnselected: {'identifier': 'hiwonder_board'}
+[0.001574] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001593] (-) JobUnselected: {'identifier': 'opencv2_nodes'}
+[0.001613] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001642] (-) JobUnselected: {'identifier': 'turtlesim_msgs'}
+[0.001686] (controls_core) JobQueued: {'identifier': 'controls_core', 'dependencies': OrderedDict()}
+[0.002484] (controls_core) JobStarted: {'identifier': 'controls_core'}
+[0.107543] (-) TimerEvent: {}
+[0.208503] (-) TimerEvent: {}
+[0.309504] (-) TimerEvent: {}
+[0.412686] (-) TimerEvent: {}
+[0.516924] (-) TimerEvent: {}
+[0.621390] (-) TimerEvent: {}
+[0.727819] (-) TimerEvent: {}
+[0.828712] (-) TimerEvent: {}
+[0.933196] (-) TimerEvent: {}
+[1.034387] (-) TimerEvent: {}
+[1.139804] (-) TimerEvent: {}
+[1.241182] (-) TimerEvent: {}
+[1.346749] (-) TimerEvent: {}
+[1.449318] (-) TimerEvent: {}
+[1.552327] (-) TimerEvent: {}
+[1.654631] (-) TimerEvent: {}
+[1.768083] (-) TimerEvent: {}
+[1.879257] (-) TimerEvent: {}
+[1.981886] (-) TimerEvent: {}
+[2.084824] (-) TimerEvent: {}
+[2.192052] (-) TimerEvent: {}
+[2.301907] (-) TimerEvent: {}
+[2.415636] (-) TimerEvent: {}
+[2.519865] (-) TimerEvent: {}
+[2.625560] (-) TimerEvent: {}
+[2.733531] (-) TimerEvent: {}
+[2.841449] (-) TimerEvent: {}
+[2.943905] (-) TimerEvent: {}
+[3.045797] (-) TimerEvent: {}
+[3.150212] (-) TimerEvent: {}
+[3.255999] (-) TimerEvent: {}
+[3.365243] (-) TimerEvent: {}
+[3.467642] (-) TimerEvent: {}
+[3.571401] (-) TimerEvent: {}
+[3.676955] (-) TimerEvent: {}
+[3.786153] (-) TimerEvent: {}
+[3.896004] (-) TimerEvent: {}
+[4.000654] (-) TimerEvent: {}
+[4.102928] (-) TimerEvent: {}
+[4.208314] (-) TimerEvent: {}
+[4.320676] (-) TimerEvent: {}
+[4.426671] (-) TimerEvent: {}
+[4.539168] (-) TimerEvent: {}
+[4.645263] (-) TimerEvent: {}
+[4.745750] (-) TimerEvent: {}
+[4.847480] (-) TimerEvent: {}
+[4.961310] (-) TimerEvent: {}
+[5.061985] (-) TimerEvent: {}
+[5.167743] (-) TimerEvent: {}
+[5.270670] (-) TimerEvent: {}
+[5.382369] (-) TimerEvent: {}
+[5.497701] (-) TimerEvent: {}
+[5.604360] (-) TimerEvent: {}
+[5.718062] (-) TimerEvent: {}
+[5.820353] (-) TimerEvent: {}
+[5.922247] (-) TimerEvent: {}
+[6.026142] (-) TimerEvent: {}
+[6.133693] (-) TimerEvent: {}
+[6.234221] (-) TimerEvent: {}
+[6.336950] (-) TimerEvent: {}
+[6.442406] (-) TimerEvent: {}
+[6.545939] (-) TimerEvent: {}
+[6.656842] (-) TimerEvent: {}
+[6.763220] (-) TimerEvent: {}
+[6.870327] (-) TimerEvent: {}
+[6.974738] (-) TimerEvent: {}
+[7.085907] (-) TimerEvent: {}
+[7.187441] (-) TimerEvent: {}
+[7.290273] (-) TimerEvent: {}
+[7.396995] (-) TimerEvent: {}
+[7.502235] (-) TimerEvent: {}
+[7.608208] (-) TimerEvent: {}
+[7.709096] (-) TimerEvent: {}
+[7.813318] (-) TimerEvent: {}
+[7.916027] (-) TimerEvent: {}
+[8.020568] (-) TimerEvent: {}
+[8.128403] (-) TimerEvent: {}
+[8.234044] (-) TimerEvent: {}
+[8.335076] (-) TimerEvent: {}
+[8.439469] (-) TimerEvent: {}
+[8.542299] (-) TimerEvent: {}
+[8.646946] (-) TimerEvent: {}
+[8.748988] (-) TimerEvent: {}
+[8.863707] (-) TimerEvent: {}
+[8.975623] (-) TimerEvent: {}
+[9.079909] (-) TimerEvent: {}
+[9.185297] (-) TimerEvent: {}
+[9.288366] (-) TimerEvent: {}
+[9.391377] (-) TimerEvent: {}
+[9.494636] (-) TimerEvent: {}
+[9.596507] (-) TimerEvent: {}
+[9.704352] (-) TimerEvent: {}
+[9.805385] (-) TimerEvent: {}
+[9.912266] (-) TimerEvent: {}
+[10.022126] (-) TimerEvent: {}
+[10.127197] (-) TimerEvent: {}
+[10.242253] (-) TimerEvent: {}
+[10.348006] (-) TimerEvent: {}
+[10.451742] (-) TimerEvent: {}
+[10.553595] (-) TimerEvent: {}
+[10.661096] (-) TimerEvent: {}
+[10.767181] (-) TimerEvent: {}
+[10.867902] (-) TimerEvent: {}
+[10.981774] (-) TimerEvent: {}
+[11.104329] (-) TimerEvent: {}
+[11.206426] (-) TimerEvent: {}
+[11.321810] (-) TimerEvent: {}
+[11.447409] (-) TimerEvent: {}
+[11.555678] (-) TimerEvent: {}
+[11.665385] (-) TimerEvent: {}
+[11.782900] (-) TimerEvent: {}
+[11.886795] (-) TimerEvent: {}
+[11.994699] (-) TimerEvent: {}
+[12.111706] (-) TimerEvent: {}
+[12.214737] (-) TimerEvent: {}
+[12.323757] (-) TimerEvent: {}
+[12.428471] (-) TimerEvent: {}
+[12.534163] (-) TimerEvent: {}
+[12.637540] (-) TimerEvent: {}
+[12.739878] (-) TimerEvent: {}
+[12.848577] (-) TimerEvent: {}
+[12.949709] (-) TimerEvent: {}
+[13.053482] (-) TimerEvent: {}
+[13.156924] (-) TimerEvent: {}
+[13.269256] (-) TimerEvent: {}
+[13.370441] (-) TimerEvent: {}
+[13.475175] (-) TimerEvent: {}
+[13.576250] (-) TimerEvent: {}
+[13.678099] (-) TimerEvent: {}
+[13.785681] (-) TimerEvent: {}
+[13.889329] (-) TimerEvent: {}
+[13.999361] (-) TimerEvent: {}
+[14.100216] (-) TimerEvent: {}
+[14.206240] (-) TimerEvent: {}
+[14.311932] (-) TimerEvent: {}
+[14.412836] (-) TimerEvent: {}
+[14.514385] (-) TimerEvent: {}
+[14.618674] (-) TimerEvent: {}
+[14.719437] (-) TimerEvent: {}
+[14.823494] (controls_core) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/controls_core', 'build', '--build-base', '/home/public/ros2ws/build/controls_core/build', 'install', '--record', '/home/public/ros2ws/build/controls_core/install.log', '--install-scripts', '$base/lib/controls_core', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/public/ros2ws/src/controls_core', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'admin', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/public/ros2ws/install/turtlesim_msgs/lib:/home/public/ros2ws/install/examples_rclcpp_wait_set/lib:/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib:/home/public/ros2ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/aarch64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/admin', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'C.UTF-8', 'MANAGERPID': '3474', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3502', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=0c0987b7970e122da8b5db866a67b6ef', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/public/ros2ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'admin', 'MANAGERPIDFDID': '8941', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'admin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': 'bee01ad9cddb4087b732bc924bf386f1', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '46b325db7867804b9a1cc0046a1f6a7b', 'LC_ADDRESS': 'C.UTF-8', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'C.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.R129S3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/public/ros2ws/install/turtlesim:/home/public/ros2ws/install/turtlesim_msgs:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/examples_rclcpp_wait_set:/home/public/ros2ws/install/examples_rclcpp_multithreaded_executor:/home/public/ros2ws/install/examples_rclcpp_minimal_timer:/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber:/home/public/ros2ws/install/examples_rclcpp_minimal_service:/home/public/ros2ws/install/examples_rclcpp_minimal_publisher:/home/public/ros2ws/install/examples_rclcpp_minimal_composition:/home/public/ros2ws/install/examples_rclcpp_minimal_client:/home/public/ros2ws/install/examples_rclcpp_minimal_action_server:/home/public/ros2ws/install/examples_rclcpp_minimal_action_client:/home/public/ros2ws/install/examples_rclcpp_cbg_executor:/home/public/ros2ws/install/examples_rclcpp_async_client:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'C.UTF-8', 'GSK_RENDERER': 'gl', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/public/ros2ws/build/controls_core', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=0c0987b7970e122da8b5db866a67b6ef', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/public/ros2ws/build/controls_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/ros2ws/install/controls_core/lib/python3.14/site-packages:/home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages:/home/public/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages:/home/public/ros2ws/install/opencv2/lib/python3.14/site-packages:/home/public/ros2ws/install/launch_testing_examples/lib/python3.14/site-packages:/home/public/ros2ws/install/hiwonder_board/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_minimal_service/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_minimal_publisher/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_minimal_client/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_minimal_action_server/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_minimal_action_client/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_guard_conditions/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_executors/lib/python3.14/site-packages:/home/public/ros2ws/install/controls_core/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/public/ros2ws/install/turtlesim:/home/public/ros2ws/install/turtlesim_msgs:/home/public/ros2ws/install/examples_rclcpp_wait_set:/home/public/ros2ws/install/examples_rclcpp_multithreaded_executor:/home/public/ros2ws/install/examples_rclcpp_minimal_timer:/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber:/home/public/ros2ws/install/examples_rclcpp_minimal_service:/home/public/ros2ws/install/examples_rclcpp_minimal_publisher:/home/public/ros2ws/install/examples_rclcpp_minimal_composition:/home/public/ros2ws/install/examples_rclcpp_minimal_client:/home/public/ros2ws/install/examples_rclcpp_minimal_action_server:/home/public/ros2ws/install/examples_rclcpp_minimal_action_client:/home/public/ros2ws/install/examples_rclcpp_cbg_executor:/home/public/ros2ws/install/examples_rclcpp_async_client:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor'}, 'shell': False}
+[14.848302] (-) TimerEvent: {}
+[14.959218] (-) TimerEvent: {}
+[15.062369] (-) TimerEvent: {}
+[15.178280] (-) TimerEvent: {}
+[15.278882] (-) TimerEvent: {}
+[15.381372] (-) TimerEvent: {}
+[15.497612] (-) TimerEvent: {}
+[15.609296] (-) TimerEvent: {}
+[15.723702] (-) TimerEvent: {}
+[15.825862] (-) TimerEvent: {}
+[15.930357] (-) TimerEvent: {}
+[16.032400] (-) TimerEvent: {}
+[16.135242] (-) TimerEvent: {}
+[16.236012] (-) TimerEvent: {}
+[16.342721] (-) TimerEvent: {}
+[16.446678] (-) TimerEvent: {}
+[16.550090] (-) TimerEvent: {}
+[16.654315] (-) TimerEvent: {}
+[16.755029] (-) TimerEvent: {}
+[16.857492] (-) TimerEvent: {}
+[16.960725] (-) TimerEvent: {}
+[16.994556] (controls_core) StdoutLine: {'line': b'running egg_info\n'}
+[17.061719] (-) TimerEvent: {}
+[17.142365] (controls_core) StdoutLine: {'line': b'writing ../../build/controls_core/controls_core.egg-info/PKG-INFO\n'}
+[17.147424] (controls_core) StdoutLine: {'line': b'writing dependency_links to ../../build/controls_core/controls_core.egg-info/dependency_links.txt\n'}
+[17.147870] (controls_core) StdoutLine: {'line': b'writing entry points to ../../build/controls_core/controls_core.egg-info/entry_points.txt\n'}
+[17.148124] (controls_core) StdoutLine: {'line': b'writing requirements to ../../build/controls_core/controls_core.egg-info/requires.txt\n'}
+[17.148383] (controls_core) StdoutLine: {'line': b'writing top-level names to ../../build/controls_core/controls_core.egg-info/top_level.txt\n'}
+[17.161999] (-) TimerEvent: {}
+[17.271306] (-) TimerEvent: {}
+[17.384043] (-) TimerEvent: {}
+[17.480405] (controls_core) StdoutLine: {'line': b"reading manifest file '../../build/controls_core/controls_core.egg-info/SOURCES.txt'\n"}
+[17.483659] (controls_core) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[17.485731] (-) TimerEvent: {}
+[17.487554] (controls_core) StdoutLine: {'line': b"writing manifest file '../../build/controls_core/controls_core.egg-info/SOURCES.txt'\n"}
+[17.490528] (controls_core) StdoutLine: {'line': b'running build\n'}
+[17.490847] (controls_core) StdoutLine: {'line': b'running build_py\n'}
+[17.491059] (controls_core) StdoutLine: {'line': b'copying controls_core/ui_testing.py -> /home/public/ros2ws/build/controls_core/build/lib/controls_core\n'}
+[17.497759] (controls_core) StdoutLine: {'line': b'copying controls_core/main_control_node.py -> /home/public/ros2ws/build/controls_core/build/lib/controls_core\n'}
+[17.499463] (controls_core) StdoutLine: {'line': b'copying controls_core/__init__.py -> /home/public/ros2ws/build/controls_core/build/lib/controls_core\n'}
+[17.499904] (controls_core) StdoutLine: {'line': b'copying controls_core/cv_interface.py -> /home/public/ros2ws/build/controls_core/build/lib/controls_core\n'}
+[17.500019] (controls_core) StdoutLine: {'line': b'copying controls_core/board_interface.py -> /home/public/ros2ws/build/controls_core/build/lib/controls_core\n'}
+[17.503846] (controls_core) StdoutLine: {'line': b'copying controls_core/py.typed -> /home/public/ros2ws/build/controls_core/build/lib/controls_core\n'}
+[17.505618] (controls_core) StdoutLine: {'line': b'running install\n'}
+[17.530875] (controls_core) StdoutLine: {'line': b'running install_lib\n'}
+[17.587464] (-) TimerEvent: {}
+[17.660280] (controls_core) StdoutLine: {'line': b'copying /home/public/ros2ws/build/controls_core/build/lib/controls_core/main_control_node.py -> /home/public/ros2ws/install/controls_core/lib/python3.14/site-packages/controls_core\n'}
+[17.665623] (controls_core) StdoutLine: {'line': b'byte-compiling /home/public/ros2ws/install/controls_core/lib/python3.14/site-packages/controls_core/main_control_node.py to main_control_node.cpython-314.pyc\n'}
+[17.668411] (controls_core) StdoutLine: {'line': b'running install_data\n'}
+[17.672013] (controls_core) StdoutLine: {'line': b'copying resource/controls_core -> /home/public/ros2ws/install/controls_core/share/ament_index/resource_index/packages\n'}
+[17.684757] (controls_core) StdoutLine: {'line': b'copying package.xml -> /home/public/ros2ws/install/controls_core/share/controls_core\n'}
+[17.685127] (controls_core) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.690633] (-) TimerEvent: {}
+[17.791981] (-) TimerEvent: {}
+[17.795343] (controls_core) StderrLine: {'line': b'interrupted\n'}
+[17.902482] (-) TimerEvent: {}
+[18.008370] (-) TimerEvent: {}
+[18.061626] (controls_core) CommandEnded: {'returncode': 1}
+[18.064492] (controls_core) JobEnded: {'identifier': 'controls_core', 'rc': 'SIGINT'}
+[18.084973] (-) EventReactorShutdown: {}

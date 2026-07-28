@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/public/ros2ws/src/examples/rclcpp/actions/minimal_action_client" FILES "/home/public/ros2ws/build/examples_rclcpp_minimal_action_client/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/examples_rclcpp_minimal_action_client/environment")

@@ -1,0 +1,151 @@
+[0.054s] Invoking command in '/home/public/ros2ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/public/ros2ws/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/public/ros2ws/install/examples_rclcpp_wait_set
+[0.134s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[2.647s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.960s] -- Found example_interfaces: 0.14.1 (/opt/ros/lyrical/share/example_interfaces/cmake)
+[3.127s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[3.136s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[3.152s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.169s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.301s] -- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+[3.383s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[3.388s] -- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[3.456s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.563s] -- Found rclcpp_components: 32.0.0 (/opt/ros/lyrical/share/rclcpp_components/cmake)
+[3.619s] -- Found std_msgs: 5.9.2 (/opt/ros/lyrical/share/std_msgs/cmake)
+[3.648s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[3.922s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.922s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.923s] -- Configured cppcheck include dirs: /home/public/ros2ws/src/examples/rclcpp/wait_set/include
+[3.923s] -- Configured cppcheck exclude dirs and/or files: 
+[3.925s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.925s] -- Configured cpplint exclude dirs and/or files: 
+[3.926s] -- Added test 'lint_cmake' to check CMake code style
+[3.927s] -- Added test 'uncrustify' to check C / C++ code style
+[3.927s] -- Configured uncrustify additional arguments: 
+[3.928s] -- Added test 'xmllint' to check XML markup files
+[3.968s] -- Configuring done (3.9s)
+[4.361s] -- Generating done (0.4s)
+[4.496s] -- Build files have been written to: /home/public/ros2ws/build/examples_rclcpp_wait_set
+[4.530s] Invoked command in '/home/public/ros2ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/public/ros2ws/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/public/ros2ws/install/examples_rclcpp_wait_set
+[4.533s] Invoking command in '/home/public/ros2ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/public/ros2ws/build/examples_rclcpp_wait_set -- -j4 -l4
+[4.621s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[5.295s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.313s] -- Found example_interfaces: 0.14.1 (/opt/ros/lyrical/share/example_interfaces/cmake)
+[5.353s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[5.361s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[5.379s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.406s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.581s] -- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+[5.640s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[5.644s] -- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[5.696s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.823s] -- Found rclcpp_components: 32.0.0 (/opt/ros/lyrical/share/rclcpp_components/cmake)
+[5.891s] -- Found std_msgs: 5.9.2 (/opt/ros/lyrical/share/std_msgs/cmake)
+[5.937s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[6.302s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.305s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.306s] -- Configured cppcheck include dirs: /home/public/ros2ws/src/examples/rclcpp/wait_set/include
+[6.306s] -- Configured cppcheck exclude dirs and/or files: 
+[6.316s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.318s] -- Configured cpplint exclude dirs and/or files: 
+[6.324s] -- Added test 'lint_cmake' to check CMake code style
+[6.324s] -- Added test 'uncrustify' to check C / C++ code style
+[6.324s] -- Configured uncrustify additional arguments: 
+[6.324s] -- Added test 'xmllint' to check XML markup files
+[6.328s] -- Configuring done (1.7s)
+[6.537s] -- Generating done (0.2s)
+[6.670s] -- Build files have been written to: /home/public/ros2ws/build/examples_rclcpp_wait_set
+[6.715s] gmake[2]: Warning: File 'CMakeFiles/talker.dir/build.make' has modification time 7874659 s in the future
+[6.743s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.751s] gmake[2]: Warning: File 'CMakeFiles/talker.dir/build.make' has modification time 7874659 s in the future
+[6.754s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.771s] [  8%] Built target talker
+[6.775s] gmake[2]: Warning: File 'CMakeFiles/wait_set.dir/build.make' has modification time 7874659 s in the future
+[6.775s] gmake[2]: Warning: File 'CMakeFiles/static_wait_set.dir/build.make' has modification time 7874659 s in the future
+[6.808s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.818s] gmake[2]: Warning: File 'CMakeFiles/static_wait_set.dir/build.make' has modification time 7874659 s in the future
+[6.818s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.819s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.831s] gmake[2]: Warning: File 'CMakeFiles/wait_set.dir/build.make' has modification time 7874659 s in the future
+[6.834s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.841s] [ 16%] Built target static_wait_set
+[6.852s] [ 25%] Built target wait_set
+[6.856s] gmake[2]: Warning: File 'CMakeFiles/wait_set_topics_and_timer.dir/build.make' has modification time 7874659 s in the future
+[6.857s] gmake[2]: Warning: File 'CMakeFiles/thread_safe_wait_set.dir/build.make' has modification time 7874659 s in the future
+[6.858s] gmake[2]: Warning: File 'CMakeFiles/listener.dir/build.make' has modification time 7874659 s in the future
+[6.895s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.906s] gmake[2]: Warning: File 'CMakeFiles/wait_set_topics_and_timer.dir/build.make' has modification time 7874659 s in the future
+[6.908s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.915s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.918s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.926s] gmake[2]: Warning: File 'CMakeFiles/listener.dir/build.make' has modification time 7874659 s in the future
+[6.926s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.926s] gmake[2]: Warning: File 'CMakeFiles/thread_safe_wait_set.dir/build.make' has modification time 7874659 s in the future
+[6.927s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.937s] [ 33%] Built target wait_set_topics_and_timer
+[6.952s] [ 41%] Built target listener
+[6.955s] [ 50%] Built target thread_safe_wait_set
+[6.957s] gmake[2]: Warning: File 'CMakeFiles/executor_random_order.dir/build.make' has modification time 7874659 s in the future
+[6.957s] gmake[2]: Warning: File 'CMakeFiles/wait_set_random_order.dir/build.make' has modification time 7874659 s in the future
+[6.983s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.989s] gmake[2]: Warning: File 'CMakeFiles/wait_set_composed.dir/build.make' has modification time 7874659 s in the future
+[6.989s] gmake[2]: Warning: File 'CMakeFiles/wait_set_topics_with_different_rates.dir/build.make' has modification time 7874659 s in the future
+[6.990s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.991s] gmake[2]: Warning: File 'CMakeFiles/executor_random_order.dir/build.make' has modification time 7874659 s in the future
+[6.998s] gmake[2]: Warning: File 'CMakeFiles/wait_set_random_order.dir/build.make' has modification time 7874659 s in the future
+[7.000s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.003s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.025s] [ 66%] Built target executor_random_order
+[7.026s] [ 66%] Built target wait_set_random_order
+[7.031s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.035s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.038s] gmake[2]: Warning: File 'CMakeFiles/wait_set_topics_with_different_rates.dir/build.make' has modification time 7874659 s in the future
+[7.040s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.041s] gmake[2]: Warning: File 'CMakeFiles/wait_set_composed.dir/build.make' has modification time 7874659 s in the future
+[7.045s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.062s] [ 75%] Built target wait_set_topics_with_different_rates
+[7.067s] [ 83%] Built target wait_set_composed
+[7.074s] gmake[2]: Warning: File 'CMakeFiles/wait_set_talker.dir/build.make' has modification time 7874659 s in the future
+[7.074s] gmake[2]: Warning: File 'CMakeFiles/wait_set_listener.dir/build.make' has modification time 7874659 s in the future
+[7.106s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.115s] gmake[2]: Warning: File 'CMakeFiles/wait_set_talker.dir/build.make' has modification time 7874659 s in the future
+[7.117s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.117s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.124s] gmake[2]: Warning: File 'CMakeFiles/wait_set_listener.dir/build.make' has modification time 7874659 s in the future
+[7.127s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.141s] [ 91%] Built target wait_set_talker
+[7.151s] [100%] Built target wait_set_listener
+[7.592s] Invoked command in '/home/public/ros2ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/public/ros2ws/build/examples_rclcpp_wait_set -- -j4 -l4
+[7.594s] Invoking command in '/home/public/ros2ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/public/ros2ws/build/examples_rclcpp_wait_set
+[7.610s] -- Install configuration: ""
+[7.611s] -- Execute custom install script
+[7.611s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[7.640s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[7.661s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+[7.682s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+[7.703s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[7.730s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[7.751s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[7.773s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[7.793s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[7.820s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[7.841s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[7.866s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[7.886s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[7.907s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[7.938s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[7.964s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[7.990s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[8.011s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[8.035s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[8.053s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.fish
+[8.071s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[8.088s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[8.105s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[8.127s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[8.151s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[8.170s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[8.191s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[8.210s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[8.233s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[8.280s] Invoked command in '/home/public/ros2ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/public/ros2ws/build/examples_rclcpp_wait_set

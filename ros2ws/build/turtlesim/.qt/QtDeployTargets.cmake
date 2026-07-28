@@ -1,0 +1,8 @@
+set(__QT_DEPLOY_TARGET_turtlesim_node_FILE /home/public/ros2ws/build/turtlesim/turtlesim_node)
+set(__QT_DEPLOY_TARGET_turtlesim_node_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_turtle_teleop_key_FILE /home/public/ros2ws/build/turtlesim/turtle_teleop_key)
+set(__QT_DEPLOY_TARGET_turtle_teleop_key_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_draw_square_FILE /home/public/ros2ws/build/turtlesim/draw_square)
+set(__QT_DEPLOY_TARGET_draw_square_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_mimic_FILE /home/public/ros2ws/build/turtlesim/mimic)
+set(__QT_DEPLOY_TARGET_mimic_TYPE EXECUTABLE)

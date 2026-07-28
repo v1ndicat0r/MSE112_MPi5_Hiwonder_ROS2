@@ -1,0 +1,15 @@
+[16.238s] Invoking command in '/home/public/ros2ws/build/launch_testing_examples': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/ros2ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/ros2ws/install/launch_testing_examples/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/public/ros2ws/build/launch_testing_examples/build --no-deps symlink_data
+[18.437s] running develop
+[20.865s] running egg_info
+[20.962s] writing launch_testing_examples.egg-info/PKG-INFO
+[20.969s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[20.969s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[20.970s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[21.170s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[21.193s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[21.579s] running build_ext
+[21.579s] Creating /home/public/ros2ws/install/launch_testing_examples/lib/python3.14/site-packages/launch-testing-examples.egg-link (link to .)
+[21.580s] 
+[21.580s] Installed /home/public/ros2ws/build/launch_testing_examples
+[21.580s] running symlink_data
+[22.599s] Invoked command in '/home/public/ros2ws/build/launch_testing_examples' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/ros2ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/ros2ws/install/launch_testing_examples/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/public/ros2ws/build/launch_testing_examples/build --no-deps symlink_data

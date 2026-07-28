@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "turtlesim_msgs/action/RotateAbsolute_Goal",
+      "fields": [
+        {
+          "name": "theta",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "turtlesim_msgs/action/RotateAbsolute_Goal",
+      "hash_string": "RIHS01_fd5e33ea83e08981c70c771972b70bd9b8fc70c6dcc4220f7af9bedde3322208"
+    }
+  ]
+}

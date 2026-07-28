@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/public/ros2ws/src/ros_tutorials/turtlesim_msgs" FILES "/opt/ros/lyrical/lib/python3.14/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/turtlesim_msgs/environment")

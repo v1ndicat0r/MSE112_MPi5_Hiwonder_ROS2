@@ -1,0 +1,118 @@
+[0.049s] Invoking command in '/home/public/ros2ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/public/ros2ws/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber
+[0.301s] -- The C compiler identification is GNU 15.2.0
+[0.542s] -- The CXX compiler identification is GNU 15.2.0
+[0.570s] -- Detecting C compiler ABI info
+[0.863s] -- Detecting C compiler ABI info - done
+[0.917s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.918s] -- Detecting C compile features
+[0.919s] -- Detecting C compile features - done
+[0.954s] -- Detecting CXX compiler ABI info
+[1.258s] -- Detecting CXX compiler ABI info - done
+[1.308s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.308s] -- Detecting CXX compile features
+[1.311s] -- Detecting CXX compile features - done
+[1.335s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[2.647s] -- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+[2.764s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[2.791s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[2.863s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.938s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.149s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[3.160s] -- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[3.245s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.483s] -- Found rclcpp_components: 32.0.0 (/opt/ros/lyrical/share/rclcpp_components/cmake)
+[3.594s] -- Found std_msgs: 5.9.2 (/opt/ros/lyrical/share/std_msgs/cmake)
+[3.652s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[4.058s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.062s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.063s] -- Configured cppcheck include dirs: 
+[4.066s] -- Configured cppcheck exclude dirs and/or files: 
+[4.067s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.068s] -- Configured cpplint exclude dirs and/or files: 
+[4.071s] -- Added test 'lint_cmake' to check CMake code style
+[4.075s] -- Added test 'uncrustify' to check C / C++ code style
+[4.076s] -- Configured uncrustify additional arguments: 
+[4.081s] -- Added test 'xmllint' to check XML markup files
+[4.087s] -- Configuring done (4.0s)
+[4.280s] -- Generating done (0.2s)
+[4.488s] -- Build files have been written to: /home/public/ros2ws/build/examples_rclcpp_minimal_subscriber
+[4.539s] Invoked command in '/home/public/ros2ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/public/ros2ws/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber
+[4.541s] Invoking command in '/home/public/ros2ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/public/ros2ws/build/examples_rclcpp_minimal_subscriber -- -j4 -l4
+[4.787s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[28.486s] [  8%] [1m[32mLinking CXX executable subscriber_lambda[0m
+[29.533s] [  8%] Built target subscriber_lambda
+[29.581s] [ 12%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[42.644s] [ 16%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[58.849s] [ 20%] [1m[32mLinking CXX executable subscriber_member_function_with_type_adapter[0m
+[60.988s] [ 20%] Built target subscriber_member_function_with_type_adapter
+[63.054s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[76.872s] [ 29%] [1m[32mLinking CXX executable subscriber_member_function_with_unique_network_flow_endpoints[0m
+[78.617s] [ 29%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[86.693s] [ 33%] [32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o[0m
+[90.913s] [ 37%] [1m[32mLinking CXX executable subscriber_not_composable[0m
+[92.108s] [ 37%] Built target subscriber_not_composable
+[108.057s] [ 41%] [1m[32mLinking CXX executable subscriber_content_filtering[0m
+[109.086s] [ 41%] Built target subscriber_content_filtering
+[109.143s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o[0m
+[116.200s] [ 50%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o[0m
+[141.863s] [ 54%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/time_triggered_wait_set_subscriber.cpp.o[0m
+[169.115s] [ 58%] [1m[32mLinking CXX shared library libwait_set_subscriber_library.so[0m
+[171.244s] [ 58%] Built target wait_set_subscriber_library
+[171.318s] [ 62%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[196.207s] [ 66%] [32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o[0m
+[196.219s] [ 70%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o[0m
+[196.230s] [ 75%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[196.334s] [ 79%] [1m[32mLinking CXX executable subscriber_member_function_with_topic_statistics[0m
+[197.573s] [ 79%] Built target subscriber_member_function_with_topic_statistics
+[212.643s] [ 83%] [1m[32mLinking CXX executable static_wait_set_subscriber[0m
+[213.434s] [ 83%] Built target static_wait_set_subscriber
+[213.492s] [ 87%] [32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o[0m
+[215.690s] [ 91%] [1m[32mLinking CXX executable wait_set_subscriber[0m
+[216.348s] [ 91%] Built target wait_set_subscriber
+[224.880s] [ 95%] [1m[32mLinking CXX executable subscriber_member_function[0m
+[225.593s] [100%] [1m[32mLinking CXX executable time_triggered_wait_set_subscriber[0m
+[225.939s] [100%] Built target subscriber_member_function
+[226.643s] [100%] Built target time_triggered_wait_set_subscriber
+[226.819s] Invoked command in '/home/public/ros2ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/public/ros2ws/build/examples_rclcpp_minimal_subscriber -- -j4 -l4
+[226.824s] Invoking command in '/home/public/ros2ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/public/ros2ws/build/examples_rclcpp_minimal_subscriber
+[226.839s] -- Install configuration: ""
+[226.840s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+[226.841s] -- Set non-toolchain portion of runtime path of "/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber" to ""
+[226.841s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+[226.842s] -- Set non-toolchain portion of runtime path of "/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber" to ""
+[226.842s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+[226.843s] -- Set non-toolchain portion of runtime path of "/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber" to ""
+[226.843s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+[226.851s] -- Set non-toolchain portion of runtime path of "/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so" to ""
+[226.852s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[226.919s] -- Set non-toolchain portion of runtime path of "/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda" to ""
+[226.922s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[226.926s] -- Set non-toolchain portion of runtime path of "/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function" to ""
+[226.926s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[226.932s] -- Set non-toolchain portion of runtime path of "/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics" to ""
+[226.933s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+[227.023s] -- Set non-toolchain portion of runtime path of "/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter" to ""
+[227.023s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[227.091s] -- Set non-toolchain portion of runtime path of "/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints" to ""
+[227.094s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[227.150s] -- Set non-toolchain portion of runtime path of "/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable" to ""
+[227.151s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+[227.212s] -- Set non-toolchain portion of runtime path of "/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering" to ""
+[227.212s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[227.213s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[227.214s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[227.214s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[227.215s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[227.215s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[227.216s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[227.219s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.fish
+[227.219s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[227.219s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[227.219s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[227.220s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[227.221s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[227.221s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+[227.222s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[227.222s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[227.223s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[227.227s] Invoked command in '/home/public/ros2ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/public/ros2ws/build/examples_rclcpp_minimal_subscriber

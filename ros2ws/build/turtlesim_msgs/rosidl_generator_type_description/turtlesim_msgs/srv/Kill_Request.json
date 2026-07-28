@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "turtlesim_msgs/srv/Kill_Request",
+      "fields": [
+        {
+          "name": "name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "turtlesim_msgs/srv/Kill_Request",
+      "hash_string": "RIHS01_ed890d315a07259ddcc7e90291712d70b00b1a528178f07d0d8add6e44df762e"
+    }
+  ]
+}

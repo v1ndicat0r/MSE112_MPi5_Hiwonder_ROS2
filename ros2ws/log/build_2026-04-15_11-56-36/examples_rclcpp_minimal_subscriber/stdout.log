@@ -1,0 +1,93 @@
+-- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 32.0.0 (/opt/ros/lyrical/share/rclcpp_components/cmake)
+-- Found std_msgs: 5.9.2 (/opt/ros/lyrical/share/std_msgs/cmake)
+-- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (3.9s)
+-- Generating done (0.5s)
+-- Build files have been written to: /home/public/ros2ws/build/examples_rclcpp_minimal_subscriber
+-- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 32.0.0 (/opt/ros/lyrical/share/rclcpp_components/cmake)
+-- Found std_msgs: 5.9.2 (/opt/ros/lyrical/share/std_msgs/cmake)
+-- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.7s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/public/ros2ws/build/examples_rclcpp_minimal_subscriber
+[ 12%] Built target subscriber_lambda
+[ 16%] Built target subscriber_member_function
+[ 25%] Built target subscriber_member_function_with_type_adapter
+[ 33%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[ 41%] Built target subscriber_not_composable
+[ 50%] Built target subscriber_member_function_with_topic_statistics
+[ 58%] Built target subscriber_content_filtering
+[ 75%] Built target wait_set_subscriber_library
+[ 83%] Built target wait_set_subscriber
+[ 91%] Built target time_triggered_wait_set_subscriber
+[100%] Built target static_wait_set_subscriber
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.fish
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+-- Symlinking: /home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml

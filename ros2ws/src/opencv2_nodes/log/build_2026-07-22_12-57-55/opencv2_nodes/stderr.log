@@ -1,0 +1,5 @@
+  File "/home/public/ros2ws/src/opencv2_nodes/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes/edge_recog.py", line 55
+    break 
+    ^^^^^
+SyntaxError: 'break' outside loop
+

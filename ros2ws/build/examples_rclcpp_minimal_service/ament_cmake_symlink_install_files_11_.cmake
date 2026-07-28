@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/public/ros2ws/src/examples/rclcpp/services/minimal_service" FILES "/home/public/ros2ws/build/examples_rclcpp_minimal_service/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/examples_rclcpp_minimal_service")

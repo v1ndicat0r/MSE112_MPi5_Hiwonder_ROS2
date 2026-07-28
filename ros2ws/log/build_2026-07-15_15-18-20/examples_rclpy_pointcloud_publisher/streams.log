@@ -1,0 +1,33 @@
+[4.490s] Invoking command in '/home/public/ros2ws/src/examples/rclpy/topics/pointcloud_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/ros2ws/build/examples_rclpy_pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_pointcloud_publisher build --build-base /home/public/ros2ws/build/examples_rclpy_pointcloud_publisher/build install --record /home/public/ros2ws/build/examples_rclpy_pointcloud_publisher/install.log --install-scripts $base/lib/examples_rclpy_pointcloud_publisher --single-version-externally-managed install_data
+[5.507s] running egg_info
+[5.555s] creating ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info
+[5.557s] writing ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/PKG-INFO
+[5.559s] writing dependency_links to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/dependency_links.txt
+[5.561s] writing entry points to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/entry_points.txt
+[5.565s] writing requirements to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/requires.txt
+[5.565s] writing top-level names to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/top_level.txt
+[5.566s] writing manifest file '../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[5.699s] reading manifest file '../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[5.700s] writing manifest file '../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[5.701s] running build
+[5.702s] running build_py
+[5.702s] creating /home/public/ros2ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher
+[5.704s] copying examples_rclpy_pointcloud_publisher/pointcloud_publisher.py -> /home/public/ros2ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher
+[5.707s] copying examples_rclpy_pointcloud_publisher/__init__.py -> /home/public/ros2ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher
+[5.709s] running install
+[5.718s] running install_lib
+[5.755s] creating /home/public/ros2ws/install/examples_rclpy_pointcloud_publisher/lib/python3.14/site-packages/examples_rclpy_pointcloud_publisher
+[5.756s] copying /home/public/ros2ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher/pointcloud_publisher.py -> /home/public/ros2ws/install/examples_rclpy_pointcloud_publisher/lib/python3.14/site-packages/examples_rclpy_pointcloud_publisher
+[5.756s] copying /home/public/ros2ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher/__init__.py -> /home/public/ros2ws/install/examples_rclpy_pointcloud_publisher/lib/python3.14/site-packages/examples_rclpy_pointcloud_publisher
+[5.758s] byte-compiling /home/public/ros2ws/install/examples_rclpy_pointcloud_publisher/lib/python3.14/site-packages/examples_rclpy_pointcloud_publisher/pointcloud_publisher.py to pointcloud_publisher.cpython-314.pyc
+[5.760s] byte-compiling /home/public/ros2ws/install/examples_rclpy_pointcloud_publisher/lib/python3.14/site-packages/examples_rclpy_pointcloud_publisher/__init__.py to __init__.cpython-314.pyc
+[5.761s] running install_data
+[5.762s] creating /home/public/ros2ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[5.763s] copying resource/examples_rclpy_pointcloud_publisher -> /home/public/ros2ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[5.764s] copying package.xml -> /home/public/ros2ws/install/examples_rclpy_pointcloud_publisher/share/examples_rclpy_pointcloud_publisher
+[5.768s] running install_egg_info
+[5.809s] Copying ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info to /home/public/ros2ws/install/examples_rclpy_pointcloud_publisher/lib/python3.14/site-packages/examples_rclpy_pointcloud_publisher-0.21.5-py3.14.egg-info
+[5.811s] running install_scripts
+[6.022s] Installing pointcloud_publisher script to /home/public/ros2ws/install/examples_rclpy_pointcloud_publisher/lib/examples_rclpy_pointcloud_publisher
+[6.024s] writing list of installed files to '/home/public/ros2ws/build/examples_rclpy_pointcloud_publisher/install.log'
+[6.191s] Invoked command in '/home/public/ros2ws/src/examples/rclpy/topics/pointcloud_publisher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/ros2ws/build/examples_rclpy_pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_pointcloud_publisher build --build-base /home/public/ros2ws/build/examples_rclpy_pointcloud_publisher/build install --record /home/public/ros2ws/build/examples_rclpy_pointcloud_publisher/install.log --install-scripts $base/lib/examples_rclpy_pointcloud_publisher --single-version-externally-managed install_data

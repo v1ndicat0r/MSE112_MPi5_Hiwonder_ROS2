@@ -1,0 +1,36 @@
+[8.211s] Invoking command in '/home/public/ros2ws/src/controls_core': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/ros2ws/build/controls_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/ros2ws/install/controls_core/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controls_core build --build-base /home/public/ros2ws/build/controls_core/build install --record /home/public/ros2ws/build/controls_core/install.log --install-scripts $base/lib/controls_core --single-version-externally-managed install_data
+[12.280s] running egg_info
+[12.420s] writing ../../build/controls_core/controls_core.egg-info/PKG-INFO
+[12.424s] writing dependency_links to ../../build/controls_core/controls_core.egg-info/dependency_links.txt
+[12.425s] writing entry points to ../../build/controls_core/controls_core.egg-info/entry_points.txt
+[12.441s] writing requirements to ../../build/controls_core/controls_core.egg-info/requires.txt
+[12.456s] writing top-level names to ../../build/controls_core/controls_core.egg-info/top_level.txt
+[13.598s] reading manifest file '../../build/controls_core/controls_core.egg-info/SOURCES.txt'
+[13.608s] adding license file 'LICENSE'
+[13.612s] writing manifest file '../../build/controls_core/controls_core.egg-info/SOURCES.txt'
+[13.613s] running build
+[13.619s] running build_py
+[13.622s] copying controls_core/ui_testing.py -> /home/public/ros2ws/build/controls_core/build/lib/controls_core
+[13.629s] copying controls_core/main_control_node.py -> /home/public/ros2ws/build/controls_core/build/lib/controls_core
+[13.635s] copying controls_core/__init__.py -> /home/public/ros2ws/build/controls_core/build/lib/controls_core
+[13.638s] copying controls_core/cv_interface.py -> /home/public/ros2ws/build/controls_core/build/lib/controls_core
+[13.643s] copying controls_core/board_interface.py -> /home/public/ros2ws/build/controls_core/build/lib/controls_core
+[13.651s] copying controls_core/py.typed -> /home/public/ros2ws/build/controls_core/build/lib/controls_core
+[13.653s] running install
+[13.730s] running install_lib
+[14.052s] copying /home/public/ros2ws/build/controls_core/build/lib/controls_core/main_control_node.py -> /home/public/ros2ws/install/controls_core/lib/python3.14/site-packages/controls_core
+[14.059s] copying /home/public/ros2ws/build/controls_core/build/lib/controls_core/cv_interface.py -> /home/public/ros2ws/install/controls_core/lib/python3.14/site-packages/controls_core
+[14.063s] copying /home/public/ros2ws/build/controls_core/build/lib/controls_core/board_interface.py -> /home/public/ros2ws/install/controls_core/lib/python3.14/site-packages/controls_core
+[14.076s] byte-compiling /home/public/ros2ws/install/controls_core/lib/python3.14/site-packages/controls_core/main_control_node.py to main_control_node.cpython-314.pyc
+[14.094s] byte-compiling /home/public/ros2ws/install/controls_core/lib/python3.14/site-packages/controls_core/cv_interface.py to cv_interface.cpython-314.pyc
+[14.104s] byte-compiling /home/public/ros2ws/install/controls_core/lib/python3.14/site-packages/controls_core/board_interface.py to board_interface.cpython-314.pyc
+[14.129s] running install_data
+[14.139s] copying resource/controls_core -> /home/public/ros2ws/install/controls_core/share/ament_index/resource_index/packages
+[14.141s] copying package.xml -> /home/public/ros2ws/install/controls_core/share/controls_core
+[14.154s] running install_egg_info
+[14.494s] removing '/home/public/ros2ws/install/controls_core/lib/python3.14/site-packages/controls_core-0.0.0-py3.14.egg-info' (and everything under it)
+[14.496s] Copying ../../build/controls_core/controls_core.egg-info to /home/public/ros2ws/install/controls_core/lib/python3.14/site-packages/controls_core-0.0.0-py3.14.egg-info
+[14.530s] running install_scripts
+[16.793s] Installing main_control_node script to /home/public/ros2ws/install/controls_core/lib/controls_core
+[16.811s] writing list of installed files to '/home/public/ros2ws/build/controls_core/install.log'
+[17.460s] Invoked command in '/home/public/ros2ws/src/controls_core' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/ros2ws/build/controls_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/ros2ws/install/controls_core/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controls_core build --build-base /home/public/ros2ws/build/controls_core/build install --record /home/public/ros2ws/build/controls_core/install.log --install-scripts $base/lib/controls_core --single-version-externally-managed install_data

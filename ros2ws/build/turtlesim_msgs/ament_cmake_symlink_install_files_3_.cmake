@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/public/ros2ws/src/ros_tutorials/turtlesim_msgs" FILES "/home/public/ros2ws/build/turtlesim_msgs/rosidl_generator_type_description/turtlesim_msgs/msg/Pose.json" "DESTINATION" "share/turtlesim_msgs/msg")

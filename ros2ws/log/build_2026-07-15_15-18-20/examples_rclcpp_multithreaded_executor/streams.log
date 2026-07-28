@@ -1,0 +1,64 @@
+[0.037s] Invoking command in '/home/public/ros2ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/public/ros2ws/src/examples/rclcpp/executors/multithreaded_executor -DCMAKE_INSTALL_PREFIX=/home/public/ros2ws/install/examples_rclcpp_multithreaded_executor
+[0.209s] -- The C compiler identification is GNU 15.2.0
+[0.521s] -- The CXX compiler identification is GNU 15.2.0
+[0.548s] -- Detecting C compiler ABI info
+[0.805s] -- Detecting C compiler ABI info - done
+[0.850s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.851s] -- Detecting C compile features
+[0.853s] -- Detecting C compile features - done
+[0.890s] -- Detecting CXX compiler ABI info
+[1.177s] -- Detecting CXX compiler ABI info - done
+[1.250s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.250s] -- Detecting CXX compile features
+[1.252s] -- Detecting CXX compile features - done
+[1.275s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[2.694s] -- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+[2.821s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[2.861s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[2.922s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.971s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.146s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[3.159s] -- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[3.243s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.445s] -- Found std_msgs: 5.9.2 (/opt/ros/lyrical/share/std_msgs/cmake)
+[3.497s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[3.925s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.931s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.932s] -- Configured cppcheck include dirs: 
+[3.932s] -- Configured cppcheck exclude dirs and/or files: 
+[3.938s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.938s] -- Configured cpplint exclude dirs and/or files: 
+[3.941s] -- Added test 'lint_cmake' to check CMake code style
+[3.947s] -- Added test 'uncrustify' to check C / C++ code style
+[3.947s] -- Configured uncrustify additional arguments: 
+[3.954s] -- Added test 'xmllint' to check XML markup files
+[3.971s] -- Configuring done (3.9s)
+[4.018s] -- Generating done (0.0s)
+[4.106s] -- Build files have been written to: /home/public/ros2ws/build/examples_rclcpp_multithreaded_executor
+[4.130s] Invoked command in '/home/public/ros2ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/public/ros2ws/src/examples/rclcpp/executors/multithreaded_executor -DCMAKE_INSTALL_PREFIX=/home/public/ros2ws/install/examples_rclcpp_multithreaded_executor
+[4.134s] Invoking command in '/home/public/ros2ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/public/ros2ws/build/examples_rclcpp_multithreaded_executor -- -j4 -l4
+[4.255s] [ 50%] [32mBuilding CXX object CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o[0m
+[30.679s] [100%] [1m[32mLinking CXX executable multithreaded_executor[0m
+[32.132s] [100%] Built target multithreaded_executor
+[32.197s] Invoked command in '/home/public/ros2ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/public/ros2ws/build/examples_rclcpp_multithreaded_executor -- -j4 -l4
+[32.200s] Invoking command in '/home/public/ros2ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/public/ros2ws/build/examples_rclcpp_multithreaded_executor
+[32.245s] -- Install configuration: ""
+[32.247s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor
+[32.265s] -- Set non-toolchain portion of runtime path of "/home/public/ros2ws/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor" to ""
+[32.267s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_multithreaded_executor
+[32.268s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_multithreaded_executor
+[32.270s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.sh
+[32.271s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.dsv
+[32.273s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.sh
+[32.273s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.dsv
+[32.273s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.bash
+[32.273s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.fish
+[32.277s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.sh
+[32.277s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.zsh
+[32.280s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.dsv
+[32.280s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.dsv
+[32.280s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/packages/examples_rclcpp_multithreaded_executor
+[32.280s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig.cmake
+[32.285s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig-version.cmake
+[32.285s] -- Installing: /home/public/ros2ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.xml
+[32.308s] Invoked command in '/home/public/ros2ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/public/ros2ws/build/examples_rclcpp_multithreaded_executor

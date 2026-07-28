@@ -1,0 +1,31 @@
+[2.173s] Invoking command in '/home/public/ros2ws/src/opencv2_nodes': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/ros2ws/src/opencv2_nodes/build/opencv2_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/ros2ws/src/opencv2_nodes/install/opencv2_nodes/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/opencv2_nodes build --build-base /home/public/ros2ws/src/opencv2_nodes/build/opencv2_nodes/build install --record /home/public/ros2ws/src/opencv2_nodes/build/opencv2_nodes/install.log --install-scripts $base/lib/opencv2_nodes --single-version-externally-managed install_data
+[2.894s] running egg_info
+[2.934s] writing build/opencv2_nodes/opencv2_nodes.egg-info/PKG-INFO
+[2.936s] writing dependency_links to build/opencv2_nodes/opencv2_nodes.egg-info/dependency_links.txt
+[2.937s] writing entry points to build/opencv2_nodes/opencv2_nodes.egg-info/entry_points.txt
+[2.937s] writing requirements to build/opencv2_nodes/opencv2_nodes.egg-info/requires.txt
+[2.937s] writing top-level names to build/opencv2_nodes/opencv2_nodes.egg-info/top_level.txt
+[3.039s] reading manifest file 'build/opencv2_nodes/opencv2_nodes.egg-info/SOURCES.txt'
+[3.043s] writing manifest file 'build/opencv2_nodes/opencv2_nodes.egg-info/SOURCES.txt'
+[3.044s] running build
+[3.044s] running build_py
+[3.044s] copying opencv2_nodes/color_recog.py -> /home/public/ros2ws/src/opencv2_nodes/build/opencv2_nodes/build/lib/opencv2_nodes
+[3.044s] copying opencv2_nodes/line_recog.py -> /home/public/ros2ws/src/opencv2_nodes/build/opencv2_nodes/build/lib/opencv2_nodes
+[3.047s] copying opencv2_nodes/__init__.py -> /home/public/ros2ws/src/opencv2_nodes/build/opencv2_nodes/build/lib/opencv2_nodes
+[3.047s] copying opencv2_nodes/edge_recog.py -> /home/public/ros2ws/src/opencv2_nodes/build/opencv2_nodes/build/lib/opencv2_nodes
+[3.047s] copying opencv2_nodes/image_publisher.py -> /home/public/ros2ws/src/opencv2_nodes/build/opencv2_nodes/build/lib/opencv2_nodes
+[3.047s] copying opencv2_nodes/py.typed -> /home/public/ros2ws/src/opencv2_nodes/build/opencv2_nodes/build/lib/opencv2_nodes
+[3.048s] running install
+[3.058s] running install_lib
+[3.100s] copying /home/public/ros2ws/src/opencv2_nodes/build/opencv2_nodes/build/lib/opencv2_nodes/edge_recog.py -> /home/public/ros2ws/src/opencv2_nodes/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes
+[3.103s] byte-compiling /home/public/ros2ws/src/opencv2_nodes/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes/edge_recog.py to edge_recog.cpython-314.pyc
+[3.105s] running install_data
+[3.107s] copying resource/opencv2_nodes -> /home/public/ros2ws/src/opencv2_nodes/install/opencv2_nodes/share/ament_index/resource_index/packages
+[3.109s] copying package.xml -> /home/public/ros2ws/src/opencv2_nodes/install/opencv2_nodes/share/opencv2_nodes
+[3.111s] running install_egg_info
+[3.154s] removing '/home/public/ros2ws/src/opencv2_nodes/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes-0.0.0-py3.14.egg-info' (and everything under it)
+[3.155s] Copying build/opencv2_nodes/opencv2_nodes.egg-info to /home/public/ros2ws/src/opencv2_nodes/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes-0.0.0-py3.14.egg-info
+[3.165s] running install_scripts
+[3.395s] Installing image_publisher script to /home/public/ros2ws/src/opencv2_nodes/install/opencv2_nodes/lib/opencv2_nodes
+[3.397s] writing list of installed files to '/home/public/ros2ws/src/opencv2_nodes/build/opencv2_nodes/install.log'
+[3.573s] Invoked command in '/home/public/ros2ws/src/opencv2_nodes' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/ros2ws/src/opencv2_nodes/build/opencv2_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/ros2ws/src/opencv2_nodes/install/opencv2_nodes/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/opencv2_nodes build --build-base /home/public/ros2ws/src/opencv2_nodes/build/opencv2_nodes/build install --record /home/public/ros2ws/src/opencv2_nodes/build/opencv2_nodes/install.log --install-scripts $base/lib/opencv2_nodes --single-version-externally-managed install_data

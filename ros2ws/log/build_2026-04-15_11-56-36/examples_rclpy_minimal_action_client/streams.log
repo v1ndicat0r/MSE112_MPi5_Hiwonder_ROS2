@@ -1,0 +1,22 @@
+[3.385s] Invoking command in '/home/public/ros2ws/build/examples_rclpy_minimal_action_client': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/ros2ws/build/examples_rclpy_minimal_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/ros2ws/install/examples_rclpy_minimal_action_client/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/public/ros2ws/build/examples_rclpy_minimal_action_client/build --no-deps symlink_data --force
+[4.219s] running develop
+[4.558s] running egg_info
+[4.599s] writing examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+[4.602s] writing dependency_links to examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+[4.604s] writing entry points to examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+[4.605s] writing requirements to examples_rclpy_minimal_action_client.egg-info/requires.txt
+[4.606s] writing top-level names to examples_rclpy_minimal_action_client.egg-info/top_level.txt
+[4.697s] reading manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[4.699s] writing manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[4.744s] running build_ext
+[4.745s] Creating /home/public/ros2ws/install/examples_rclpy_minimal_action_client/lib/python3.14/site-packages/examples-rclpy-minimal-action-client.egg-link (link to .)
+[4.748s] Installing client script to /home/public/ros2ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[4.751s] Installing client_asyncio script to /home/public/ros2ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[4.752s] Installing client_cancel script to /home/public/ros2ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[4.753s] Installing client_not_composable script to /home/public/ros2ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[4.754s] 
+[4.754s] Installed /home/public/ros2ws/build/examples_rclpy_minimal_action_client
+[4.754s] running symlink_data
+[4.755s] symbolically linking /home/public/ros2ws/build/examples_rclpy_minimal_action_client/resource/examples_rclpy_minimal_action_client -> /home/public/ros2ws/install/examples_rclpy_minimal_action_client/share/ament_index/resource_index/packages
+[4.756s] symbolically linking /home/public/ros2ws/build/examples_rclpy_minimal_action_client/package.xml -> /home/public/ros2ws/install/examples_rclpy_minimal_action_client/share/examples_rclpy_minimal_action_client
+[5.176s] Invoked command in '/home/public/ros2ws/build/examples_rclpy_minimal_action_client' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/ros2ws/build/examples_rclpy_minimal_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/ros2ws/install/examples_rclpy_minimal_action_client/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/public/ros2ws/build/examples_rclpy_minimal_action_client/build --no-deps symlink_data --force

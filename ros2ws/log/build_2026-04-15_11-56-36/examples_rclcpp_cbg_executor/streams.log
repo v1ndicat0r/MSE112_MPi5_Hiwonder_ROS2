@@ -1,0 +1,95 @@
+[0.500s] Invoking command in '/home/public/ros2ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/public/ros2ws/src/examples/rclcpp/executors/cbg_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/public/ros2ws/install/examples_rclcpp_cbg_executor
+[0.528s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[1.202s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.215s] -- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+[1.255s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[1.263s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[1.293s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.310s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.486s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[1.505s] -- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[1.623s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.881s] -- Found std_msgs: 5.9.2 (/opt/ros/lyrical/share/std_msgs/cmake)
+[1.945s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[2.407s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.412s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.414s] -- Configured cppcheck include dirs: /home/public/ros2ws/src/examples/rclcpp/executors/cbg_executor/include
+[2.414s] -- Configured cppcheck exclude dirs and/or files: 
+[2.416s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.417s] -- Configured cpplint exclude dirs and/or files: 
+[2.418s] -- Added test 'lint_cmake' to check CMake code style
+[2.420s] -- Added test 'uncrustify' to check C / C++ code style
+[2.421s] -- Configured uncrustify additional arguments: 
+[2.422s] -- Added test 'xmllint' to check XML markup files
+[2.440s] -- Configuring done (1.9s)
+[2.559s] -- Generating done (0.1s)
+[2.627s] -- Build files have been written to: /home/public/ros2ws/build/examples_rclcpp_cbg_executor
+[2.646s] Invoked command in '/home/public/ros2ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/public/ros2ws/src/examples/rclcpp/executors/cbg_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/public/ros2ws/install/examples_rclcpp_cbg_executor
+[2.646s] Invoking command in '/home/public/ros2ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/public/ros2ws/build/examples_rclcpp_cbg_executor -- -j4 -l4
+[2.707s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[3.475s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.488s] -- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+[3.520s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[3.528s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[3.546s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.565s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.661s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[3.664s] -- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[3.722s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.812s] -- Found std_msgs: 5.9.2 (/opt/ros/lyrical/share/std_msgs/cmake)
+[3.838s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[4.187s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.191s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.192s] -- Configured cppcheck include dirs: /home/public/ros2ws/src/examples/rclcpp/executors/cbg_executor/include
+[4.194s] -- Configured cppcheck exclude dirs and/or files: 
+[4.196s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.196s] -- Configured cpplint exclude dirs and/or files: 
+[4.198s] -- Added test 'lint_cmake' to check CMake code style
+[4.201s] -- Added test 'uncrustify' to check C / C++ code style
+[4.202s] -- Configured uncrustify additional arguments: 
+[4.202s] -- Added test 'xmllint' to check XML markup files
+[4.206s] -- Configuring done (1.5s)
+[4.268s] -- Generating done (0.1s)
+[4.317s] -- Build files have been written to: /home/public/ros2ws/build/examples_rclcpp_cbg_executor
+[4.366s] gmake[2]: Warning: File 'CMakeFiles/ping.dir/build.make' has modification time 7874505 s in the future
+[4.407s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[4.415s] gmake[2]: Warning: File 'CMakeFiles/ping.dir/build.make' has modification time 7874505 s in the future
+[4.494s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[4.512s] [ 30%] Built target ping
+[4.517s] gmake[2]: Warning: File 'CMakeFiles/ping_pong.dir/build.make' has modification time 7874505 s in the future
+[4.567s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[4.579s] gmake[2]: Warning: File 'CMakeFiles/ping_pong.dir/build.make' has modification time 7874505 s in the future
+[4.585s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[4.609s] [ 70%] Built target ping_pong
+[4.612s] gmake[2]: Warning: File 'CMakeFiles/pong.dir/build.make' has modification time 7874505 s in the future
+[4.660s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[4.670s] gmake[2]: Warning: File 'CMakeFiles/pong.dir/build.make' has modification time 7874505 s in the future
+[4.673s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[4.693s] [100%] Built target pong
+[4.738s] Invoked command in '/home/public/ros2ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/public/ros2ws/build/examples_rclcpp_cbg_executor -- -j4 -l4
+[4.739s] Invoking command in '/home/public/ros2ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/public/ros2ws/build/examples_rclcpp_cbg_executor
+[4.759s] -- Install configuration: ""
+[4.759s] -- Execute custom install script
+[4.760s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+[4.772s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+[4.795s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+[4.820s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[4.844s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[4.865s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[4.888s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[4.910s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+[4.929s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[4.956s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+[4.983s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[5.012s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+[5.038s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.fish
+[5.068s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+[5.095s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+[5.117s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[5.142s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+[5.172s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[5.201s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.227s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[5.244s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[5.274s] -- Symlinking: /home/public/ros2ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml
+[5.304s] Invoked command in '/home/public/ros2ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/public/ros2ws/build/examples_rclcpp_cbg_executor

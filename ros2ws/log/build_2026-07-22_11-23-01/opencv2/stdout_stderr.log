@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/opencv2/opencv2.egg-info
+writing ../../build/opencv2/opencv2.egg-info/PKG-INFO
+writing dependency_links to ../../build/opencv2/opencv2.egg-info/dependency_links.txt
+writing requirements to ../../build/opencv2/opencv2.egg-info/requires.txt
+writing top-level names to ../../build/opencv2/opencv2.egg-info/top_level.txt
+writing manifest file '../../build/opencv2/opencv2.egg-info/SOURCES.txt'
+reading manifest file '../../build/opencv2/opencv2.egg-info/SOURCES.txt'
+writing manifest file '../../build/opencv2/opencv2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/public/ros2ws/build/opencv2/build/lib/opencv2
+copying opencv2/__init__.py -> /home/public/ros2ws/build/opencv2/build/lib/opencv2
+copying opencv2/line_filter.py -> /home/public/ros2ws/build/opencv2/build/lib/opencv2
+copying opencv2/py.typed -> /home/public/ros2ws/build/opencv2/build/lib/opencv2
+running install
+running install_lib
+creating /home/public/ros2ws/install/opencv2/lib/python3.14/site-packages/opencv2
+copying /home/public/ros2ws/build/opencv2/build/lib/opencv2/__init__.py -> /home/public/ros2ws/install/opencv2/lib/python3.14/site-packages/opencv2
+copying /home/public/ros2ws/build/opencv2/build/lib/opencv2/line_filter.py -> /home/public/ros2ws/install/opencv2/lib/python3.14/site-packages/opencv2
+copying /home/public/ros2ws/build/opencv2/build/lib/opencv2/py.typed -> /home/public/ros2ws/install/opencv2/lib/python3.14/site-packages/opencv2
+byte-compiling /home/public/ros2ws/install/opencv2/lib/python3.14/site-packages/opencv2/__init__.py to __init__.cpython-314.pyc
+byte-compiling /home/public/ros2ws/install/opencv2/lib/python3.14/site-packages/opencv2/line_filter.py to line_filter.cpython-314.pyc
+running install_data
+creating /home/public/ros2ws/install/opencv2/share/ament_index/resource_index/packages
+copying resource/opencv2 -> /home/public/ros2ws/install/opencv2/share/ament_index/resource_index/packages
+creating /home/public/ros2ws/install/opencv2/share/opencv2
+copying package.xml -> /home/public/ros2ws/install/opencv2/share/opencv2
+running install_egg_info
+Copying ../../build/opencv2/opencv2.egg-info to /home/public/ros2ws/install/opencv2/lib/python3.14/site-packages/opencv2-0.0.0-py3.14.egg-info
+running install_scripts
+writing list of installed files to '/home/public/ros2ws/build/opencv2/install.log'

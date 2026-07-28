@@ -1,0 +1,1 @@
+/home/public/ros2ws/build/examples_rclcpp_multithreaded_executor/ament_cmake_environment_hooks/local_setup.zsh

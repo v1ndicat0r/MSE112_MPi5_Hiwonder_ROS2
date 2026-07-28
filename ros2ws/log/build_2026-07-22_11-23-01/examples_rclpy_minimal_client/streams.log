@@ -1,0 +1,31 @@
+[2.486s] Invoking command in '/home/public/ros2ws/src/examples/rclpy/services/minimal_client': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/ros2ws/build/examples_rclpy_minimal_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/ros2ws/install/examples_rclpy_minimal_client/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /home/public/ros2ws/build/examples_rclpy_minimal_client/build install --record /home/public/ros2ws/build/examples_rclpy_minimal_client/install.log --install-scripts $base/lib/examples_rclpy_minimal_client --single-version-externally-managed install_data
+[3.147s] running egg_info
+[3.174s] writing ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/PKG-INFO
+[3.179s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[3.182s] writing entry points to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/entry_points.txt
+[3.183s] writing requirements to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/requires.txt
+[3.184s] writing top-level names to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/top_level.txt
+[3.264s] reading manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[3.267s] writing manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[3.267s] running build
+[3.267s] running build_py
+[3.267s] copying examples_rclpy_minimal_client/client_async_callback.py -> /home/public/ros2ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[3.275s] copying examples_rclpy_minimal_client/__init__.py -> /home/public/ros2ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[3.282s] copying examples_rclpy_minimal_client/client.py -> /home/public/ros2ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[3.287s] copying examples_rclpy_minimal_client/client_async.py -> /home/public/ros2ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[3.288s] copying examples_rclpy_minimal_client/client_async_member_function.py -> /home/public/ros2ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[3.292s] running install
+[3.299s] running install_lib
+[3.332s] running install_data
+[3.333s] copying resource/examples_rclpy_minimal_client -> /home/public/ros2ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[3.336s] copying package.xml -> /home/public/ros2ws/install/examples_rclpy_minimal_client/share/examples_rclpy_minimal_client
+[3.341s] running install_egg_info
+[3.366s] removing '/home/public/ros2ws/install/examples_rclpy_minimal_client/lib/python3.14/site-packages/examples_rclpy_minimal_client-0.21.5-py3.14.egg-info' (and everything under it)
+[3.366s] Copying ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info to /home/public/ros2ws/install/examples_rclpy_minimal_client/lib/python3.14/site-packages/examples_rclpy_minimal_client-0.21.5-py3.14.egg-info
+[3.384s] running install_scripts
+[3.705s] Installing client script to /home/public/ros2ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[3.706s] Installing client_async script to /home/public/ros2ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[3.706s] Installing client_async_callback script to /home/public/ros2ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[3.707s] Installing client_async_member_function script to /home/public/ros2ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[3.719s] writing list of installed files to '/home/public/ros2ws/build/examples_rclpy_minimal_client/install.log'
+[4.470s] Invoked command in '/home/public/ros2ws/src/examples/rclpy/services/minimal_client' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/ros2ws/build/examples_rclpy_minimal_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/ros2ws/install/examples_rclpy_minimal_client/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /home/public/ros2ws/build/examples_rclpy_minimal_client/build install --record /home/public/ros2ws/build/examples_rclpy_minimal_client/install.log --install-scripts $base/lib/examples_rclpy_minimal_client --single-version-externally-managed install_data

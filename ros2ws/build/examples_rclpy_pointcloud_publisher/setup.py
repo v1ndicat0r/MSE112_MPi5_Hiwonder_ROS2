@@ -1,0 +1,1 @@
+/home/public/ros2ws/src/examples/rclpy/topics/pointcloud_publisher/setup.py

@@ -1,0 +1,9 @@
+source;share/opencv2_nodes/hook/pythonpath.ps1
+source;share/opencv2_nodes/hook/pythonpath.dsv
+source;share/opencv2_nodes/hook/pythonpath.sh
+source;share/opencv2_nodes/hook/ament_prefix_path.ps1
+source;share/opencv2_nodes/hook/ament_prefix_path.dsv
+source;share/opencv2_nodes/hook/ament_prefix_path.sh
+source;../../build/opencv2_nodes/share/opencv2_nodes/hook/pythonpath_develop.ps1
+source;../../build/opencv2_nodes/share/opencv2_nodes/hook/pythonpath_develop.dsv
+source;../../build/opencv2_nodes/share/opencv2_nodes/hook/pythonpath_develop.sh

@@ -1,0 +1,1 @@
+/home/public/ros2ws/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_absolute__struct.h

@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "turtlesim_msgs/srv/TeleportRelative_Request",
+      "fields": [
+        {
+          "name": "linear",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "angular",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "turtlesim_msgs/srv/TeleportRelative_Request",
+      "hash_string": "RIHS01_d3e37a8a6114392942ebb81907d612dbfc8f2b19a0a7bb8a51a7bf739c0d7966"
+    }
+  ]
+}

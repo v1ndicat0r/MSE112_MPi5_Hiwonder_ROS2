@@ -1,0 +1,1 @@
+/home/public/ros2ws/build/turtlesim/ament_cmake_core/turtlesimConfig.cmake

@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: examples_rclpy_minimal_action_server
+Version: 0.21.5
+Summary: Examples of action servers using rclpy.
+Author: Jacob Perron
+Author-email: jacob@openrobotics.org
+Maintainer: Aditya Pande, Alejandro Hernandez Cordero
+Maintainer-email: aditya.pande@openrobotics.org, alejandro@openrobotics.org
+License: Apache License, Version 2.0
+Keywords: ROS
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Requires-Dist: setuptools
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: keywords
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: summary

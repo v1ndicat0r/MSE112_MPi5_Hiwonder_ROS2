@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/public/ros2ws/src/ros_tutorials/turtlesim_msgs" FILES "/home/public/ros2ws/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs/msg/Pose.idl" "DESTINATION" "share/turtlesim_msgs/msg")

@@ -1,0 +1,284 @@
+-- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 2.4.5 (/opt/ros/lyrical/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 5.2.1 (/opt/ros/lyrical/share/rosidl_adapter/cmake)
+-- Found ament_cmake_cppcheck: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_uncrustify: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_uncrustify/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter Development NumPy Development.Module Development.Embed
+-- Found ament_cmake_flake8: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_pep257: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_pep257/cmake)
+-- Found ament_cmake_mypy: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_mypy/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+-- Configuring done (2.7s)
+-- Generating done (0.5s)
+-- Build files have been written to: /home/public/ros2ws/build/turtlesim_msgs
+[  1%] Built target turtlesim_msgs__rosidl_generator_type_description
+[  2%] Built target turtlesim_msgs__rs
+[ 27%] Built target turtlesim_msgs__rosidl_generator_c
+[ 27%] Built target turtlesim_msgs__cpp
+[ 36%] Built target turtlesim_msgs__rosidl_typesupport_c
+[ 46%] Built target turtlesim_msgs__rosidl_typesupport_cpp
+[ 56%] Built target turtlesim_msgs__rosidl_typesupport_fastrtps_cpp
+[ 66%] Built target turtlesim_msgs__rosidl_typesupport_introspection_cpp
+[ 75%] Built target turtlesim_msgs__rosidl_typesupport_introspection_c
+[ 84%] Built target turtlesim_msgs__rosidl_typesupport_fastrtps_c
+[ 84%] Built target turtlesim_msgs
+[ 85%] Built target turtlesim_msgs__py
+[ 94%] Built target turtlesim_msgs__rosidl_generator_py
+[ 94%] Built target ament_cmake_python_sync_turtlesim_msgs
+[ 96%] Built target turtlesim_msgs_s__rosidl_typesupport_c
+running egg_info
+writing turtlesim_msgs.egg-info/PKG-INFO
+writing dependency_links to turtlesim_msgs.egg-info/dependency_links.txt
+writing top-level names to turtlesim_msgs.egg-info/top_level.txt
+reading manifest file 'turtlesim_msgs.egg-info/SOURCES.txt'
+writing manifest file 'turtlesim_msgs.egg-info/SOURCES.txt'
+[ 96%] Built target ament_cmake_python_build_turtlesim_msgs_egg
+[ 98%] Built target turtlesim_msgs_s__rosidl_typesupport_introspection_c
+[100%] Built target turtlesim_msgs_s__rosidl_typesupport_fastrtps_c
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/ament_index/resource_index/rosidl_interfaces/turtlesim_msgs
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/action/RotateAbsolute.json
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/msg/Color.json
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/msg/Pose.json
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/Kill.json
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/SetPen.json
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/Spawn.json
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportAbsolute.json
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportRelative.json
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__functions.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__struct.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__type_support.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/rotate_absolute.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/color.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__functions.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__struct.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__type_support.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__functions.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__struct.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__type_support.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/pose.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__functions.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__struct.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__type_support.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__functions.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__struct.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__type_support.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__functions.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__struct.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__type_support.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__functions.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__struct.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__type_support.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__functions.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__struct.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__type_support.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/kill.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/set_pen.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/spawn.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/teleport_absolute.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/teleport_relative.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/library_path.sh
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/library_path.dsv
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__builder.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__struct.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__traits.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__type_support.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/rotate_absolute.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/color.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__builder.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__struct.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__traits.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__type_support.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__builder.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__struct.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__traits.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__type_support.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/pose.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__builder.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__struct.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__traits.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__type_support.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__builder.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__struct.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__traits.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__type_support.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__builder.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__struct.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__traits.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__type_support.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__builder.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__struct.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__traits.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__type_support.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__builder.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__struct.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__traits.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__type_support.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/kill.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/set_pen.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/spawn.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/teleport_absolute.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/teleport_relative.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/pythonpath.sh
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_c.so
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/ament_index/resource_index/rust_packages/turtlesim_msgs
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/Cargo.toml
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/build.rs
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/src/action.rs
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/src/action/rmw.rs
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/src/lib.rs
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/src/msg.rs
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/src/msg/rmw.rs
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/src/srv.rs
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/src/srv/rmw.rs
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/action/RotateAbsolute.idl
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/msg/Color.idl
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/msg/Pose.idl
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/Kill.idl
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/SetPen.idl
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/Spawn.idl
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportAbsolute.idl
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportRelative.idl
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/action/RotateAbsolute.action
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/msg/Color.msg
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/msg/Pose.msg
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/Kill.srv
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/SetPen.srv
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/Spawn.srv
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportAbsolute.srv
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportRelative.srv
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/ament_index/resource_index/package_run_dependencies/turtlesim_msgs
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/ament_index/resource_index/parent_prefix_path/turtlesim_msgs
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/path.sh
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/path.dsv
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.bash
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.fish
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.sh
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.zsh
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.dsv
+-- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/package.dsv
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/ament_index/resource_index/packages/turtlesim_msgs
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs-1.10.9-py3.14.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs-1.10.9-py3.14.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs-1.10.9-py3.14.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs-1.10.9-py3.14.egg-info/top_level.txt
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/__init__.py
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_c.c
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/action/__init__.py
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/action/_rotate_absolute.py
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/action/_rotate_absolute_s.c
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/msg/__init__.py
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/msg/_color.py
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/msg/_color_s.c
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/msg/_pose.py
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/msg/_pose_s.c
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/py.typed
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/__init__.py
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_kill.py
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_kill_s.c
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_set_pen.py
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_set_pen_s.c
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_spawn.py
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_spawn_s.c
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_teleport_absolute.py
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_teleport_absolute_s.c
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_teleport_relative.py
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_teleport_relative_s.c
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_c.so
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgsConfig.cmake
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgsConfig-version.cmake
+-- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/package.xml
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_generator_c.so
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_c.so
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_generator_py.so
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_pyExport-noconfig.cmake
+Listing '/home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs'...
+Compiling '/home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/__init__.py'...
+Listing '/home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/action'...
+Listing '/home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/msg'...
+Listing '/home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv'...

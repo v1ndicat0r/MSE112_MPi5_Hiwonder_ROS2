@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/public/ros2ws/src/examples/rclcpp/composition/minimal_composition" FILES "/home/public/ros2ws/build/examples_rclcpp_minimal_composition/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/examples_rclcpp_minimal_composition")

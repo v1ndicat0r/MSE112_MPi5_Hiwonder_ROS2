@@ -1,0 +1,3 @@
+source;share/opencv2/hook/pythonpath.ps1
+source;share/opencv2/hook/pythonpath.dsv
+source;share/opencv2/hook/pythonpath.sh

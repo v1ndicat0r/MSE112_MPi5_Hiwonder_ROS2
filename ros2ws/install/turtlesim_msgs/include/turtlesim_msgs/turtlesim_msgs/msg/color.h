@@ -1,0 +1,1 @@
+/home/public/ros2ws/build/turtlesim_msgs/rosidl_generator_c/turtlesim_msgs/msg/color.h

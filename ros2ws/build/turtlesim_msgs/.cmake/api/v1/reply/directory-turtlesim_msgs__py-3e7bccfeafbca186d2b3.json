@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "turtlesim_msgs__py",
+		"source" : "/home/public/ros2ws/build/turtlesim_msgs/turtlesim_msgs__py"
+	}
+}

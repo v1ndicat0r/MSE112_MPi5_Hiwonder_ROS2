@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.001283] (-) JobUnselected: {'identifier': 'controls_core'}
+[0.001668] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.001732] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.003756] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.003899] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.003947] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.003976] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.003995] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.004018] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.004049] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.004071] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.004093] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.004117] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.004140] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.004160] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.004183] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.004204] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.004220] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.004240] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.004261] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.004279] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.004298] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.004319] (-) JobUnselected: {'identifier': 'hiwonder_board'}
+[0.004338] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.004354] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.004374] (-) JobUnselected: {'identifier': 'turtlesim_msgs'}
+[0.004404] (opencv2_nodes) JobQueued: {'identifier': 'opencv2_nodes', 'dependencies': OrderedDict()}
+[0.004446] (opencv2_nodes) JobStarted: {'identifier': 'opencv2_nodes'}
+[0.096645] (-) TimerEvent: {}
+[0.200966] (-) TimerEvent: {}
+[0.303861] (-) TimerEvent: {}
+[0.404733] (-) TimerEvent: {}
+[0.505386] (-) TimerEvent: {}
+[0.607694] (-) TimerEvent: {}
+[0.708189] (-) TimerEvent: {}
+[0.814193] (-) TimerEvent: {}
+[0.915218] (-) TimerEvent: {}
+[1.018816] (-) TimerEvent: {}
+[1.119714] (-) TimerEvent: {}
+[1.220206] (-) TimerEvent: {}
+[1.320736] (-) TimerEvent: {}
+[1.421239] (-) TimerEvent: {}
+[1.523997] (-) TimerEvent: {}
+[1.625477] (-) TimerEvent: {}
+[1.726009] (-) TimerEvent: {}
+[1.828668] (-) TimerEvent: {}
+[1.929259] (-) TimerEvent: {}
+[2.031773] (-) TimerEvent: {}
+[2.133620] (-) TimerEvent: {}
+[2.236721] (-) TimerEvent: {}
+[2.338172] (-) TimerEvent: {}
+[2.449750] (-) TimerEvent: {}
+[2.550692] (-) TimerEvent: {}
+[2.651527] (-) TimerEvent: {}
+[2.752837] (-) TimerEvent: {}
+[2.853768] (-) TimerEvent: {}
+[2.957508] (-) TimerEvent: {}
+[3.062561] (-) TimerEvent: {}
+[3.167949] (-) TimerEvent: {}
+[3.268583] (-) TimerEvent: {}
+[3.372351] (-) TimerEvent: {}
+[3.476853] (-) TimerEvent: {}
+[3.532612] (opencv2_nodes) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/opencv2_nodes', 'build', '--build-base', '/home/public/ros2ws/build/opencv2_nodes/build', 'install', '--record', '/home/public/ros2ws/build/opencv2_nodes/install.log', '--install-scripts', '$base/lib/opencv2_nodes', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/public/ros2ws/src/opencv2_nodes', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'admin', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/public/ros2ws/install/turtlesim_msgs/lib:/home/public/ros2ws/install/examples_rclcpp_wait_set/lib:/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber/lib:/home/public/ros2ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/aarch64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/admin', 'OLDPWD': '/home/public/ros2ws/src/opencv2_nodes', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'C.UTF-8', 'MANAGERPID': '3137', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3161', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=0613852e01361c9bf0effc3669dfda2a', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/public/ros2ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'admin', 'MANAGERPIDFDID': '717', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'admin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '35b209c0cb51488b860eacbb6f73b8a9', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '46b325db7867804b9a1cc0046a1f6a7b', 'LC_ADDRESS': 'C.UTF-8', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'C.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FESHN3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/public/ros2ws/install/turtlesim:/home/public/ros2ws/install/turtlesim_msgs:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/examples_rclcpp_wait_set:/home/public/ros2ws/install/examples_rclcpp_multithreaded_executor:/home/public/ros2ws/install/examples_rclcpp_minimal_timer:/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber:/home/public/ros2ws/install/examples_rclcpp_minimal_service:/home/public/ros2ws/install/examples_rclcpp_minimal_publisher:/home/public/ros2ws/install/examples_rclcpp_minimal_composition:/home/public/ros2ws/install/examples_rclcpp_minimal_client:/home/public/ros2ws/install/examples_rclcpp_minimal_action_server:/home/public/ros2ws/install/examples_rclcpp_minimal_action_client:/home/public/ros2ws/install/examples_rclcpp_cbg_executor:/home/public/ros2ws/install/examples_rclcpp_async_client:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'C.UTF-8', 'GSK_RENDERER': 'gl', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/public/ros2ws/build/opencv2_nodes', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=0613852e01361c9bf0effc3669dfda2a', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/public/ros2ws/build/opencv2_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages:/home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages:/home/public/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages:/home/public/ros2ws/install/opencv2/lib/python3.14/site-packages:/home/public/ros2ws/install/launch_testing_examples/lib/python3.14/site-packages:/home/public/ros2ws/install/hiwonder_board/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_minimal_service/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_minimal_publisher/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_minimal_client/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_minimal_action_server/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_minimal_action_client/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_guard_conditions/lib/python3.14/site-packages:/home/public/ros2ws/install/examples_rclpy_executors/lib/python3.14/site-packages:/home/public/ros2ws/install/controls_core/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/public/ros2ws/install/turtlesim:/home/public/ros2ws/install/turtlesim_msgs:/home/public/ros2ws/install/examples_rclcpp_wait_set:/home/public/ros2ws/install/examples_rclcpp_multithreaded_executor:/home/public/ros2ws/install/examples_rclcpp_minimal_timer:/home/public/ros2ws/install/examples_rclcpp_minimal_subscriber:/home/public/ros2ws/install/examples_rclcpp_minimal_service:/home/public/ros2ws/install/examples_rclcpp_minimal_publisher:/home/public/ros2ws/install/examples_rclcpp_minimal_composition:/home/public/ros2ws/install/examples_rclcpp_minimal_client:/home/public/ros2ws/install/examples_rclcpp_minimal_action_server:/home/public/ros2ws/install/examples_rclcpp_minimal_action_client:/home/public/ros2ws/install/examples_rclcpp_cbg_executor:/home/public/ros2ws/install/examples_rclcpp_async_client:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor'}, 'shell': False}
+[3.577061] (-) TimerEvent: {}
+[3.680923] (-) TimerEvent: {}
+[3.787866] (-) TimerEvent: {}
+[3.891477] (-) TimerEvent: {}
+[3.996705] (-) TimerEvent: {}
+[4.101437] (-) TimerEvent: {}
+[4.208377] (-) TimerEvent: {}
+[4.317372] (-) TimerEvent: {}
+[4.428544] (-) TimerEvent: {}
+[4.543448] (-) TimerEvent: {}
+[4.648235] (-) TimerEvent: {}
+[4.756478] (-) TimerEvent: {}
+[4.858578] (-) TimerEvent: {}
+[4.962762] (-) TimerEvent: {}
+[5.065772] (-) TimerEvent: {}
+[5.170876] (-) TimerEvent: {}
+[5.186715] (opencv2_nodes) StdoutLine: {'line': b'running egg_info\n'}
+[5.251906] (opencv2_nodes) StdoutLine: {'line': b'writing ../../build/opencv2_nodes/opencv2_nodes.egg-info/PKG-INFO\n'}
+[5.254255] (opencv2_nodes) StdoutLine: {'line': b'writing dependency_links to ../../build/opencv2_nodes/opencv2_nodes.egg-info/dependency_links.txt\n'}
+[5.257405] (opencv2_nodes) StdoutLine: {'line': b'writing entry points to ../../build/opencv2_nodes/opencv2_nodes.egg-info/entry_points.txt\n'}
+[5.259798] (opencv2_nodes) StdoutLine: {'line': b'writing requirements to ../../build/opencv2_nodes/opencv2_nodes.egg-info/requires.txt\n'}
+[5.260043] (opencv2_nodes) StdoutLine: {'line': b'writing top-level names to ../../build/opencv2_nodes/opencv2_nodes.egg-info/top_level.txt\n'}
+[5.271443] (-) TimerEvent: {}
+[5.376010] (-) TimerEvent: {}
+[5.399008] (opencv2_nodes) StdoutLine: {'line': b"reading manifest file '../../build/opencv2_nodes/opencv2_nodes.egg-info/SOURCES.txt'\n"}
+[5.401463] (opencv2_nodes) StdoutLine: {'line': b"writing manifest file '../../build/opencv2_nodes/opencv2_nodes.egg-info/SOURCES.txt'\n"}
+[5.402762] (opencv2_nodes) StdoutLine: {'line': b'running build\n'}
+[5.403080] (opencv2_nodes) StdoutLine: {'line': b'running build_py\n'}
+[5.403316] (opencv2_nodes) StdoutLine: {'line': b'copying opencv2_nodes/bin_mask.py -> /home/public/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes\n'}
+[5.403547] (opencv2_nodes) StdoutLine: {'line': b'copying opencv2_nodes/color_recog.py -> /home/public/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes\n'}
+[5.408381] (opencv2_nodes) StdoutLine: {'line': b'copying opencv2_nodes/line_recog.py -> /home/public/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes\n'}
+[5.408796] (opencv2_nodes) StdoutLine: {'line': b'copying opencv2_nodes/__init__.py -> /home/public/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes\n'}
+[5.408943] (opencv2_nodes) StdoutLine: {'line': b'copying opencv2_nodes/green_bin_mask.py -> /home/public/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes\n'}
+[5.409061] (opencv2_nodes) StdoutLine: {'line': b'copying opencv2_nodes/edge_recog.py -> /home/public/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes\n'}
+[5.409166] (opencv2_nodes) StdoutLine: {'line': b'copying opencv2_nodes/image_publisher.py -> /home/public/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes\n'}
+[5.409271] (opencv2_nodes) StdoutLine: {'line': b'copying opencv2_nodes/py.typed -> /home/public/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes\n'}
+[5.409372] (opencv2_nodes) StdoutLine: {'line': b'running install\n'}
+[5.418692] (opencv2_nodes) StdoutLine: {'line': b'running install_lib\n'}
+[5.476740] (-) TimerEvent: {}
+[5.477851] (opencv2_nodes) StdoutLine: {'line': b'copying /home/public/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes/bin_mask.py -> /home/public/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes\n'}
+[5.479855] (opencv2_nodes) StdoutLine: {'line': b'byte-compiling /home/public/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes/bin_mask.py to bin_mask.cpython-314.pyc\n'}
+[5.484819] (opencv2_nodes) StdoutLine: {'line': b'running install_data\n'}
+[5.485670] (opencv2_nodes) StdoutLine: {'line': b'copying resource/opencv2_nodes -> /home/public/ros2ws/install/opencv2_nodes/share/ament_index/resource_index/packages\n'}
+[5.485975] (opencv2_nodes) StdoutLine: {'line': b'copying package.xml -> /home/public/ros2ws/install/opencv2_nodes/share/opencv2_nodes\n'}
+[5.486151] (opencv2_nodes) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.535771] (opencv2_nodes) StdoutLine: {'line': b"removing '/home/public/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes-0.0.0-py3.14.egg-info' (and everything under it)\n"}
+[5.537932] (opencv2_nodes) StdoutLine: {'line': b'Copying ../../build/opencv2_nodes/opencv2_nodes.egg-info to /home/public/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes-0.0.0-py3.14.egg-info\n'}
+[5.539019] (opencv2_nodes) StdoutLine: {'line': b'running install_scripts\n'}
+[5.576865] (-) TimerEvent: {}
+[5.677295] (-) TimerEvent: {}
+[5.777781] (-) TimerEvent: {}
+[5.817261] (opencv2_nodes) StdoutLine: {'line': b'Installing bin_mask script to /home/public/ros2ws/install/opencv2_nodes/lib/opencv2_nodes\n'}
+[5.817926] (opencv2_nodes) StdoutLine: {'line': b'Installing edge_recog script to /home/public/ros2ws/install/opencv2_nodes/lib/opencv2_nodes\n'}
+[5.819149] (opencv2_nodes) StdoutLine: {'line': b'Installing image_publisher script to /home/public/ros2ws/install/opencv2_nodes/lib/opencv2_nodes\n'}
+[5.821120] (opencv2_nodes) StdoutLine: {'line': b"writing list of installed files to '/home/public/ros2ws/build/opencv2_nodes/install.log'\n"}
+[5.877984] (-) TimerEvent: {}
+[5.978667] (-) TimerEvent: {}
+[6.007728] (opencv2_nodes) CommandEnded: {'returncode': 0}
+[6.055628] (opencv2_nodes) JobEnded: {'identifier': 'opencv2_nodes', 'rc': 0}
+[6.059937] (-) EventReactorShutdown: {}

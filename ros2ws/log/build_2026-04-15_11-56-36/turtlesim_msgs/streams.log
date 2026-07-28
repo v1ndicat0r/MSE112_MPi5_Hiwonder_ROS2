@@ -1,0 +1,384 @@
+[0.049s] Invoking command in '/home/public/ros2ws/build/turtlesim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/public/ros2ws/src/ros_tutorials/turtlesim_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/public/ros2ws/install/turtlesim_msgs
+[0.523s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.523s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.574s] -- Found builtin_interfaces: 2.4.5 (/opt/ros/lyrical/share/builtin_interfaces/cmake)
+[0.697s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.745s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.800s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.851s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.895s] -- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)
+[0.937s] -- Found rosidl_adapter: 5.2.1 (/opt/ros/lyrical/share/rosidl_adapter/cmake)
+[2.097s] -- Found ament_cmake_cppcheck: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_cppcheck/cmake)
+[2.104s] -- Found ament_cmake_cpplint: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_cpplint/cmake)
+[2.111s] -- Found ament_cmake_uncrustify: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_uncrustify/cmake)
+[2.587s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.761s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.501s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter Development NumPy Development.Module Development.Embed
+[3.526s] -- Found ament_cmake_flake8: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_flake8/cmake)
+[3.528s] -- Found ament_cmake_pep257: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_pep257/cmake)
+[3.532s] -- Found ament_cmake_mypy: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_mypy/cmake)
+[3.595s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+[3.637s] -- Configuring done (3.4s)
+[3.962s] -- Generating done (0.3s)
+[4.020s] -- Build files have been written to: /home/public/ros2ws/build/turtlesim_msgs
+[4.044s] Invoked command in '/home/public/ros2ws/build/turtlesim_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/public/ros2ws/src/ros_tutorials/turtlesim_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/public/ros2ws/install/turtlesim_msgs
+[4.045s] Invoking command in '/home/public/ros2ws/build/turtlesim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/public/ros2ws/build/turtlesim_msgs -- -j4 -l4
+[4.114s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[4.436s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.453s] -- Found builtin_interfaces: 2.4.5 (/opt/ros/lyrical/share/builtin_interfaces/cmake)
+[4.479s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[4.485s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[4.498s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.511s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.524s] -- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)
+[4.540s] -- Found rosidl_adapter: 5.2.1 (/opt/ros/lyrical/share/rosidl_adapter/cmake)
+[5.692s] -- Found ament_cmake_cppcheck: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_cppcheck/cmake)
+[5.693s] -- Found ament_cmake_cpplint: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_cpplint/cmake)
+[5.695s] -- Found ament_cmake_uncrustify: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_uncrustify/cmake)
+[6.087s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.239s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.830s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter Development NumPy Development.Module Development.Embed
+[6.861s] -- Found ament_cmake_flake8: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_flake8/cmake)
+[6.865s] -- Found ament_cmake_pep257: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_pep257/cmake)
+[6.868s] -- Found ament_cmake_mypy: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_mypy/cmake)
+[6.962s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+[7.013s] -- Configuring done (2.9s)
+[7.185s] -- Generating done (0.2s)
+[7.236s] -- Build files have been written to: /home/public/ros2ws/build/turtlesim_msgs
+[7.294s] gmake[2]: Warning: File '/home/public/ros2ws/build/turtlesim_msgs/turtlesim_msgs__rs/CMakeFiles/turtlesim_msgs__rs.dir/build.make' has modification time 7874507 s in the future
+[7.296s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs__rosidl_generator_type_description.dir/build.make' has modification time 7874507 s in the future
+[7.315s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.324s] gmake[2]: Warning: File '/home/public/ros2ws/build/turtlesim_msgs/turtlesim_msgs__rs/CMakeFiles/turtlesim_msgs__rs.dir/build.make' has modification time 7874507 s in the future
+[7.325s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.330s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.333s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs__rosidl_generator_type_description.dir/build.make' has modification time 7874507 s in the future
+[7.333s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.349s] [  1%] Built target turtlesim_msgs__rs
+[7.360s] [  2%] Built target turtlesim_msgs__rosidl_generator_type_description
+[7.366s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs__cpp.dir/build.make' has modification time 7874507 s in the future
+[7.388s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.394s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs__cpp.dir/build.make' has modification time 7874507 s in the future
+[7.395s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.417s] [  2%] Built target turtlesim_msgs__cpp
+[7.432s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/build.make' has modification time 7874507 s in the future
+[7.509s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.509s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/build.make' has modification time 7874507 s in the future
+[7.512s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.531s] [ 27%] Built target turtlesim_msgs__rosidl_generator_c
+[7.539s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/build.make' has modification time 7874507 s in the future
+[7.613s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.629s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/build.make' has modification time 7874507 s in the future
+[7.646s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.684s] [ 37%] Built target turtlesim_msgs__rosidl_typesupport_cpp
+[7.696s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/build.make' has modification time 7874507 s in the future
+[7.745s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.750s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/build.make' has modification time 7874507 s in the future
+[7.753s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.771s] [ 46%] Built target turtlesim_msgs__rosidl_typesupport_introspection_c
+[7.778s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/build.make' has modification time 7874507 s in the future
+[7.816s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.822s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/build.make' has modification time 7874507 s in the future
+[7.823s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.844s] [ 55%] Built target turtlesim_msgs__rosidl_typesupport_c
+[7.852s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/build.make' has modification time 7874507 s in the future
+[7.897s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.908s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/build.make' has modification time 7874507 s in the future
+[7.908s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[7.941s] [ 65%] Built target turtlesim_msgs__rosidl_typesupport_introspection_cpp
+[7.947s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make' has modification time 7874507 s in the future
+[7.998s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.013s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make' has modification time 7874506 s in the future
+[8.023s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.052s] [ 75%] Built target turtlesim_msgs__rosidl_typesupport_fastrtps_cpp
+[8.055s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/build.make' has modification time 7874506 s in the future
+[8.098s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.114s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/build.make' has modification time 7874506 s in the future
+[8.117s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.138s] [ 84%] Built target turtlesim_msgs__rosidl_typesupport_fastrtps_c
+[8.144s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs.dir/build.make' has modification time 7874506 s in the future
+[8.169s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.173s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs.dir/build.make' has modification time 7874506 s in the future
+[8.174s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.194s] [ 84%] Built target turtlesim_msgs
+[8.204s] gmake[2]: Warning: File '/home/public/ros2ws/build/turtlesim_msgs/turtlesim_msgs__py/CMakeFiles/turtlesim_msgs__py.dir/build.make' has modification time 7874506 s in the future
+[8.229s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.232s] gmake[2]: Warning: File '/home/public/ros2ws/build/turtlesim_msgs/turtlesim_msgs__py/CMakeFiles/turtlesim_msgs__py.dir/build.make' has modification time 7874506 s in the future
+[8.232s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.249s] [ 85%] Built target turtlesim_msgs__py
+[8.254s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/build.make' has modification time 7874506 s in the future
+[8.296s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.305s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/build.make' has modification time 7874506 s in the future
+[8.312s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.335s] [ 94%] Built target turtlesim_msgs__rosidl_generator_py
+[8.342s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_sync_turtlesim_msgs.dir/build.make' has modification time 7874506 s in the future
+[8.358s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.360s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_sync_turtlesim_msgs.dir/build.make' has modification time 7874506 s in the future
+[8.418s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.436s] [ 94%] Built target ament_cmake_python_sync_turtlesim_msgs
+[8.443s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs_s__rosidl_typesupport_c.dir/build.make' has modification time 7874506 s in the future
+[8.466s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.469s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs_s__rosidl_typesupport_c.dir/build.make' has modification time 7874506 s in the future
+[8.470s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.484s] [ 96%] Built target turtlesim_msgs_s__rosidl_typesupport_c
+[8.488s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_build_turtlesim_msgs_egg.dir/build.make' has modification time 7874506 s in the future
+[8.505s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[8.515s] gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_build_turtlesim_msgs_egg.dir/build.make' has modification time 7874506 s in the future
+[9.165s] running egg_info
+[9.219s] writing turtlesim_msgs.egg-info/PKG-INFO
+[9.220s] writing dependency_links to turtlesim_msgs.egg-info/dependency_links.txt
+[9.221s] writing top-level names to turtlesim_msgs.egg-info/top_level.txt
+[9.404s] reading manifest file 'turtlesim_msgs.egg-info/SOURCES.txt'
+[9.414s] writing manifest file 'turtlesim_msgs.egg-info/SOURCES.txt'
+[9.591s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[9.607s] [ 96%] Built target ament_cmake_python_build_turtlesim_msgs_egg
+[9.613s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs_s__rosidl_typesupport_introspection_c.dir/build.make' has modification time 7874505 s in the future
+[9.639s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[9.644s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs_s__rosidl_typesupport_introspection_c.dir/build.make' has modification time 7874505 s in the future
+[9.644s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[9.661s] [ 98%] Built target turtlesim_msgs_s__rosidl_typesupport_introspection_c
+[9.669s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs_s__rosidl_typesupport_fastrtps_c.dir/build.make' has modification time 7874505 s in the future
+[9.691s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[9.695s] gmake[2]: Warning: File 'CMakeFiles/turtlesim_msgs_s__rosidl_typesupport_fastrtps_c.dir/build.make' has modification time 7874505 s in the future
+[9.696s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[9.714s] [100%] Built target turtlesim_msgs_s__rosidl_typesupport_fastrtps_c
+[9.744s] Invoked command in '/home/public/ros2ws/build/turtlesim_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/public/ros2ws/build/turtlesim_msgs -- -j4 -l4
+[9.745s] Invoking command in '/home/public/ros2ws/build/turtlesim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/public/ros2ws/build/turtlesim_msgs
+[9.800s] -- Install configuration: ""
+[9.818s] -- Execute custom install script
+[9.818s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/ament_index/resource_index/rosidl_interfaces/turtlesim_msgs
+[9.839s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/action/RotateAbsolute.json
+[9.862s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/msg/Color.json
+[9.883s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/msg/Pose.json
+[9.900s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/Kill.json
+[9.924s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/SetPen.json
+[9.943s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/Spawn.json
+[9.963s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportAbsolute.json
+[9.987s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportRelative.json
+[10.019s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__functions.h
+[10.035s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__struct.h
+[10.051s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__type_support.h
+[10.068s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/rotate_absolute.h
+[10.081s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/color.h
+[10.096s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__functions.h
+[10.111s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__struct.h
+[10.127s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__type_support.h
+[10.147s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__functions.h
+[10.168s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__struct.h
+[10.190s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__type_support.h
+[10.211s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/pose.h
+[10.232s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.254s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__functions.h
+[10.280s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__struct.h
+[10.299s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__type_support.h
+[10.317s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__functions.h
+[10.335s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__struct.h
+[10.361s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__type_support.h
+[10.379s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__functions.h
+[10.396s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__struct.h
+[10.418s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__type_support.h
+[10.440s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__functions.h
+[10.467s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__struct.h
+[10.503s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__type_support.h
+[10.537s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__functions.h
+[10.582s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__struct.h
+[10.608s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__type_support.h
+[10.649s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/kill.h
+[10.681s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/set_pen.h
+[10.720s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/spawn.h
+[10.755s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/teleport_absolute.h
+[10.795s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/teleport_relative.h
+[10.831s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/library_path.sh
+[10.867s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/library_path.dsv
+[10.905s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+[10.941s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[10.970s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[11.002s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.020s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+[11.048s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+[11.066s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+[11.087s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+[11.109s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+[11.143s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__builder.hpp
+[11.173s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__struct.hpp
+[11.200s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__traits.hpp
+[11.234s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__type_support.hpp
+[11.252s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/rotate_absolute.hpp
+[11.267s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/color.hpp
+[11.284s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__builder.hpp
+[11.300s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__struct.hpp
+[11.318s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__traits.hpp
+[11.345s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__type_support.hpp
+[11.360s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__builder.hpp
+[11.378s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__struct.hpp
+[11.396s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__traits.hpp
+[11.416s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__type_support.hpp
+[11.436s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/pose.hpp
+[11.455s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.473s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__builder.hpp
+[11.490s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__struct.hpp
+[11.506s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__traits.hpp
+[11.526s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__type_support.hpp
+[11.549s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__builder.hpp
+[11.569s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__struct.hpp
+[11.590s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__traits.hpp
+[11.611s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__type_support.hpp
+[11.637s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__builder.hpp
+[11.661s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__struct.hpp
+[11.683s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__traits.hpp
+[11.706s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__type_support.hpp
+[11.734s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__builder.hpp
+[11.773s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__struct.hpp
+[11.801s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__traits.hpp
+[11.823s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__type_support.hpp
+[11.857s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__builder.hpp
+[11.877s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__struct.hpp
+[11.903s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__traits.hpp
+[11.929s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__type_support.hpp
+[11.952s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/kill.hpp
+[11.971s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/set_pen.hpp
+[11.994s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/spawn.hpp
+[12.009s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/teleport_absolute.hpp
+[12.030s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/teleport_relative.hpp
+[12.053s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[12.076s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[12.105s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[12.130s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.166s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+[12.186s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+[12.209s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[12.231s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[12.258s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+[12.281s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+[12.309s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__rosidl_typesupport_introspection_c.h
+[12.330s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[12.353s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.376s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__rosidl_typesupport_introspection_c.h
+[12.400s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+[12.434s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+[12.461s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+[12.501s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+[12.540s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+[12.579s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[12.622s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[12.663s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+[12.702s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+[12.734s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+[12.763s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+[12.792s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+[12.830s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/pythonpath.sh
+[12.878s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/pythonpath.dsv
+[12.902s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_fastrtps_c.so
+[12.924s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_introspection_c.so
+[12.953s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_c.so
+[12.994s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/ament_index/resource_index/rust_packages/turtlesim_msgs
+[13.019s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/Cargo.toml
+[13.051s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/build.rs
+[13.073s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/src/action.rs
+[13.097s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/src/action/rmw.rs
+[13.125s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/src/lib.rs
+[13.152s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/src/msg.rs
+[13.176s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/src/msg/rmw.rs
+[13.192s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/src/srv.rs
+[13.217s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/src/srv/rmw.rs
+[13.245s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/action/RotateAbsolute.idl
+[13.264s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/msg/Color.idl
+[13.283s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/msg/Pose.idl
+[13.302s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/Kill.idl
+[13.322s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/SetPen.idl
+[13.339s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/Spawn.idl
+[13.359s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportAbsolute.idl
+[13.377s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportRelative.idl
+[13.397s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/action/RotateAbsolute.action
+[13.412s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/msg/Color.msg
+[13.430s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/msg/Pose.msg
+[13.452s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/Kill.srv
+[13.470s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/SetPen.srv
+[13.488s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/Spawn.srv
+[13.505s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportAbsolute.srv
+[13.522s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportRelative.srv
+[13.541s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/ament_index/resource_index/package_run_dependencies/turtlesim_msgs
+[13.568s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/ament_index/resource_index/parent_prefix_path/turtlesim_msgs
+[13.586s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/ament_prefix_path.sh
+[13.609s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/ament_prefix_path.dsv
+[13.628s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/path.sh
+[13.651s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/path.dsv
+[13.673s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.bash
+[13.693s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.fish
+[13.721s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.sh
+[13.742s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.zsh
+[13.765s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.dsv
+[13.791s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/package.dsv
+[13.819s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/ament_index/resource_index/packages/turtlesim_msgs
+[13.850s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs-1.10.9-py3.14.egg-info/PKG-INFO
+[13.884s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs-1.10.9-py3.14.egg-info/SOURCES.txt
+[13.908s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs-1.10.9-py3.14.egg-info/dependency_links.txt
+[13.938s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs-1.10.9-py3.14.egg-info/top_level.txt
+[13.963s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/__init__.py
+[13.984s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_c.c
+[14.002s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.023s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[14.049s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/action/__init__.py
+[14.078s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/action/_rotate_absolute.py
+[14.099s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/action/_rotate_absolute_s.c
+[14.124s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/msg/__init__.py
+[14.155s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/msg/_color.py
+[14.177s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/msg/_color_s.c
+[14.195s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/msg/_pose.py
+[14.214s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/msg/_pose_s.c
+[14.230s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/py.typed
+[14.249s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/__init__.py
+[14.276s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_kill.py
+[14.296s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_kill_s.c
+[14.314s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_set_pen.py
+[14.332s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_set_pen_s.c
+[14.351s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_spawn.py
+[14.371s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_spawn_s.c
+[14.393s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_teleport_absolute.py
+[14.418s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_teleport_absolute_s.c
+[14.437s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_teleport_relative.py
+[14.462s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_teleport_relative_s.c
+[14.483s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_c.so
+[14.483s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_fastrtps_c.so
+[14.483s] -- Up-to-date symlink: /home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_introspection_c.so
+[14.483s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/rosidl_cmake-extras.cmake
+[14.501s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.521s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.542s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[14.566s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[14.588s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.609s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.633s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[14.657s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgsConfig.cmake
+[14.674s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgsConfig-version.cmake
+[14.693s] -- Symlinking: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/package.xml
+[14.717s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_generator_c.so
+[14.719s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_fastrtps_c.so
+[14.722s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_fastrtps_cpp.so
+[14.723s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_introspection_c.so
+[14.725s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_c.so
+[14.729s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_introspection_cpp.so
+[14.731s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_cpp.so
+[14.733s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_generator_py.so
+[14.737s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_cExport.cmake
+[14.737s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_cExport-noconfig.cmake
+[14.737s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[14.737s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.737s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_cppExport.cmake
+[14.738s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.739s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.740s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_introspection_cExport.cmake
+[14.741s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.743s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_cExport.cmake
+[14.743s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[14.743s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[14.744s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.745s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_cppExport.cmake
+[14.746s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[14.746s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_pyExport.cmake
+[14.747s] -- Up-to-date: /home/public/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_pyExport-noconfig.cmake
+[15.054s] Listing '/home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs'...
+[15.054s] Compiling '/home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/__init__.py'...
+[15.054s] Listing '/home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/action'...
+[15.055s] Listing '/home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/msg'...
+[15.055s] Listing '/home/public/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv'...
+[15.144s] Invoked command in '/home/public/ros2ws/build/turtlesim_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/ros2ws/install/opencv2_nodes:/home/public/ros2ws/install/launch_testing_examples:/home/public/ros2ws/install/hiwonder_board:/home/public/ros2ws/install/examples_rclpy_pointcloud_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_subscriber:/home/public/ros2ws/install/examples_rclpy_minimal_service:/home/public/ros2ws/install/examples_rclpy_minimal_publisher:/home/public/ros2ws/install/examples_rclpy_minimal_client:/home/public/ros2ws/install/examples_rclpy_minimal_action_server:/home/public/ros2ws/install/examples_rclpy_minimal_action_client:/home/public/ros2ws/install/examples_rclpy_guard_conditions:/home/public/ros2ws/install/examples_rclpy_executors:/home/public/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/public/ros2ws/build/turtlesim_msgs

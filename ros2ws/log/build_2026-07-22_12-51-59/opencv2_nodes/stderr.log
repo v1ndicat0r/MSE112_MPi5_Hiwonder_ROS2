@@ -1,0 +1,5 @@
+  File "/home/public/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes/line_recog.py", line 56
+    break 
+    ^^^^^
+SyntaxError: 'break' outside loop
+

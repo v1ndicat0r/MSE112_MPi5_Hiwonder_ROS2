@@ -1,0 +1,31 @@
+[3.307s] Invoking command in '/home/public/ros2ws/src/controls_core': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/ros2ws/build/controls_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/ros2ws/install/controls_core/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controls_core build --build-base /home/public/ros2ws/build/controls_core/build install --record /home/public/ros2ws/build/controls_core/install.log --install-scripts $base/lib/controls_core --single-version-externally-managed install_data
+[4.644s] running egg_info
+[4.728s] writing ../../build/controls_core/controls_core.egg-info/PKG-INFO
+[4.731s] writing dependency_links to ../../build/controls_core/controls_core.egg-info/dependency_links.txt
+[4.734s] writing entry points to ../../build/controls_core/controls_core.egg-info/entry_points.txt
+[4.734s] writing requirements to ../../build/controls_core/controls_core.egg-info/requires.txt
+[4.734s] writing top-level names to ../../build/controls_core/controls_core.egg-info/top_level.txt
+[4.902s] reading manifest file '../../build/controls_core/controls_core.egg-info/SOURCES.txt'
+[4.903s] adding license file 'LICENSE'
+[4.904s] writing manifest file '../../build/controls_core/controls_core.egg-info/SOURCES.txt'
+[4.906s] running build
+[4.906s] running build_py
+[4.906s] copying controls_core/ui_testing.py -> /home/public/ros2ws/build/controls_core/build/lib/controls_core
+[4.906s] copying controls_core/main_control_node.py -> /home/public/ros2ws/build/controls_core/build/lib/controls_core
+[4.910s] copying controls_core/__init__.py -> /home/public/ros2ws/build/controls_core/build/lib/controls_core
+[4.910s] copying controls_core/board_interface.py -> /home/public/ros2ws/build/controls_core/build/lib/controls_core
+[4.910s] copying controls_core/py.typed -> /home/public/ros2ws/build/controls_core/build/lib/controls_core
+[4.910s] running install
+[4.916s] running install_lib
+[5.021s] copying /home/public/ros2ws/build/controls_core/build/lib/controls_core/main_control_node.py -> /home/public/ros2ws/install/controls_core/lib/python3.14/site-packages/controls_core
+[5.026s] byte-compiling /home/public/ros2ws/install/controls_core/lib/python3.14/site-packages/controls_core/main_control_node.py to main_control_node.cpython-314.pyc
+[5.029s] running install_data
+[5.029s] copying resource/controls_core -> /home/public/ros2ws/install/controls_core/share/ament_index/resource_index/packages
+[5.029s] copying package.xml -> /home/public/ros2ws/install/controls_core/share/controls_core
+[5.033s] running install_egg_info
+[5.122s] removing '/home/public/ros2ws/install/controls_core/lib/python3.14/site-packages/controls_core-0.0.0-py3.14.egg-info' (and everything under it)
+[5.124s] Copying ../../build/controls_core/controls_core.egg-info to /home/public/ros2ws/install/controls_core/lib/python3.14/site-packages/controls_core-0.0.0-py3.14.egg-info
+[5.124s] running install_scripts
+[5.593s] Installing main_control_node script to /home/public/ros2ws/install/controls_core/lib/controls_core
+[5.596s] writing list of installed files to '/home/public/ros2ws/build/controls_core/install.log'
+[5.877s] Invoked command in '/home/public/ros2ws/src/controls_core' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/ros2ws/build/controls_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/ros2ws/install/controls_core/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controls_core build --build-base /home/public/ros2ws/build/controls_core/build install --record /home/public/ros2ws/build/controls_core/install.log --install-scripts $base/lib/controls_core --single-version-externally-managed install_data

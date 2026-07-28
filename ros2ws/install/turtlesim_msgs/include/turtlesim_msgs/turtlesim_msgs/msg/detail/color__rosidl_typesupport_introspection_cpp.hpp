@@ -1,0 +1,1 @@
+/home/public/ros2ws/build/turtlesim_msgs/rosidl_typesupport_introspection_cpp/turtlesim_msgs/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp

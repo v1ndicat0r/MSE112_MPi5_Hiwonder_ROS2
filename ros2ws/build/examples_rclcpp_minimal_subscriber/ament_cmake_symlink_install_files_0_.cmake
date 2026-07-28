@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/public/ros2ws/src/examples/rclcpp/topics/minimal_subscriber" FILES "/home/public/ros2ws/build/examples_rclcpp_minimal_subscriber/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

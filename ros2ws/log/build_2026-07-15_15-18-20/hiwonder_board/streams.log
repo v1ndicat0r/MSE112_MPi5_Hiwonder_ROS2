@@ -1,0 +1,44 @@
+[3.690s] Invoking command in '/home/public/ros2ws/src/hiwonder_board': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/ros2ws/build/hiwonder_board/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/ros2ws/install/hiwonder_board/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hiwonder_board build --build-base /home/public/ros2ws/build/hiwonder_board/build install --record /home/public/ros2ws/build/hiwonder_board/install.log --install-scripts $base/lib/hiwonder_board --single-version-externally-managed install_data
+[4.519s] running egg_info
+[4.558s] creating ../../build/hiwonder_board/hiwonder_board.egg-info
+[4.559s] writing ../../build/hiwonder_board/hiwonder_board.egg-info/PKG-INFO
+[4.562s] writing dependency_links to ../../build/hiwonder_board/hiwonder_board.egg-info/dependency_links.txt
+[4.562s] writing entry points to ../../build/hiwonder_board/hiwonder_board.egg-info/entry_points.txt
+[4.563s] writing requirements to ../../build/hiwonder_board/hiwonder_board.egg-info/requires.txt
+[4.565s] writing top-level names to ../../build/hiwonder_board/hiwonder_board.egg-info/top_level.txt
+[4.566s] writing manifest file '../../build/hiwonder_board/hiwonder_board.egg-info/SOURCES.txt'
+[4.709s] reading manifest file '../../build/hiwonder_board/hiwonder_board.egg-info/SOURCES.txt'
+[4.711s] adding license file 'LICENSE'
+[4.717s] writing manifest file '../../build/hiwonder_board/hiwonder_board.egg-info/SOURCES.txt'
+[4.717s] running build
+[4.719s] running build_py
+[4.720s] creating /home/public/ros2ws/build/hiwonder_board/build/lib/hiwonder_board
+[4.721s] copying hiwonder_board/__init__.py -> /home/public/ros2ws/build/hiwonder_board/build/lib/hiwonder_board
+[4.723s] copying hiwonder_board/hiwonder_board_node.py -> /home/public/ros2ws/build/hiwonder_board/build/lib/hiwonder_board
+[4.727s] copying hiwonder_board/subscriber_member_function.py -> /home/public/ros2ws/build/hiwonder_board/build/lib/hiwonder_board
+[4.728s] copying hiwonder_board/publisher_member_function.py -> /home/public/ros2ws/build/hiwonder_board/build/lib/hiwonder_board
+[4.731s] copying hiwonder_board/py.typed -> /home/public/ros2ws/build/hiwonder_board/build/lib/hiwonder_board
+[4.733s] running install
+[4.744s] running install_lib
+[4.815s] creating /home/public/ros2ws/install/hiwonder_board/lib/python3.14/site-packages/hiwonder_board
+[4.815s] copying /home/public/ros2ws/build/hiwonder_board/build/lib/hiwonder_board/__init__.py -> /home/public/ros2ws/install/hiwonder_board/lib/python3.14/site-packages/hiwonder_board
+[4.815s] copying /home/public/ros2ws/build/hiwonder_board/build/lib/hiwonder_board/hiwonder_board_node.py -> /home/public/ros2ws/install/hiwonder_board/lib/python3.14/site-packages/hiwonder_board
+[4.816s] copying /home/public/ros2ws/build/hiwonder_board/build/lib/hiwonder_board/subscriber_member_function.py -> /home/public/ros2ws/install/hiwonder_board/lib/python3.14/site-packages/hiwonder_board
+[4.816s] copying /home/public/ros2ws/build/hiwonder_board/build/lib/hiwonder_board/py.typed -> /home/public/ros2ws/install/hiwonder_board/lib/python3.14/site-packages/hiwonder_board
+[4.816s] copying /home/public/ros2ws/build/hiwonder_board/build/lib/hiwonder_board/publisher_member_function.py -> /home/public/ros2ws/install/hiwonder_board/lib/python3.14/site-packages/hiwonder_board
+[4.819s] byte-compiling /home/public/ros2ws/install/hiwonder_board/lib/python3.14/site-packages/hiwonder_board/__init__.py to __init__.cpython-314.pyc
+[4.824s] byte-compiling /home/public/ros2ws/install/hiwonder_board/lib/python3.14/site-packages/hiwonder_board/hiwonder_board_node.py to hiwonder_board_node.cpython-314.pyc
+[4.834s] byte-compiling /home/public/ros2ws/install/hiwonder_board/lib/python3.14/site-packages/hiwonder_board/subscriber_member_function.py to subscriber_member_function.cpython-314.pyc
+[4.836s] byte-compiling /home/public/ros2ws/install/hiwonder_board/lib/python3.14/site-packages/hiwonder_board/publisher_member_function.py to publisher_member_function.cpython-314.pyc
+[4.838s] running install_data
+[4.839s] creating /home/public/ros2ws/install/hiwonder_board/share/ament_index/resource_index/packages
+[4.840s] copying resource/hiwonder_board -> /home/public/ros2ws/install/hiwonder_board/share/ament_index/resource_index/packages
+[4.841s] copying package.xml -> /home/public/ros2ws/install/hiwonder_board/share/hiwonder_board
+[4.841s] running install_egg_info
+[4.906s] Copying ../../build/hiwonder_board/hiwonder_board.egg-info to /home/public/ros2ws/install/hiwonder_board/lib/python3.14/site-packages/hiwonder_board-0.0.0-py3.14.egg-info
+[4.910s] running install_scripts
+[5.253s] Installing hiwonder_board_node script to /home/public/ros2ws/install/hiwonder_board/lib/hiwonder_board
+[5.255s] Installing test_listener script to /home/public/ros2ws/install/hiwonder_board/lib/hiwonder_board
+[5.257s] Installing test_talker script to /home/public/ros2ws/install/hiwonder_board/lib/hiwonder_board
+[5.262s] writing list of installed files to '/home/public/ros2ws/build/hiwonder_board/install.log'
+[5.918s] Invoked command in '/home/public/ros2ws/src/hiwonder_board' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/ros2ws/build/hiwonder_board/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/ros2ws/install/hiwonder_board/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hiwonder_board build --build-base /home/public/ros2ws/build/hiwonder_board/build install --record /home/public/ros2ws/build/hiwonder_board/install.log --install-scripts $base/lib/hiwonder_board --single-version-externally-managed install_data
