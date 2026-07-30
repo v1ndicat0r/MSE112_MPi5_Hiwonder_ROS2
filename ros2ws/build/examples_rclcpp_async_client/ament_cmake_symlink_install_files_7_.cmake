@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/public/ros2ws/src/examples/rclcpp/services/async_client" FILES "/home/public/ros2ws/build/examples_rclcpp_async_client/ament_cmake_environment_hooks/local_setup.fish" "DESTINATION" "share/examples_rclcpp_async_client")

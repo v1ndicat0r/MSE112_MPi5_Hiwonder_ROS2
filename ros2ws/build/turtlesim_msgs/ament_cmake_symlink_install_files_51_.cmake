@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/public/ros2ws/src/ros_tutorials/turtlesim_msgs" FILES "/home/public/ros2ws/build/turtlesim_msgs/ament_cmake_core/turtlesim_msgsConfig.cmake" "/home/public/ros2ws/build/turtlesim_msgs/ament_cmake_core/turtlesim_msgsConfig-version.cmake" "DESTINATION" "share/turtlesim_msgs/cmake")

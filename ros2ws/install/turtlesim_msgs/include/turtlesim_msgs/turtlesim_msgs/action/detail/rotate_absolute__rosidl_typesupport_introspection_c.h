@@ -1,1 +1,0 @@
-/home/public/ros2ws/build/turtlesim_msgs/rosidl_typesupport_introspection_c/turtlesim_msgs/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h

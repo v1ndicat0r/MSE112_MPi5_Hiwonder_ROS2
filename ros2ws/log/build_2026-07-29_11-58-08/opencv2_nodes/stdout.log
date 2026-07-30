@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing opencv2_nodes.egg-info/PKG-INFO
+writing dependency_links to opencv2_nodes.egg-info/dependency_links.txt
+writing entry points to opencv2_nodes.egg-info/entry_points.txt
+writing requirements to opencv2_nodes.egg-info/requires.txt
+writing top-level names to opencv2_nodes.egg-info/top_level.txt
+reading manifest file 'opencv2_nodes.egg-info/SOURCES.txt'
+writing manifest file 'opencv2_nodes.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2-nodes.egg-link (link to .)
+Installing bin_mask script to /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/opencv2_nodes
+Installing edge_recog script to /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/opencv2_nodes
+Installing image_publisher script to /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/opencv2_nodes
+Installing line_recog script to /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/opencv2_nodes
+
+Installed /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes
+running symlink_data
+symbolically linking /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/resource/opencv2_nodes -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/share/ament_index/resource_index/packages
+symbolically linking /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/package.xml -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/share/opencv2_nodes

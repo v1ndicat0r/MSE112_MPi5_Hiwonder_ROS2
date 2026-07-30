@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/public/ros2ws/src/ros_tutorials/turtlesim_msgs" FILES "/home/public/ros2ws/src/ros_tutorials/turtlesim_msgs/msg/Color.msg" "DESTINATION" "share/turtlesim_msgs/msg")

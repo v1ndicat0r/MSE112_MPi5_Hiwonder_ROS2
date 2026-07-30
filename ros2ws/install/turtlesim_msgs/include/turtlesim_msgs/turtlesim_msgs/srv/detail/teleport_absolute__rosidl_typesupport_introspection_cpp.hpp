@@ -1,1 +1,0 @@
-/home/public/ros2ws/build/turtlesim_msgs/rosidl_typesupport_introspection_cpp/turtlesim_msgs/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp

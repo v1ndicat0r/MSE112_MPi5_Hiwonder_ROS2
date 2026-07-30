@@ -1,0 +1,167 @@
+[0.000000] (-) TimerEvent: {}
+[0.001049] (-) JobUnselected: {'identifier': 'hiwonder_board'}
+[0.001311] (-) JobUnselected: {'identifier': 'opencv2_nodes'}
+[0.001387] (controls_core) JobQueued: {'identifier': 'controls_core', 'dependencies': OrderedDict()}
+[0.003266] (controls_core) JobStarted: {'identifier': 'controls_core'}
+[0.098089] (-) TimerEvent: {}
+[0.201159] (-) TimerEvent: {}
+[0.301753] (-) TimerEvent: {}
+[0.403757] (-) TimerEvent: {}
+[0.512740] (-) TimerEvent: {}
+[0.626378] (-) TimerEvent: {}
+[0.737110] (-) TimerEvent: {}
+[0.848983] (-) TimerEvent: {}
+[0.953969] (-) TimerEvent: {}
+[1.061745] (-) TimerEvent: {}
+[1.170025] (-) TimerEvent: {}
+[1.273089] (-) TimerEvent: {}
+[1.381000] (-) TimerEvent: {}
+[1.482216] (-) TimerEvent: {}
+[1.583110] (-) TimerEvent: {}
+[1.683678] (-) TimerEvent: {}
+[1.786960] (-) TimerEvent: {}
+[1.890710] (-) TimerEvent: {}
+[1.994116] (-) TimerEvent: {}
+[2.094991] (-) TimerEvent: {}
+[2.195826] (-) TimerEvent: {}
+[2.297554] (-) TimerEvent: {}
+[2.398569] (-) TimerEvent: {}
+[2.503952] (-) TimerEvent: {}
+[2.618970] (-) TimerEvent: {}
+[2.720049] (-) TimerEvent: {}
+[2.820693] (-) TimerEvent: {}
+[2.923837] (-) TimerEvent: {}
+[3.025665] (-) TimerEvent: {}
+[3.133018] (-) TimerEvent: {}
+[3.237538] (-) TimerEvent: {}
+[3.338444] (-) TimerEvent: {}
+[3.443525] (-) TimerEvent: {}
+[3.546673] (-) TimerEvent: {}
+[3.649819] (-) TimerEvent: {}
+[3.751298] (-) TimerEvent: {}
+[3.853153] (-) TimerEvent: {}
+[3.962948] (-) TimerEvent: {}
+[4.065676] (-) TimerEvent: {}
+[4.169492] (-) TimerEvent: {}
+[4.271023] (-) TimerEvent: {}
+[4.372733] (-) TimerEvent: {}
+[4.475762] (-) TimerEvent: {}
+[4.592115] (-) TimerEvent: {}
+[4.698198] (-) TimerEvent: {}
+[4.804975] (-) TimerEvent: {}
+[4.911126] (-) TimerEvent: {}
+[5.011674] (-) TimerEvent: {}
+[5.118547] (-) TimerEvent: {}
+[5.220185] (-) TimerEvent: {}
+[5.324038] (-) TimerEvent: {}
+[5.427195] (-) TimerEvent: {}
+[5.528824] (-) TimerEvent: {}
+[5.631189] (-) TimerEvent: {}
+[5.731879] (-) TimerEvent: {}
+[5.842365] (-) TimerEvent: {}
+[5.946314] (-) TimerEvent: {}
+[6.047874] (-) TimerEvent: {}
+[6.150651] (-) TimerEvent: {}
+[6.257143] (-) TimerEvent: {}
+[6.359147] (-) TimerEvent: {}
+[6.462075] (-) TimerEvent: {}
+[6.565082] (-) TimerEvent: {}
+[6.667236] (-) TimerEvent: {}
+[6.768127] (-) TimerEvent: {}
+[6.869517] (-) TimerEvent: {}
+[6.983647] (-) TimerEvent: {}
+[7.088615] (-) TimerEvent: {}
+[7.194495] (-) TimerEvent: {}
+[7.295683] (-) TimerEvent: {}
+[7.397179] (-) TimerEvent: {}
+[7.502030] (-) TimerEvent: {}
+[7.607174] (-) TimerEvent: {}
+[7.713938] (-) TimerEvent: {}
+[7.817232] (-) TimerEvent: {}
+[7.917768] (-) TimerEvent: {}
+[8.019679] (-) TimerEvent: {}
+[8.121335] (-) TimerEvent: {}
+[8.218946] (controls_core) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/controls_core', 'build', '--build-base', '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/build', 'install', '--record', '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/install.log', '--install-scripts', '$base/lib/controls_core', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/src/controls_core', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'admin', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/aarch64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/admin', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'C.UTF-8', 'MANAGERPID': '3122', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3145', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=73e28031461d0cfcaeebe12d6a6929f4', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'admin', 'MANAGERPIDFDID': '12997', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'admin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': 'cbb8e6c21ad74f5c91b397bb1fdf3ebe', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '46b325db7867804b9a1cc0046a1f6a7b', 'LC_ADDRESS': 'C.UTF-8', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'C.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TLPAT3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/hiwonder_board:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'C.UTF-8', 'GSK_RENDERER': 'gl', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=73e28031461d0cfcaeebe12d6a6929f4', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/lib/python3.14/site-packages:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/hiwonder_board:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/hiwonder_board/lib/python3.14/site-packages:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor'}, 'shell': False}
+[8.227455] (-) TimerEvent: {}
+[8.343999] (-) TimerEvent: {}
+[8.446025] (-) TimerEvent: {}
+[8.550821] (-) TimerEvent: {}
+[8.651900] (-) TimerEvent: {}
+[8.752893] (-) TimerEvent: {}
+[8.855284] (-) TimerEvent: {}
+[8.958433] (-) TimerEvent: {}
+[9.059462] (-) TimerEvent: {}
+[9.162102] (-) TimerEvent: {}
+[9.264338] (-) TimerEvent: {}
+[9.369086] (-) TimerEvent: {}
+[9.469724] (-) TimerEvent: {}
+[9.574825] (-) TimerEvent: {}
+[9.675550] (-) TimerEvent: {}
+[9.777434] (-) TimerEvent: {}
+[9.878996] (-) TimerEvent: {}
+[9.987149] (-) TimerEvent: {}
+[10.089753] (-) TimerEvent: {}
+[10.190745] (-) TimerEvent: {}
+[10.292490] (-) TimerEvent: {}
+[10.352069] (controls_core) StdoutLine: {'line': b'running egg_info\n'}
+[10.393338] (-) TimerEvent: {}
+[10.493940] (-) TimerEvent: {}
+[10.496833] (controls_core) StdoutLine: {'line': b'writing ../../build/controls_core/controls_core.egg-info/PKG-INFO\n'}
+[10.501204] (controls_core) StdoutLine: {'line': b'writing dependency_links to ../../build/controls_core/controls_core.egg-info/dependency_links.txt\n'}
+[10.503685] (controls_core) StdoutLine: {'line': b'writing entry points to ../../build/controls_core/controls_core.egg-info/entry_points.txt\n'}
+[10.515278] (controls_core) StdoutLine: {'line': b'writing requirements to ../../build/controls_core/controls_core.egg-info/requires.txt\n'}
+[10.515562] (controls_core) StdoutLine: {'line': b'writing top-level names to ../../build/controls_core/controls_core.egg-info/top_level.txt\n'}
+[10.597119] (-) TimerEvent: {}
+[10.703348] (-) TimerEvent: {}
+[10.805098] (-) TimerEvent: {}
+[10.823160] (controls_core) StdoutLine: {'line': b"reading manifest file '../../build/controls_core/controls_core.egg-info/SOURCES.txt'\n"}
+[10.848831] (controls_core) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[10.850322] (controls_core) StdoutLine: {'line': b"writing manifest file '../../build/controls_core/controls_core.egg-info/SOURCES.txt'\n"}
+[10.854805] (controls_core) StdoutLine: {'line': b'running build\n'}
+[10.861323] (controls_core) StdoutLine: {'line': b'running build_py\n'}
+[10.861596] (controls_core) StdoutLine: {'line': b'copying controls_core/ui_testing.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/build/lib/controls_core\n'}
+[10.861832] (controls_core) StdoutLine: {'line': b'copying controls_core/main_control_node.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/build/lib/controls_core\n'}
+[10.861993] (controls_core) StdoutLine: {'line': b'copying controls_core/__init__.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/build/lib/controls_core\n'}
+[10.862432] (controls_core) StdoutLine: {'line': b'copying controls_core/cv_interface.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/build/lib/controls_core\n'}
+[10.862909] (controls_core) StdoutLine: {'line': b'copying controls_core/board_interface.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/build/lib/controls_core\n'}
+[10.876643] (controls_core) StdoutLine: {'line': b'copying controls_core/py.typed -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/build/lib/controls_core\n'}
+[10.877146] (controls_core) StdoutLine: {'line': b'running install\n'}
+[10.891123] (controls_core) StdoutLine: {'line': b'running install_lib\n'}
+[10.905624] (-) TimerEvent: {}
+[11.010900] (-) TimerEvent: {}
+[11.112856] (-) TimerEvent: {}
+[11.201515] (controls_core) StdoutLine: {'line': b'copying /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/build/lib/controls_core/main_control_node.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/lib/python3.14/site-packages/controls_core\n'}
+[11.216059] (controls_core) StdoutLine: {'line': b'byte-compiling /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/lib/python3.14/site-packages/controls_core/main_control_node.py to main_control_node.cpython-314.pyc\n'}
+[11.216902] (-) TimerEvent: {}
+[11.230719] (controls_core) StdoutLine: {'line': b'running install_data\n'}
+[11.238293] (controls_core) StdoutLine: {'line': b'copying resource/controls_core -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/share/ament_index/resource_index/packages\n'}
+[11.242055] (controls_core) StdoutLine: {'line': b'copying package.xml -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/share/controls_core\n'}
+[11.253163] (controls_core) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.327189] (-) TimerEvent: {}
+[11.434111] (-) TimerEvent: {}
+[11.538374] (-) TimerEvent: {}
+[11.644676] (-) TimerEvent: {}
+[11.745382] (-) TimerEvent: {}
+[11.849896] (controls_core) StdoutLine: {'line': b"removing '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/lib/python3.14/site-packages/controls_core-0.0.0-py3.14.egg-info' (and everything under it)\n"}
+[11.858071] (-) TimerEvent: {}
+[11.860470] (controls_core) StdoutLine: {'line': b'Copying ../../build/controls_core/controls_core.egg-info to /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/lib/python3.14/site-packages/controls_core-0.0.0-py3.14.egg-info\n'}
+[11.864084] (controls_core) StdoutLine: {'line': b'running install_scripts\n'}
+[11.961437] (-) TimerEvent: {}
+[12.066653] (-) TimerEvent: {}
+[12.176361] (-) TimerEvent: {}
+[12.280061] (-) TimerEvent: {}
+[12.382060] (-) TimerEvent: {}
+[12.484286] (-) TimerEvent: {}
+[12.587834] (-) TimerEvent: {}
+[12.690139] (-) TimerEvent: {}
+[12.768872] (controls_core) StdoutLine: {'line': b'Installing main_control_node script to /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/lib/controls_core\n'}
+[12.769521] (controls_core) StdoutLine: {'line': b"writing list of installed files to '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/install.log'\n"}
+[12.793311] (-) TimerEvent: {}
+[12.896587] (-) TimerEvent: {}
+[13.000822] (-) TimerEvent: {}
+[13.084271] (controls_core) CommandEnded: {'returncode': 0}
+[13.104965] (-) TimerEvent: {}
+[13.213079] (-) TimerEvent: {}
+[13.326059] (-) TimerEvent: {}
+[13.332330] (controls_core) JobEnded: {'identifier': 'controls_core', 'rc': 0}
+[13.342344] (-) EventReactorShutdown: {}

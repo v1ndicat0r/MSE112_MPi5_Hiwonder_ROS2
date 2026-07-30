@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/public/ros2ws/build/examples_rclcpp_minimal_action_client/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

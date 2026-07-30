@@ -3,6 +3,7 @@ from rclpy.node import Node
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 import cv2
+import time
 
 
 class ImagePublisher(Node):
@@ -12,9 +13,8 @@ class ImagePublisher(Node):
         self.timer = self.create_timer(0.01, self.timer_callback)
         self.cap = cv2.VideoCapture(0)
 
-        if not self.cap.isOpened():
-            raise RuntimeError("Could not open camera")
-
+        while not self.cap.isOpened():
+            time.sleep(1)
         self.br = CvBridge()
         self.display_status = 1
 

@@ -1,0 +1,42 @@
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Found builtin_interfaces: 2.4.5 (/opt/ros/lyrical/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 5.2.1 (/opt/ros/lyrical/share/rosidl_adapter/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+-- Found ament_cmake_cppcheck: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_uncrustify: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_uncrustify/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter Development NumPy Development.Module Development.Embed
+-- Found ament_cmake_flake8: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_pep257: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_pep257/cmake)
+-- Found ament_cmake_mypy: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_mypy/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+-- Configuring done (10.6s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/turtlesim_msgs
+[  2%] [1m[34mGenerating Rust code for ROS interfaces[0m
+[  2%] [1m[34mGenerating type hashes for ROS interfaces[0m
+[  2%] Built target turtlesim_msgs__rosidl_generator_type_description
+[  2%] Built target turtlesim_msgs__rs
+[  3%] [1m[34mGenerating C code for ROS interfaces[0m
+[  4%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/action/detail/rotate_absolute__description.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/action/detail/rotate_absolute__type_support.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/action/detail/rotate_absolute__functions.c.o[0m

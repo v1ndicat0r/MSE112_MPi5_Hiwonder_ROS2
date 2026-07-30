@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/public/ros2ws/src/ros_tutorials/turtlesim_msgs" FILES "/home/public/ros2ws/src/ros_tutorials/turtlesim_msgs/action/RotateAbsolute.action" "DESTINATION" "share/turtlesim_msgs/action")

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/public/ros2ws/src/examples/rclcpp/timers/minimal_timer" FILES "/home/public/ros2ws/build/examples_rclcpp_minimal_timer/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/examples_rclcpp_minimal_timer")

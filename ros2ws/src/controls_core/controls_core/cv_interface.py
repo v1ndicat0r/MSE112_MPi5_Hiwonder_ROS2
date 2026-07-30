@@ -5,6 +5,7 @@ from std_msgs.msg import Int16MultiArray
 import threading
 
 
+
 class CVInterface(Node):
 
     def __init__(self):
@@ -23,15 +24,15 @@ class CVInterface(Node):
         self.subscription  # prevent unused variable warning
 
 
-        self.green_lines = list()
-        self.blue_lines = list()
+        self.green_lines = (0,-240,0,240)
+        self.blue_lines = (0,-240,0,240)
         
 
     def green_line_callback(self,msg):
-        self.green_lines = list(zip(*(iter(msg.data),) * 4))
+        self.green_lines = (msg.data[0],-msg.data[1],msg.data[2],-msg.data[3])
 
     def blue_line_callback(self,msg):
-        self.blue_lines = list(zip(*(iter(msg.data),) * 4))
+        self.blue_lines = (msg.data[0],-msg.data[1],msg.data[2],-msg.data[3])
 
     def get_green_lines(self):
         return self.green_lines

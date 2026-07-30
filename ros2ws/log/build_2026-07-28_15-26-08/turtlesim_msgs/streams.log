@@ -1,0 +1,51 @@
+[0.074s] Invoking command in '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/turtlesim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/hiwonder_board:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/src/ros_tutorials/turtlesim_msgs -DCMAKE_INSTALL_PREFIX=/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs
+[1.331s] -- The C compiler identification is GNU 15.2.0
+[1.332s] -- The CXX compiler identification is GNU 15.2.0
+[1.363s] -- Detecting C compiler ABI info
+[1.608s] -- Detecting C compiler ABI info - done
+[1.641s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.645s] -- Detecting C compile features
+[1.646s] -- Detecting C compile features - done
+[1.682s] -- Detecting CXX compiler ABI info
+[2.012s] -- Detecting CXX compiler ABI info - done
+[2.123s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.135s] -- Detecting CXX compile features
+[2.141s] -- Detecting CXX compile features - done
+[2.235s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[3.782s] -- Found builtin_interfaces: 2.4.5 (/opt/ros/lyrical/share/builtin_interfaces/cmake)
+[3.943s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[3.998s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[4.105s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.237s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.390s] -- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)
+[4.529s] -- Found rosidl_adapter: 5.2.1 (/opt/ros/lyrical/share/rosidl_adapter/cmake)
+[5.382s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+[7.827s] -- Found ament_cmake_cppcheck: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_cppcheck/cmake)
+[7.834s] -- Found ament_cmake_cpplint: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_cpplint/cmake)
+[7.840s] -- Found ament_cmake_uncrustify: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_uncrustify/cmake)
+[9.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.684s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.603s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter Development NumPy Development.Module Development.Embed
+[10.672s] -- Found ament_cmake_flake8: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_flake8/cmake)
+[10.682s] -- Found ament_cmake_pep257: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_pep257/cmake)
+[10.694s] -- Found ament_cmake_mypy: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_mypy/cmake)
+[10.761s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+[10.797s] -- Configuring done (10.6s)
+[10.929s] -- Generating done (0.1s)
+[10.978s] -- Build files have been written to: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/turtlesim_msgs
+[11.007s] Invoked command in '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/turtlesim_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/hiwonder_board:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/src/ros_tutorials/turtlesim_msgs -DCMAKE_INSTALL_PREFIX=/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs
+[11.010s] Invoking command in '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/turtlesim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/hiwonder_board:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/turtlesim_msgs -- -j4 -l4
+[11.106s] [  2%] [1m[34mGenerating Rust code for ROS interfaces[0m
+[11.106s] [  2%] [1m[34mGenerating type hashes for ROS interfaces[0m
+[11.916s] [  2%] Built target turtlesim_msgs__rosidl_generator_type_description
+[12.193s] [  2%] Built target turtlesim_msgs__rs
+[12.215s] [  3%] [1m[34mGenerating C code for ROS interfaces[0m
+[15.280s] [  4%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/action/detail/rotate_absolute__description.c.o[0m
+[15.280s] [  5%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/action/detail/rotate_absolute__type_support.c.o[0m
+[15.284s] [  6%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/action/detail/rotate_absolute__functions.c.o[0m
+[15.383s] gmake[2]: *** [CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/build.make:296: CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/action/detail/rotate_absolute__functions.c.o] Interrupt
+[15.383s] gmake[2]: *** [CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/build.make:310: CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/action/detail/rotate_absolute__type_support.c.o] Interrupt
+[15.383s] gmake[2]: *** [CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/build.make:282: CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/action/detail/rotate_absolute__description.c.o] Interrupt
+[15.384s] gmake[1]: *** [CMakeFiles/Makefile2:318: CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/all] Interrupt
+[15.386s] gmake: *** [Makefile:146: all] Interrupt
+[15.387s] Invoked command in '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/turtlesim_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/hiwonder_board:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/turtlesim_msgs -- -j4 -l4

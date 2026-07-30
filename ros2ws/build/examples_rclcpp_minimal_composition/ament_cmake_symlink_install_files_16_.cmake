@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/public/ros2ws/src/examples/rclcpp/composition/minimal_composition" FILES "/home/public/ros2ws/src/examples/rclcpp/composition/minimal_composition/package.xml" "DESTINATION" "share/examples_rclcpp_minimal_composition")

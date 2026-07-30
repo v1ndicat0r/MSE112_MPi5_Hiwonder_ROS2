@@ -1,0 +1,53 @@
+[2.224s] Invoking command in '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/src/opencv2_nodes': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/opencv2_nodes build --build-base /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/build install --record /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/install.log --install-scripts $base/lib/opencv2_nodes --single-version-externally-managed install_data
+[2.919s] running egg_info
+[2.978s] creating ../../build/opencv2_nodes/opencv2_nodes.egg-info
+[2.979s] writing ../../build/opencv2_nodes/opencv2_nodes.egg-info/PKG-INFO
+[2.979s] writing dependency_links to ../../build/opencv2_nodes/opencv2_nodes.egg-info/dependency_links.txt
+[2.983s] writing entry points to ../../build/opencv2_nodes/opencv2_nodes.egg-info/entry_points.txt
+[2.983s] writing requirements to ../../build/opencv2_nodes/opencv2_nodes.egg-info/requires.txt
+[2.984s] writing top-level names to ../../build/opencv2_nodes/opencv2_nodes.egg-info/top_level.txt
+[2.984s] writing manifest file '../../build/opencv2_nodes/opencv2_nodes.egg-info/SOURCES.txt'
+[3.064s] reading manifest file '../../build/opencv2_nodes/opencv2_nodes.egg-info/SOURCES.txt'
+[3.065s] writing manifest file '../../build/opencv2_nodes/opencv2_nodes.egg-info/SOURCES.txt'
+[3.067s] running build
+[3.067s] running build_py
+[3.067s] creating /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes
+[3.069s] copying opencv2_nodes/bin_mask.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes
+[3.069s] copying opencv2_nodes/color_recog.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes
+[3.069s] copying opencv2_nodes/line_recog.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes
+[3.069s] copying opencv2_nodes/__init__.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes
+[3.069s] copying opencv2_nodes/green_bin_mask.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes
+[3.069s] copying opencv2_nodes/edge_recog.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes
+[3.069s] copying opencv2_nodes/image_publisher.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes
+[3.071s] copying opencv2_nodes/py.typed -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes
+[3.071s] running install
+[3.078s] running install_lib
+[3.109s] creating /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes
+[3.109s] copying /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes/bin_mask.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes
+[3.109s] copying /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes/color_recog.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes
+[3.109s] copying /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes/line_recog.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes
+[3.111s] copying /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes/__init__.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes
+[3.111s] copying /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes/py.typed -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes
+[3.111s] copying /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes/green_bin_mask.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes
+[3.111s] copying /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes/edge_recog.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes
+[3.111s] copying /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/build/lib/opencv2_nodes/image_publisher.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes
+[3.111s] byte-compiling /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes/bin_mask.py to bin_mask.cpython-314.pyc
+[3.114s] byte-compiling /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes/color_recog.py to color_recog.cpython-314.pyc
+[3.115s] byte-compiling /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes/line_recog.py to line_recog.cpython-314.pyc
+[3.120s] byte-compiling /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes/__init__.py to __init__.cpython-314.pyc
+[3.120s] byte-compiling /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes/green_bin_mask.py to green_bin_mask.cpython-314.pyc
+[3.121s] byte-compiling /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes/edge_recog.py to edge_recog.cpython-314.pyc
+[3.122s] byte-compiling /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes/image_publisher.py to image_publisher.cpython-314.pyc
+[3.123s] running install_data
+[3.123s] creating /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/share/ament_index/resource_index/packages
+[3.124s] copying resource/opencv2_nodes -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/share/ament_index/resource_index/packages
+[3.124s] copying package.xml -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/share/opencv2_nodes
+[3.124s] running install_egg_info
+[3.158s] Copying ../../build/opencv2_nodes/opencv2_nodes.egg-info to /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages/opencv2_nodes-0.0.0-py3.14.egg-info
+[3.158s] running install_scripts
+[3.380s] Installing bin_mask script to /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/opencv2_nodes
+[3.381s] Installing edge_recog script to /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/opencv2_nodes
+[3.381s] Installing image_publisher script to /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/opencv2_nodes
+[3.382s] Installing line_recog script to /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/opencv2_nodes
+[3.383s] writing list of installed files to '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/install.log'
+[3.518s] Invoked command in '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/src/opencv2_nodes' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/opencv2_nodes/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/opencv2_nodes build --build-base /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/build install --record /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/opencv2_nodes/install.log --install-scripts $base/lib/opencv2_nodes --single-version-externally-managed install_data

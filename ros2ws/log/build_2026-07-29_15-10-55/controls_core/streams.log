@@ -1,0 +1,32 @@
+[7.263s] Invoking command in '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/src/controls_core': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controls_core build --build-base /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/build install --record /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/install.log --install-scripts $base/lib/controls_core --single-version-externally-managed install_data
+[9.147s] running egg_info
+[9.278s] writing ../../build/controls_core/controls_core.egg-info/PKG-INFO
+[9.284s] writing dependency_links to ../../build/controls_core/controls_core.egg-info/dependency_links.txt
+[9.286s] writing entry points to ../../build/controls_core/controls_core.egg-info/entry_points.txt
+[9.290s] writing requirements to ../../build/controls_core/controls_core.egg-info/requires.txt
+[9.290s] writing top-level names to ../../build/controls_core/controls_core.egg-info/top_level.txt
+[9.663s] reading manifest file '../../build/controls_core/controls_core.egg-info/SOURCES.txt'
+[9.663s] adding license file 'LICENSE'
+[9.667s] writing manifest file '../../build/controls_core/controls_core.egg-info/SOURCES.txt'
+[9.668s] running build
+[9.669s] running build_py
+[9.672s] copying controls_core/ui_testing.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/build/lib/controls_core
+[9.672s] copying controls_core/main_control_node.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/build/lib/controls_core
+[9.673s] copying controls_core/__init__.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/build/lib/controls_core
+[9.673s] copying controls_core/cv_interface.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/build/lib/controls_core
+[9.674s] copying controls_core/board_interface.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/build/lib/controls_core
+[9.677s] copying controls_core/py.typed -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/build/lib/controls_core
+[9.682s] running install
+[9.701s] running install_lib
+[9.839s] copying /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/build/lib/controls_core/main_control_node.py -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/lib/python3.14/site-packages/controls_core
+[9.845s] byte-compiling /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/lib/python3.14/site-packages/controls_core/main_control_node.py to main_control_node.cpython-314.pyc
+[9.864s] running install_data
+[9.865s] copying resource/controls_core -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/share/ament_index/resource_index/packages
+[9.865s] copying package.xml -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/share/controls_core
+[9.867s] running install_egg_info
+[10.068s] removing '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/lib/python3.14/site-packages/controls_core-0.0.0-py3.14.egg-info' (and everything under it)
+[10.074s] Copying ../../build/controls_core/controls_core.egg-info to /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/lib/python3.14/site-packages/controls_core-0.0.0-py3.14.egg-info
+[10.082s] running install_scripts
+[10.840s] Installing main_control_node script to /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/lib/controls_core
+[10.845s] writing list of installed files to '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/install.log'
+[11.159s] Invoked command in '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/src/controls_core' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controls_core build --build-base /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/build install --record /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/install.log --install-scripts $base/lib/controls_core --single-version-externally-managed install_data

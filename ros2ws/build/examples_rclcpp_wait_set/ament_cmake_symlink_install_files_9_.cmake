@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/public/ros2ws/src/examples/rclcpp/wait_set" FILES "/home/public/ros2ws/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/examples_rclcpp_wait_set")

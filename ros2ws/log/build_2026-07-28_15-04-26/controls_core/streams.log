@@ -1,0 +1,19 @@
+[4.811s] Invoking command in '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/build --no-deps symlink_data --force
+[5.559s] running develop
+[5.967s] running egg_info
+[6.011s] writing controls_core.egg-info/PKG-INFO
+[6.011s] writing dependency_links to controls_core.egg-info/dependency_links.txt
+[6.015s] writing entry points to controls_core.egg-info/entry_points.txt
+[6.015s] writing requirements to controls_core.egg-info/requires.txt
+[6.017s] writing top-level names to controls_core.egg-info/top_level.txt
+[6.086s] reading manifest file 'controls_core.egg-info/SOURCES.txt'
+[6.090s] writing manifest file 'controls_core.egg-info/SOURCES.txt'
+[6.122s] running build_ext
+[6.122s] Creating /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/lib/python3.14/site-packages/controls-core.egg-link (link to .)
+[6.123s] Installing main_control_node script to /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/lib/controls_core
+[6.123s] 
+[6.123s] Installed /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core
+[6.124s] running symlink_data
+[6.124s] symbolically linking /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/resource/controls_core -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/share/ament_index/resource_index/packages
+[6.124s] symbolically linking /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/package.xml -> /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/share/controls_core
+[6.372s] Invoked command in '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/controls_core/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/controls_core/build --no-deps symlink_data --force

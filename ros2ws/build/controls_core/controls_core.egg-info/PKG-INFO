@@ -5,12 +5,10 @@ Summary: This package is dedicated to user custom code for the robot control sch
 Maintainer: v1ndicat0r
 Maintainer-email: v1ndictivev1ndicat0r@proton.me
 License: Apache-2.0
-License-File: LICENSE
 Requires-Dist: setuptools
 Provides-Extra: test
 Requires-Dist: pytest; extra == "test"
 Dynamic: license
-Dynamic: license-file
 Dynamic: maintainer
 Dynamic: maintainer-email
 Dynamic: provides-extra

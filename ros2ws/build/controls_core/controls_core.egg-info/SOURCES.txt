@@ -1,4 +1,3 @@
-LICENSE
 package.xml
 setup.cfg
 setup.py
@@ -15,9 +14,11 @@ controls_core/cv_interface.py
 controls_core/main_control_node.py
 controls_core/py.typed
 controls_core/ui_testing.py
+controls_core.egg-info/PKG-INFO
+controls_core.egg-info/SOURCES.txt
+controls_core.egg-info/dependency_links.txt
+controls_core.egg-info/entry_points.txt
+controls_core.egg-info/requires.txt
+controls_core.egg-info/top_level.txt
+controls_core.egg-info/zip-safe
 resource/controls_core
-test/test_copyright.py
-test/test_flake8.py
-test/test_mypy.py
-test/test_pep257.py
-test/test_xmllint.py

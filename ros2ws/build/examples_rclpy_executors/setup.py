@@ -1,1 +1,0 @@
-/home/public/ros2ws/src/examples/rclpy/executors/setup.py

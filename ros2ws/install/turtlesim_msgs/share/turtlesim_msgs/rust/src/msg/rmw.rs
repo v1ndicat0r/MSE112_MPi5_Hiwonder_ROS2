@@ -1,1 +1,0 @@
-/home/public/ros2ws/build/turtlesim_msgs/rosidl_generator_rs/turtlesim_msgs/rust/src/msg/rmw.rs

@@ -1,1 +1,0 @@
-/home/public/ros2ws/build/examples_rclcpp_cbg_executor/ament_cmake_environment_hooks/local_setup.fish

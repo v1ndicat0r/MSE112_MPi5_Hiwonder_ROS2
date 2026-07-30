@@ -1,1 +1,0 @@
-/home/public/ros2ws/build/turtlesim_msgs/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp

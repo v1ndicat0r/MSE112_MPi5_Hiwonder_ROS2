@@ -47,7 +47,7 @@ class BoardInterface(Node):
         servo_data.data[servo_id-1] = target
         self.servo_publisher.publish(servo_data)
 
-        print(f'Setting servo %d to %d',servo_id, servo_data.data[servo_id-1])
+        #print(f'Setting servo %d to %d',servo_id, servo_data.data[servo_id-1])
 
     def set_servo_position_deg(self,servo_id,target):
         if servo_id == 6:

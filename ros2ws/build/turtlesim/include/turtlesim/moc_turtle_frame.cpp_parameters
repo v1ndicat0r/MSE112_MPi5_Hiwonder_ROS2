@@ -1,4 +1,0 @@
--DROS_PACKAGE_NAME="turtlesim"
--o
-/home/public/ros2ws/build/turtlesim/include/turtlesim/moc_turtle_frame.cpp
-/home/public/ros2ws/src/ros_tutorials/turtlesim/include/turtlesim/turtle_frame.hpp

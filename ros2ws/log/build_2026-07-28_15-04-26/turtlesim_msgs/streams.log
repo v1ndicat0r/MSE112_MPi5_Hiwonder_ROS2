@@ -1,0 +1,412 @@
+[0.064s] Invoking command in '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/turtlesim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/turtlesim_msgs -- -j4 -l4
+[0.957s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.957s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.957s] -- Found builtin_interfaces: 2.4.5 (/opt/ros/lyrical/share/builtin_interfaces/cmake)
+[0.957s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.958s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.958s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.958s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.958s] -- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)
+[0.958s] -- Found rosidl_adapter: 5.2.1 (/opt/ros/lyrical/share/rosidl_adapter/cmake)
+[1.545s] -- Found ament_cmake_cppcheck: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_cppcheck/cmake)
+[1.551s] -- Found ament_cmake_cpplint: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_cpplint/cmake)
+[1.555s] -- Found ament_cmake_uncrustify: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_uncrustify/cmake)
+[1.978s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.097s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.551s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter Development NumPy Development.Module Development.Embed
+[2.583s] -- Found ament_cmake_flake8: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_flake8/cmake)
+[2.586s] -- Found ament_cmake_pep257: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_pep257/cmake)
+[2.589s] -- Found ament_cmake_mypy: 0.20.6 (/opt/ros/lyrical/share/ament_cmake_mypy/cmake)
+[2.655s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+[2.710s] -- Configuring done (2.4s)
+[3.160s] -- Generating done (0.4s)
+[3.293s] -- Build files have been written to: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/turtlesim_msgs
+[3.449s] [  1%] [1m[34mGenerating type hashes for ROS interfaces[0m
+[4.522s] [  1%] Built target turtlesim_msgs__rosidl_generator_type_description
+[4.559s] [  2%] [1m[34mGenerating Rust code for ROS interfaces[0m
+[4.567s] [  3%] [1m[34mGenerating C code for ROS interfaces[0m
+[5.826s] [  3%] Built target turtlesim_msgs__rs
+[7.523s] [  6%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/action/detail/rotate_absolute__type_support.c.o[0m
+[7.523s] [  6%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/action/detail/rotate_absolute__description.c.o[0m
+[7.523s] [  6%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/action/detail/rotate_absolute__functions.c.o[0m
+[7.845s] [  7%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/msg/detail/color__description.c.o[0m
+[7.851s] [  8%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/msg/detail/color__functions.c.o[0m
+[7.925s] [  9%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/msg/detail/color__type_support.c.o[0m
+[7.951s] [ 10%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/msg/detail/pose__description.c.o[0m
+[7.992s] [ 11%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/msg/detail/pose__functions.c.o[0m
+[8.031s] [ 12%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/msg/detail/pose__type_support.c.o[0m
+[8.062s] [ 13%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/kill__description.c.o[0m
+[8.098s] [ 15%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/kill__type_support.c.o[0m
+[8.099s] [ 15%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/kill__functions.c.o[0m
+[8.172s] [ 16%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/set_pen__description.c.o[0m
+[8.182s] [ 17%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/set_pen__functions.c.o[0m
+[8.268s] [ 18%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/set_pen__type_support.c.o[0m
+[8.275s] [ 19%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/spawn__description.c.o[0m
+[8.347s] [ 20%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/spawn__functions.c.o[0m
+[8.358s] [ 21%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/spawn__type_support.c.o[0m
+[8.384s] [ 21%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_absolute__description.c.o[0m
+[8.444s] [ 22%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_absolute__functions.c.o[0m
+[8.490s] [ 23%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_absolute__type_support.c.o[0m
+[8.519s] [ 24%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_relative__description.c.o[0m
+[8.574s] [ 25%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_relative__functions.c.o[0m
+[8.609s] [ 26%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_relative__type_support.c.o[0m
+[8.702s] [ 27%] [1m[32mLinking C shared library libturtlesim_msgs__rosidl_generator_c.so[0m
+[8.849s] [ 27%] Built target turtlesim_msgs__rosidl_generator_c
+[8.868s] [ 29%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[8.868s] [ 29%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[8.898s] [ 29%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[10.573s] [ 30%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/action/detail/rotate_absolute__type_support.c.o[0m
+[10.703s] [ 31%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/msg/detail/color__type_support.c.o[0m
+[10.770s] [ 32%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/msg/detail/pose__type_support.c.o[0m
+[10.837s] [ 33%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/srv/detail/kill__type_support.c.o[0m
+[10.923s] [ 34%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/srv/detail/set_pen__type_support.c.o[0m
+[11.012s] [ 34%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/srv/detail/spawn__type_support.c.o[0m
+[11.102s] [ 35%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/srv/detail/teleport_absolute__type_support.c.o[0m
+[11.127s] [ 35%] Built target turtlesim_msgs__cpp
+[11.148s] [ 36%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/srv/detail/teleport_relative__type_support.c.o[0m
+[11.152s] [ 37%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[11.253s] [ 38%] [1m[32mLinking C shared library libturtlesim_msgs__rosidl_typesupport_introspection_c.so[0m
+[11.352s] [ 39%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.362s] [ 39%] Built target turtlesim_msgs__rosidl_typesupport_introspection_c
+[11.428s] [ 40%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[11.774s] [ 41%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/action/detail/rotate_absolute__type_support_c.cpp.o[0m
+[12.446s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/action/rotate_absolute__type_support.cpp.o[0m
+[12.651s] [ 43%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/msg/color__type_support.cpp.o[0m
+[12.745s] [ 44%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/msg/pose__type_support.cpp.o[0m
+[12.872s] [ 44%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/srv/kill__type_support.cpp.o[0m
+[12.999s] [ 45%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/srv/set_pen__type_support.cpp.o[0m
+[13.109s] [ 46%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/srv/spawn__type_support.cpp.o[0m
+[13.218s] [ 47%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/srv/teleport_absolute__type_support.cpp.o[0m
+[13.281s] [ 48%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/action/detail/rotate_absolute__type_support.cpp.o[0m
+[13.334s] [ 49%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/srv/teleport_relative__type_support.cpp.o[0m
+[13.449s] [ 50%] [1m[32mLinking CXX shared library libturtlesim_msgs__rosidl_typesupport_c.so[0m
+[13.581s] [ 50%] Built target turtlesim_msgs__rosidl_typesupport_c
+[13.598s] [ 51%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/msg/detail/color__type_support.cpp.o[0m
+[14.367s] [ 52%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/msg/detail/color__type_support_c.cpp.o[0m
+[14.543s] [ 53%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o[0m
+[14.975s] [ 54%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/msg/detail/dds_fastrtps/color__type_support.cpp.o[0m
+[15.812s] [ 55%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/msg/detail/pose__type_support_c.cpp.o[0m
+[16.083s] [ 56%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/msg/detail/pose__type_support.cpp.o[0m
+[17.185s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/srv/detail/kill__type_support_c.cpp.o[0m
+[17.201s] [ 58%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/srv/detail/kill__type_support.cpp.o[0m
+[17.652s] [ 59%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/msg/detail/dds_fastrtps/pose__type_support.cpp.o[0m
+[18.533s] [ 60%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/srv/detail/set_pen__type_support.cpp.o[0m
+[18.542s] [ 60%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/srv/detail/set_pen__type_support_c.cpp.o[0m
+[18.909s] [ 61%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/srv/detail/dds_fastrtps/kill__type_support.cpp.o[0m
+[19.728s] [ 62%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/srv/detail/spawn__type_support.cpp.o[0m
+[19.851s] [ 63%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/srv/detail/spawn__type_support_c.cpp.o[0m
+[20.555s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o[0m
+[21.119s] [ 65%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/srv/detail/teleport_absolute__type_support.cpp.o[0m
+[21.308s] [ 66%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/srv/detail/teleport_absolute__type_support_c.cpp.o[0m
+[22.148s] [ 67%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/srv/detail/dds_fastrtps/spawn__type_support.cpp.o[0m
+[22.326s] [ 68%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/srv/detail/teleport_relative__type_support.cpp.o[0m
+[22.660s] [ 69%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/srv/detail/teleport_relative__type_support_c.cpp.o[0m
+[23.527s] [ 70%] [1m[32mLinking CXX shared library libturtlesim_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[23.829s] [ 70%] Built target turtlesim_msgs__rosidl_typesupport_introspection_cpp
+[23.845s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o[0m
+[23.910s] [ 72%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o[0m
+[24.140s] [ 73%] [1m[32mLinking CXX shared library libturtlesim_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[24.407s] [ 73%] Built target turtlesim_msgs__rosidl_typesupport_fastrtps_c
+[24.430s] [ 74%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[25.547s] [ 75%] [1m[32mLinking CXX shared library libturtlesim_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[25.615s] [ 76%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp.o[0m
+[25.615s] [ 77%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/msg/color__type_support.cpp.o[0m
+[25.870s] [ 77%] Built target turtlesim_msgs__rosidl_typesupport_fastrtps_cpp
+[26.488s] [ 80%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/srv/kill__type_support.cpp.o[0m
+[26.488s] [ 80%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/msg/pose__type_support.cpp.o[0m
+[26.488s] [ 80%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/srv/set_pen__type_support.cpp.o[0m
+[27.426s] [ 81%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/srv/spawn__type_support.cpp.o[0m
+[27.829s] [ 82%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/srv/teleport_absolute__type_support.cpp.o[0m
+[28.003s] [ 83%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/srv/teleport_relative__type_support.cpp.o[0m
+[29.056s] [ 84%] [1m[32mLinking CXX shared library libturtlesim_msgs__rosidl_typesupport_cpp.so[0m
+[29.237s] [ 84%] Built target turtlesim_msgs__rosidl_typesupport_cpp
+[29.267s] [ 84%] Built target turtlesim_msgs
+[29.297s] [ 85%] [1m[34mGenerating Python code for ROS interfaces[0m
+[32.564s] [ 85%] Built target turtlesim_msgs__py
+[32.634s] [ 87%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/action/_rotate_absolute_s.c.o[0m
+[32.634s] [ 87%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/msg/_pose_s.c.o[0m
+[32.634s] [ 88%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/msg/_color_s.c.o[0m
+[32.645s] [ 88%] Built target ament_cmake_python_sync_turtlesim_msgs
+[32.997s] [ 89%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/srv/_kill_s.c.o[0m
+[33.019s] [ 90%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/srv/_set_pen_s.c.o[0m
+[33.248s] [ 91%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/srv/_spawn_s.c.o[0m
+[33.473s] [ 92%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/srv/_teleport_absolute_s.c.o[0m
+[33.475s] [ 93%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/srv/_teleport_relative_s.c.o[0m
+[33.772s] running egg_info
+[33.817s] writing turtlesim_msgs.egg-info/PKG-INFO
+[33.817s] writing dependency_links to turtlesim_msgs.egg-info/dependency_links.txt
+[33.819s] writing top-level names to turtlesim_msgs.egg-info/top_level.txt
+[33.842s] [ 94%] [1m[32mLinking C shared library libturtlesim_msgs__rosidl_generator_py.so[0m
+[33.923s] reading manifest file 'turtlesim_msgs.egg-info/SOURCES.txt'
+[33.925s] writing manifest file 'turtlesim_msgs.egg-info/SOURCES.txt'
+[33.959s] [ 94%] Built target turtlesim_msgs__rosidl_generator_py
+[34.023s] [ 95%] [32mBuilding C object CMakeFiles/turtlesim_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[34.027s] [ 96%] [32mBuilding C object CMakeFiles/turtlesim_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[34.028s] [ 97%] [32mBuilding C object CMakeFiles/turtlesim_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[34.149s] [ 97%] Built target ament_cmake_python_build_turtlesim_msgs_egg
+[34.441s] [ 98%] [1m[32mLinking C shared module rosidl_generator_py/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[34.449s] [ 99%] [1m[32mLinking C shared module rosidl_generator_py/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_c.so[0m
+[34.471s] [100%] [1m[32mLinking C shared module rosidl_generator_py/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[34.512s] [100%] Built target turtlesim_msgs_s__rosidl_typesupport_introspection_c
+[34.520s] [100%] Built target turtlesim_msgs_s__rosidl_typesupport_c
+[34.538s] [100%] Built target turtlesim_msgs_s__rosidl_typesupport_fastrtps_c
+[34.556s] Invoked command in '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/turtlesim_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/turtlesim_msgs -- -j4 -l4
+[34.569s] Invoking command in '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/turtlesim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/turtlesim_msgs
+[34.579s] -- Install configuration: ""
+[34.580s] -- Execute custom install script
+[34.581s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/ament_index/resource_index/rosidl_interfaces/turtlesim_msgs
+[34.582s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/action/RotateAbsolute.json
+[34.583s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/msg/Color.json
+[34.583s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/msg/Pose.json
+[34.584s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/Kill.json
+[34.585s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/SetPen.json
+[34.586s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/Spawn.json
+[34.586s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportAbsolute.json
+[34.587s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportRelative.json
+[34.589s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__functions.h
+[34.590s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__struct.h
+[34.590s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__type_support.h
+[34.591s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/rotate_absolute.h
+[34.591s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/color.h
+[34.592s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__functions.h
+[34.593s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__struct.h
+[34.593s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__type_support.h
+[34.594s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__functions.h
+[34.594s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__struct.h
+[34.594s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__type_support.h
+[34.595s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/pose.h
+[34.595s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_generator_c__visibility_control.h
+[34.596s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__functions.h
+[34.597s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__struct.h
+[34.597s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__type_support.h
+[34.598s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__functions.h
+[34.598s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__struct.h
+[34.599s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__type_support.h
+[34.599s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__functions.h
+[34.599s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__struct.h
+[34.600s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__type_support.h
+[34.600s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__functions.h
+[34.601s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__struct.h
+[34.601s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__type_support.h
+[34.602s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__functions.h
+[34.602s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__struct.h
+[34.603s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__type_support.h
+[34.603s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/kill.h
+[34.604s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/set_pen.h
+[34.605s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/spawn.h
+[34.605s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/teleport_absolute.h
+[34.607s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/teleport_relative.h
+[34.608s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/library_path.sh
+[34.608s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/library_path.dsv
+[34.609s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+[34.610s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[34.610s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[34.611s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[34.611s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+[34.612s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+[34.612s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+[34.612s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+[34.613s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+[34.614s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__builder.hpp
+[34.615s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__struct.hpp
+[34.615s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__traits.hpp
+[34.615s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__type_support.hpp
+[34.616s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/rotate_absolute.hpp
+[34.616s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/color.hpp
+[34.617s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__builder.hpp
+[34.617s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__struct.hpp
+[34.618s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__traits.hpp
+[34.618s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__type_support.hpp
+[34.619s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__builder.hpp
+[34.619s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__struct.hpp
+[34.620s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__traits.hpp
+[34.620s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__type_support.hpp
+[34.620s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/pose.hpp
+[34.621s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[34.621s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__builder.hpp
+[34.622s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__struct.hpp
+[34.622s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__traits.hpp
+[34.623s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__type_support.hpp
+[34.623s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__builder.hpp
+[34.624s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__struct.hpp
+[34.624s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__traits.hpp
+[34.625s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__type_support.hpp
+[34.625s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__builder.hpp
+[34.625s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__struct.hpp
+[34.626s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__traits.hpp
+[34.626s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__type_support.hpp
+[34.627s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__builder.hpp
+[34.627s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__struct.hpp
+[34.628s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__traits.hpp
+[34.628s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__type_support.hpp
+[34.629s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__builder.hpp
+[34.629s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__struct.hpp
+[34.629s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__traits.hpp
+[34.630s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__type_support.hpp
+[34.630s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/kill.hpp
+[34.631s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/set_pen.hpp
+[34.631s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/spawn.hpp
+[34.632s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/teleport_absolute.hpp
+[34.632s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/teleport_relative.hpp
+[34.633s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[34.634s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[34.634s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[34.635s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[34.635s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+[34.636s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+[34.636s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[34.637s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[34.637s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+[34.638s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+[34.638s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__rosidl_typesupport_introspection_c.h
+[34.639s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[34.639s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[34.640s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__rosidl_typesupport_introspection_c.h
+[34.640s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+[34.641s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+[34.641s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+[34.642s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+[34.643s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+[34.643s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[34.644s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[34.644s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+[34.645s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+[34.645s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+[34.645s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+[34.646s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+[34.646s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/pythonpath.sh
+[34.650s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/pythonpath.dsv
+[34.652s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_fastrtps_c.so
+[34.652s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_introspection_c.so
+[34.653s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_c.so
+[34.654s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/ament_index/resource_index/rust_packages/turtlesim_msgs
+[34.655s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/Cargo.toml
+[34.656s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/build.rs
+[34.656s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/src/action.rs
+[34.657s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/src/action/rmw.rs
+[34.657s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/src/lib.rs
+[34.658s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/src/msg.rs
+[34.659s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/src/msg/rmw.rs
+[34.659s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/src/srv.rs
+[34.660s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/rust/src/srv/rmw.rs
+[34.660s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/action/RotateAbsolute.idl
+[34.661s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/msg/Color.idl
+[34.661s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/msg/Pose.idl
+[34.662s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/Kill.idl
+[34.663s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/SetPen.idl
+[34.663s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/Spawn.idl
+[34.664s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportAbsolute.idl
+[34.664s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportRelative.idl
+[34.665s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/action/RotateAbsolute.action
+[34.665s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/msg/Color.msg
+[34.666s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/msg/Pose.msg
+[34.666s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/Kill.srv
+[34.667s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/SetPen.srv
+[34.667s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/Spawn.srv
+[34.668s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportAbsolute.srv
+[34.669s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportRelative.srv
+[34.669s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/ament_index/resource_index/package_run_dependencies/turtlesim_msgs
+[34.670s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/ament_index/resource_index/parent_prefix_path/turtlesim_msgs
+[34.671s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/ament_prefix_path.sh
+[34.671s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/ament_prefix_path.dsv
+[34.672s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/path.sh
+[34.672s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/environment/path.dsv
+[34.673s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.bash
+[34.673s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.fish
+[34.674s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.sh
+[34.675s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.zsh
+[34.675s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.dsv
+[34.675s] -- Symlinking: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/package.dsv
+[34.689s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/ament_index/resource_index/packages/turtlesim_msgs
+[34.690s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs-1.10.9-py3.14.egg-info/PKG-INFO
+[34.690s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs-1.10.9-py3.14.egg-info/SOURCES.txt
+[34.691s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs-1.10.9-py3.14.egg-info/dependency_links.txt
+[34.691s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs-1.10.9-py3.14.egg-info/top_level.txt
+[34.692s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/__init__.py
+[34.693s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_c.c
+[34.693s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[34.694s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[34.694s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/action/__init__.py
+[34.695s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/action/_rotate_absolute.py
+[34.695s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/action/_rotate_absolute_s.c
+[34.696s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/msg/__init__.py
+[34.696s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/msg/_color.py
+[34.697s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/msg/_color_s.c
+[34.697s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/msg/_pose.py
+[34.698s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/msg/_pose_s.c
+[34.698s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/py.typed
+[34.699s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/__init__.py
+[34.699s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_kill.py
+[34.700s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_kill_s.c
+[34.700s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_set_pen.py
+[34.701s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_set_pen_s.c
+[34.701s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_spawn.py
+[34.702s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_spawn_s.c
+[34.702s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_teleport_absolute.py
+[34.703s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_teleport_absolute_s.c
+[34.703s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_teleport_relative.py
+[34.704s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_teleport_relative_s.c
+[34.704s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_c.so
+[34.705s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_fastrtps_c.so
+[34.705s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_introspection_c.so
+[34.706s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/rosidl_cmake-extras.cmake
+[34.707s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.707s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[34.708s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[34.708s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[34.709s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[34.710s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[34.710s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[34.711s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgsConfig.cmake
+[34.711s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgsConfig-version.cmake
+[34.712s] -- Up-to-date symlink: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/package.xml
+[34.714s] -- Installing: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_generator_c.so
+[34.715s] -- Set non-toolchain portion of runtime path of "/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_generator_c.so" to ""
+[34.716s] -- Installing: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_fastrtps_c.so
+[34.717s] -- Set non-toolchain portion of runtime path of "/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[34.718s] -- Installing: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_fastrtps_cpp.so
+[34.720s] -- Set non-toolchain portion of runtime path of "/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[34.721s] -- Installing: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_introspection_c.so
+[34.722s] -- Set non-toolchain portion of runtime path of "/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_introspection_c.so" to ""
+[34.723s] -- Installing: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_c.so
+[34.724s] -- Set non-toolchain portion of runtime path of "/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_c.so" to ""
+[34.725s] -- Installing: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_introspection_cpp.so
+[34.727s] -- Set non-toolchain portion of runtime path of "/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[34.728s] -- Installing: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_cpp.so
+[34.729s] -- Set non-toolchain portion of runtime path of "/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_cpp.so" to ""
+[34.731s] -- Installing: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_generator_py.so
+[34.731s] -- Set non-toolchain portion of runtime path of "/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_generator_py.so" to ""
+[34.732s] -- Up-to-date: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_cExport.cmake
+[34.732s] -- Up-to-date: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_cExport-noconfig.cmake
+[34.733s] -- Up-to-date: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[34.733s] -- Up-to-date: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[34.733s] -- Up-to-date: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_cppExport.cmake
+[34.734s] -- Up-to-date: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[34.734s] -- Up-to-date: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[34.734s] -- Up-to-date: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_introspection_cExport.cmake
+[34.734s] -- Up-to-date: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[34.735s] -- Up-to-date: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_cExport.cmake
+[34.735s] -- Up-to-date: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[34.735s] -- Up-to-date: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[34.735s] -- Up-to-date: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[34.736s] -- Up-to-date: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_cppExport.cmake
+[34.736s] -- Up-to-date: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[34.737s] -- Up-to-date: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_pyExport.cmake
+[34.737s] -- Up-to-date: /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_pyExport-noconfig.cmake
+[34.894s] Listing '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs'...
+[34.894s] Compiling '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/__init__.py'...
+[34.894s] Listing '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/action'...
+[34.894s] Compiling '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/action/__init__.py'...
+[34.894s] Compiling '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/action/_rotate_absolute.py'...
+[34.894s] Listing '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/msg'...
+[34.894s] Compiling '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/msg/__init__.py'...
+[34.894s] Compiling '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/msg/_color.py'...
+[34.894s] Compiling '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/msg/_pose.py'...
+[34.894s] Listing '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv'...
+[34.895s] Compiling '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/__init__.py'...
+[34.895s] Compiling '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_kill.py'...
+[34.895s] Compiling '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_set_pen.py'...
+[34.895s] Compiling '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_spawn.py'...
+[34.895s] Compiling '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_teleport_absolute.py'...
+[34.895s] Compiling '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/turtlesim_msgs/lib/python3.14/site-packages/turtlesim_msgs/srv/_teleport_relative.py'...
+[34.924s] Invoked command in '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/turtlesim_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/turtlesim_msgs

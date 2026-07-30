@@ -8,6 +8,7 @@ from .cv_interface import CVInterface
 #START USER CODE IMPORTS
 
 import time
+import math
 
 #END USER CODE IMPORTS
 
@@ -39,7 +40,7 @@ def main() -> None:
     elbow_id = 4
     wrist_id = 3
 
-    line_follow_pos = [0.0,0.0,0.0,-90.0,-90.0,90.0,0.0]
+    line_follow_pos = [0.0,0.0,0.0,-70.0,-90.0,90.0,0.0]
 
 
     MOTOR_SPD_SCALER = 100
@@ -68,57 +69,48 @@ def main() -> None:
         board.set_claw(s='0')
 
 
-            #Control logic for mechanums
+    #Control logic for mechanums
         
-        lines = cv.green_lines
+        x1,y1,x2,y2 = cv.green_lines
+
+
 
         #print(f"CV lines:")
 
-            #Find the first line that crosses the y=400 line
-        x_intersection = 320
 
-        if lines is not None:
-            for line in lines:
-                x1,y1,x2,y2 = line
+        #Find centroid of the line for lateral strafe P control
+        x_centroid = (x1+x2)/2
 
-                #print(f"Start: {x1}, {y1}     End: {x2}, {y2}")
-
-                if (y1>100 and y2<100) or (y1<100 and y2>100):
-                    try:
-                        m = (y2-y1)/(x2-x1)
-                    except Exception as e:
-                        m = 480
-                    b = y1 - m*x1
-                    try:
-                        x_intersection = (100-b)/m
-                    except Exception as e:
-                        x_intersection = 320
-                    print(f"Found: {x_intersection}, {100}")
-                    break
-                elif (y1>400 and y2<400) or (y1<400 and y2>400):
-                    try:
-                        m = (y2-y1)/(x2-x1)
-                    except Exception as e:
-                        m = 480
-                    b = y1 - m*x1
-                    try:
-                        x_intersection = (400-b)/m
-                    except Exception as e:
-                        x_intersection = 320
-                    print(f"Found: {x_intersection}, {400}")
-                    break
-            #Error from center screen to target     
-        error = (x_intersection - 320)/320
+        #Error from center screen to target (normalized) 
+        error = x_centroid/320.0
 
 
-        x_vel = 0.0
-        if abs(error) < 0.60:
+        #Find angle of the line for yaw P control
+            #Shift the line into the cartesian plane centered on x1, y1
+        shifted_y = y2 - y1
+        shifted_x = x2 - x1
+
+            #Apply vertical atan for angle
+        if shifted_y==0:
+            line_ang = 0
+        else:
+            line_ang = math.atan((-shifted_x)/shifted_y)/3.14*2
+
+        print(f"Line ang: {line_ang*90:.2f}")
+        
+        
+        
+        #Set velocities
+        x_vel = error * (0.17)
+
+        if abs(line_ang) < 0.30:
             y_vel = 0.17
         else:
             y_vel = 0.0
-        z_vel = error * (-0.4)
+
+        z_vel = line_ang * (0.80)
 	
-        print(f"z_vel: {z_vel:.2f}")
+        #print(f"z_vel: {z_vel:.2f}")
 
             #Basic mechanum mapping with spin centered around arm joint 0
         board.set_dc_motor_duty(1,int(-y_vel*MOTOR_SPD_SCALER-x_vel*MOTOR_SPD_SCALER+z_vel*(MOTOR_SPD_SCALER-OFF_CENTER_SPIN_SHIFT)))
@@ -135,10 +127,6 @@ def main() -> None:
     _stop_event.set()
     if _spin_thread.is_alive():
         _spin_thread.join(timeout=2.0)
-
-
-
-
 
 
 if __name__ == '__main__':

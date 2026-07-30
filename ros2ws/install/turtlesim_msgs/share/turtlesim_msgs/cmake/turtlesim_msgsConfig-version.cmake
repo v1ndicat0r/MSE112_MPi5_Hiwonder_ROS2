@@ -1,1 +1,0 @@
-/home/public/ros2ws/build/turtlesim_msgs/ament_cmake_core/turtlesim_msgsConfig-version.cmake

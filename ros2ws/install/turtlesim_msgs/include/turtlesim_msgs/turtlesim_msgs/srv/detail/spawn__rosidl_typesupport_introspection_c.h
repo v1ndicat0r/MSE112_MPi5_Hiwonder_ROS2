@@ -1,1 +1,0 @@
-/home/public/ros2ws/build/turtlesim_msgs/rosidl_typesupport_introspection_c/turtlesim_msgs/srv/detail/spawn__rosidl_typesupport_introspection_c.h

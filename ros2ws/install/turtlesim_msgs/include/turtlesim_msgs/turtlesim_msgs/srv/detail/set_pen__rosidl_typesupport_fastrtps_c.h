@@ -1,1 +1,0 @@
-/home/public/ros2ws/build/turtlesim_msgs/rosidl_typesupport_fastrtps_c/turtlesim_msgs/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h

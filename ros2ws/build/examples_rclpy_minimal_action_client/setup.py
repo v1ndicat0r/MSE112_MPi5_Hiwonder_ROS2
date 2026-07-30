@@ -1,1 +1,0 @@
-/home/public/ros2ws/src/examples/rclpy/actions/minimal_action_client/setup.py
