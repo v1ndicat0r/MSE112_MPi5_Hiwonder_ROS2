@@ -1,5 +1,0 @@
-#!/bin/bash
-
-source /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/overlay_source.sh
-
-./run_cv_pipeline.sh & ros2 run controls_core main_control_node & ros2 run hiwonder_board hiwonder_board_node

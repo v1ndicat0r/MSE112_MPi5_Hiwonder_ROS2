@@ -1,0 +1,20 @@
+[3.337s] Invoking command in '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/vision_stack': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/vision_stack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/vision_stack/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/vision_stack/build --no-deps symlink_data
+[3.844s] running develop
+[4.076s] running egg_info
+[4.102s] writing vision_stack.egg-info/PKG-INFO
+[4.105s] writing dependency_links to vision_stack.egg-info/dependency_links.txt
+[4.107s] writing entry points to vision_stack.egg-info/entry_points.txt
+[4.108s] writing requirements to vision_stack.egg-info/requires.txt
+[4.108s] writing top-level names to vision_stack.egg-info/top_level.txt
+[4.161s] reading manifest file 'vision_stack.egg-info/SOURCES.txt'
+[4.163s] writing manifest file 'vision_stack.egg-info/SOURCES.txt'
+[4.189s] running build_ext
+[4.191s] Creating /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/vision_stack/lib/python3.14/site-packages/vision-stack.egg-link (link to .)
+[4.192s] Installing bin_mask script to /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/vision_stack/lib/vision_stack
+[4.192s] Installing edge_recog script to /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/vision_stack/lib/vision_stack
+[4.193s] Installing image_publisher script to /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/vision_stack/lib/vision_stack
+[4.193s] Installing line_recog script to /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/vision_stack/lib/vision_stack
+[4.193s] 
+[4.193s] Installed /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/vision_stack
+[4.193s] running symlink_data
+[4.454s] Invoked command in '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/vision_stack' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/vision_stack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/vision_stack/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/vision_stack/build --no-deps symlink_data

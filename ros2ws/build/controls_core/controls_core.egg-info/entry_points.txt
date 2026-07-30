@@ -1,2 +1,0 @@
-[console_scripts]
-main_control_node = controls_core.main_control_node:main

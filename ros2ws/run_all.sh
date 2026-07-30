@@ -2,4 +2,4 @@
 
 source overlay_source.sh
 
-ros2 run opencv2_nodes image_publisher & ros2 run opencv2_nodes bin_mask & ros2 run opencv2_nodes line_recog & ros2 run controls_core main_control_node & ros2 run hiwonder_board hiwonder_board_node
+ros2 run vision_stack image_publisher & ros2 run vision_stack bin_mask & ros2 run vision_stack line_recog & ros2 run core main & ros2 run hiwonder_board hiwonder_board_node

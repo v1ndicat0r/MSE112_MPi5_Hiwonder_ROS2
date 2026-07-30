@@ -10,9 +10,7 @@ setup.py
 ../../build/hiwonder_board/hiwonder_board.egg-info/zip-safe
 hiwonder_board/__init__.py
 hiwonder_board/hiwonder_board_node.py
-hiwonder_board/publisher_member_function.py
 hiwonder_board/py.typed
-hiwonder_board/subscriber_member_function.py
 hiwonder_board.egg-info/PKG-INFO
 hiwonder_board.egg-info/SOURCES.txt
 hiwonder_board.egg-info/dependency_links.txt

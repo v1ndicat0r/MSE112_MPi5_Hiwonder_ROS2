@@ -1,4 +1,0 @@
-[console_scripts]
-bin_mask = opencv2_nodes.bin_mask:main
-edge_recog = opencv2_nodes.edge_recog:main
-image_publisher = opencv2_nodes.image_publisher:main
