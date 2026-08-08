@@ -30,7 +30,7 @@ class BoardInterface(Node):
         self.dc_motor_data.data = [0,0,0,0]
 
     def sonar_callback(self,msg):
-        self.sonar = msg
+        self.sonar = msg.data
 
     def set_rgb1(self,r,g,b,a=1.0):
         rgba = ColorRGBA(r=r,g=g,b=b,a=a)

@@ -3,10 +3,12 @@ from rclpy.executors import ExternalShutdownException
 from rclpy.node import Node
 from std_msgs.msg import String
 from sensor_msgs.msg import Image
+from std_msgs.msg import Int16
 import cv2
 from cv_bridge import CvBridge
 import numpy
 import numpy as np
+import math
 import json, time, os
 from ament_index_python.packages import get_package_share_directory
 
@@ -18,19 +20,23 @@ WORKSPACE_PATH = share_dir[:idx] if idx != -1 else share_dir
 CONFIG_PATH = f"{WORKSPACE_PATH}/src/vision_stack/vision_stack/configs.json"
 
 
-class BinMask(Node):
+class LineTracking(Node):
 
     def __init__(self):
-        super().__init__('bin_mask')
+        super().__init__('line_tracking')
         self.subscription = self.create_subscription(
             Image,
             'image_topic',
             self.image_callback,
             10)
+        self.subscription = self.create_subscription(
+            String,
+            'target_line_color_topic',
+            self.set_target_color,
+            10)
         self.subscription  # prevent unused variable warning
 
-        self.green_publisher = self.create_publisher(Image, 'green_mask', 10)
-        self.blue_publisher = self.create_publisher(Image, 'blue_mask', 10)
+        self.line_publisher = self.create_publisher(Int16, 'line_tracking_topic', 10)
 
         self.br = CvBridge()
 
@@ -41,7 +47,7 @@ class BinMask(Node):
     # Line tracking imported initializations
 
         # line tracking
-        self.__target_color
+        self.__target_color = ('green')
         
         self.roi = [ # [ROI, weight]
                 (240, 280,  0, 640, 0.1), 
@@ -49,11 +55,11 @@ class BinMask(Node):
                 (430, 460,  0, 640, 0.6)
             ]
 
-        self.roi_h1 = roi[0][0]
-        self.roi_h2 = roi[1][0] - roi[0][0]
-        self.roi_h3 = roi[2][0] - roi[1][0]
+        self.roi_h1 = self.roi[0][0]
+        self.roi_h2 = self.roi[1][0] - self.roi[0][0]
+        self.roi_h3 = self.roi[2][0] - self.roi[1][0]
 
-        self.roi_h_list = [roi_h1, roi_h2, roi_h3]
+        self.roi_h_list = [self.roi_h1, self.roi_h2, self.roi_h3]
         self.size = (640, 480)
         self.img_centerx = 320
 
@@ -62,7 +68,7 @@ class BinMask(Node):
 
     # Find the contour with the largest area
     # The parameter is a list of contours to be compared
-    def getAreaMaxContour(contours):
+    def getAreaMaxContour(self,contours):
         contour_area_temp = 0
         contour_area_max = 0
         area_max_contour = None
@@ -76,11 +82,17 @@ class BinMask(Node):
 
         return area_max_contour, contour_area_max  # Return the largest contour
 
+    def map(self, x, in_min, in_max, out_min, out_max):
+        return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min
+
+
+    def set_target_color(self, msg):
+        self.__target_color = msg.data
 
 
     def image_callback(self, msg):
 
-        #Convert rtos msg to cv2 img
+        #Convert ros msg to cv2 img
         img = self.br.imgmsg_to_cv2(msg,desired_encoding="bgr8")
         img_copy = img.copy()
         img_h, img_w = img.shape[:2]
@@ -94,11 +106,13 @@ class BinMask(Node):
 
         blue_lower = numpy.array([self.config.get("blue_h_min_init",0),self.config.get("blue_s_min_init",0),self.config.get("blue_v_min_init",0)])
         blue_upper = numpy.array([self.config.get("blue_h_max_init",255),self.config.get("blue_s_max_init",255),self.config.get("blue_v_max_init",255)])
-        
+
+        red_lower = numpy.array([self.config.get("red_h_min_init",0),self.config.get("red_s_min_init",0),self.config.get("red_v_min_init",0)])
+        red_upper = numpy.array([self.config.get("red_h_max_init",255),self.config.get("red_s_max_init",255),self.config.get("red_v_max_init",255)])
 
 
         # Line tracking inits
-        frame_resize = cv2.resize(img_copy, size, interpolation=cv2.INTER_NEAREST)
+        frame_resize = cv2.resize(img_copy, self.size, interpolation=cv2.INTER_NEAREST)
         frame_gb = cv2.GaussianBlur(frame_resize, (3, 3), 3)         
         centroid_x_sum = 0
         weight_sum = 0
@@ -107,37 +121,49 @@ class BinMask(Node):
 
 
         # Split the image into three parts: upper, middle and lower. This will make the processing faster and more accurate.
-        for r in roi:
-            roi_h = roi_h_list[n]
+        for r in self.roi:
+            roi_h = self.roi_h_list[n]
             n += 1       
             blobs = frame_gb[r[0]:r[1], r[2]:r[3]]
-            frame_lab = cv2.cvtColor(blobs, cv2.COLOR_BGR2LAB)  # Convert the image to LAB space
+            hsv = cv2.cvtColor(frame_gb, cv2.COLOR_BGR2HSV)  # Convert the image to HSV space
             area_max = 0
             areaMaxContour = 0
-            for i in lab_data:
-                if i in __target_color:
-                    detect_color = i
 
-                    # TODO create frame mask using cv2.inRange () function to perform bitwise operations on the original image
+            
+            if self.__target_color == 'green':
+                frame_mask = cv2.inRange(hsv,green_lower,green_upper)
+            elif self.__target_color == 'blue':
+                frame_mask = cv2.inRange(hsv,blue_lower,blue_upper)
+            elif self.__target_color == 'red':
+                frame_mask = cv2.inRange(hsv,red_lower,red_upper)
+            else:
+                frame_mask = np.zeros(frame_resize.shape[:2],dtype=np.uint8)
 
-                    # /.....enter code here...../
 
-                    eroded = cv2.erode(frame_mask, cv2.getStructuringElement(cv2.MORPH_RECT, (3, 3)))  #corrosion
-                    dilated = cv2.dilate(eroded, cv2.getStructuringElement(cv2.MORPH_RECT, (3, 3))) #Expansion
+            eroded = cv2.dilate(frame_mask, cv2.getStructuringElement(cv2.MORPH_RECT, (3, 3)),iterations=7)  #corrosion
+            dilated = cv2.erode(eroded, cv2.getStructuringElement(cv2.MORPH_RECT, (3, 3)),iterations=7) #Expansion
+            tophat = blackhat = cv2.morphologyEx(dilated, cv2.MORPH_TOPHAT, cv2.getStructuringElement(cv2.MORPH_RECT, (3, 3)))  #tophat
+
 
             cnts = cv2.findContours(dilated , cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_TC89_L1)[-2]# Find all contours
             cnt_large, area = self.getAreaMaxContour(cnts)# Find the contour with the largest area
             if cnt_large is not None:#If the contour is not empty
+                
                 rect = cv2.minAreaRect(cnt_large)#Minimum enclosing rectangle
-                box = np.int0(cv2.boxPoints(rect))#The four vertices of the minimum enclosing rectangle
-                for i in range(4):
-                    box[i, 1] = box[i, 1] + (n - 1)*roi_h + roi[0][0]
-                    box[i, 1] = int(Misc.map(box[i, 1], 0, size[1], 0, img_h))
-                for i in range(4):                
-                    box[i, 0] = int(Misc.map(box[i, 0], 0, size[0], 0, img_w))
+                
+                box = cv2.boxPoints(rect)#The four vertices of the minimum enclosing rectangle
+                box = box.astype(np.int32)
 
-                cv2.drawContours(img, [box], -1, (0,0,255,255), 2)#Draw a rectangle consisting of four points
-            
+                for i in range(4):
+                    box[i, 1] = box[i, 1] + (n - 1)*roi_h + self.roi[0][0]
+                    box[i, 1] = int(self.map(box[i, 1], 0, self.size[1], 0, img_h))
+                for i in range(4):                
+                    box[i, 0] = int(self.map(box[i, 0], 0, self.size[0], 0, img_w))
+                try:
+                    cv2.drawContours(img, [box], -1, (0,0,255,255), 2)#Draw a rectangle consisting of four points
+                    cv2.drawContours(img, cnts, -1, (0,0,255,255), 2)
+                except:
+                    cucumber = 1
                 #Get the diagonal points of the rectangle
                 pt1_x, pt1_y = box[0, 0], box[0, 1]
                 pt3_x, pt3_y = box[2, 0], box[2, 1]            
@@ -149,11 +175,18 @@ class BinMask(Node):
                 weight_sum += r[4]
         if weight_sum != 0:
             #Find the final center point
-            line_centerx = int(centroid_x_sum / weight_sum)
-            cv2.circle(img, (line_centerx, int(center_y)), 10, (0,255,255), -1)# Draw the center point
+            self.line_centerx = int(centroid_x_sum / weight_sum)-self.img_centerx
+            cv2.circle(img, (self.line_centerx, int(center_y)), 20, (0,255,255), -1)# Draw the center point
         else:
-            line_centerx = -1
-        return img
+            self.line_centerx = 0
+        
+        msg_out = Int16()
+        msg_out.data = self.line_centerx
+        self.line_publisher.publish(msg_out)
+
+        #cv2.imshow("line_tracking", dilated)
+        #cv2.waitKey(1)
+
 
     def load_config(self,path=CONFIG_PATH):
         mtime = os.path.getmtime(path)
@@ -171,9 +204,9 @@ def main(args=None):
     
     try:
         with rclpy.init(args=args):
-            bin_mask = BinMask()
+            line_tracking = LineTracking()
 
-            rclpy.spin(bin_mask)
+            rclpy.spin(line_tracking)
             
             rclpy.shutdown()
     except (KeyboardInterrupt, ExternalShutdownException):

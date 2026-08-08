@@ -28,7 +28,8 @@ setup(
         	'image_publisher = vision_stack.image_publisher:main',
 		'edge_recog = vision_stack.edge_recog:main',
 		'bin_mask = vision_stack.bin_mask:main',
-		'line_recog = vision_stack.line_recog:main'
+		'line_recog = vision_stack.line_recog:main',
+                'line_tracking = vision_stack.line_tracking:main'
 	],
     },
 )

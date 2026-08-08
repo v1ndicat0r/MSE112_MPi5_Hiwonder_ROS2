@@ -1,0 +1,17 @@
+[4.591s] Invoking command in '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/core': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/core/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/core/build --no-deps symlink_data
+[5.455s] running develop
+[5.868s] running egg_info
+[5.906s] writing core.egg-info/PKG-INFO
+[5.912s] writing dependency_links to core.egg-info/dependency_links.txt
+[5.914s] writing entry points to core.egg-info/entry_points.txt
+[5.915s] writing requirements to core.egg-info/requires.txt
+[5.918s] writing top-level names to core.egg-info/top_level.txt
+[6.013s] reading manifest file 'core.egg-info/SOURCES.txt'
+[6.017s] writing manifest file 'core.egg-info/SOURCES.txt'
+[6.070s] running build_ext
+[6.071s] Creating /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/core/lib/python3.14/site-packages/core.egg-link (link to .)
+[6.072s] Installing main script to /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/core/lib/core
+[6.075s] 
+[6.075s] Installed /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/core
+[6.075s] running symlink_data
+[6.305s] Invoked command in '/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/core' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/core/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/public/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/core/build --no-deps symlink_data

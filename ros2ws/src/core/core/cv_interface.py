@@ -3,6 +3,9 @@ from rclpy.node import Node
 from std_msgs.msg import Int16MultiArray
 from cv_bridge import CvBridge
 from sensor_msgs.msg import Image
+from std_msgs.msg import String
+from std_msgs.msg import Int16
+
 
 import threading
 import numpy as np
@@ -13,32 +16,45 @@ class CVInterface(Node):
 
     def __init__(self):
         super().__init__('cv_interface')
-        self.subscription = self.create_subscription(
+        self.image_subscription = self.create_subscription(
             Image,
             'image_topic',
             self.image_callback,
             10)
-        self.subscription = self.create_subscription(
+        self.image_subscription
+        self.gmask_subscription = self.create_subscription(
             Image,
             'green_mask',
             self.green_callback,
             10)
-        self.subscription = self.create_subscription(
+        self.gmask_subscription
+        self.bmask_subscription = self.create_subscription(
             Image,
             'blue_mask',
             self.blue_callback,
             10)
-        self.subscription = self.create_subscription(
+        self.bmask_subscription
+        self.gline_subscription = self.create_subscription(
             Int16MultiArray,
             'green_line_recog',
             self.green_line_callback,
             10)
-        self.subscription = self.create_subscription(
+        self.gline_subscription
+        self.bline_subscription = self.create_subscription(
             Int16MultiArray,
             'blue_line_recog',
             self.blue_line_callback,
             10)
-        self.subscription  # prevent unused variable warning
+        self.bline_subscription
+        self.line_tracking_subscription = self.create_subscription(
+            Int16,
+            'line_tracking_topic',
+            self.line_tracking_callback,
+            10)
+        self.line_tracking_subscription  # prevent unused variable warning
+
+        self.target_line_color_publisher = self.create_publisher(String, 'target_line_color_topic', 10)
+
 
         self.br = CvBridge()
 
@@ -51,6 +67,7 @@ class CVInterface(Node):
 
         self.green_line = (0,-240,0,240)
         self.blue_line = (0,-240,0,240)
+        self.line_centroid_x = 0
         
 
     def green_line_callback(self,msg):
@@ -67,6 +84,14 @@ class CVInterface(Node):
 
     def image_callback(self,msg):
         self.cam_image = self.br.imgmsg_to_cv2(msg,desired_encoding="passthrough")
+
+    def line_tracking_callback(self, msg):
+        self.line_centroid_x = msg.data
+
+    def set_target_line_color(self, target):
+        msg = String()
+        msg.data = target
+        self.target_line_color_publisher.publish(msg)
 
 
 def main() -> None:
