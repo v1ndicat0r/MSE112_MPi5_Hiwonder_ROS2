@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating hiwonder_board.egg-info
+writing hiwonder_board.egg-info/PKG-INFO
+writing dependency_links to hiwonder_board.egg-info/dependency_links.txt
+writing entry points to hiwonder_board.egg-info/entry_points.txt
+writing requirements to hiwonder_board.egg-info/requires.txt
+writing top-level names to hiwonder_board.egg-info/top_level.txt
+writing manifest file 'hiwonder_board.egg-info/SOURCES.txt'
+reading manifest file 'hiwonder_board.egg-info/SOURCES.txt'
+writing manifest file 'hiwonder_board.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/admin/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/hiwonder_board/lib/python3.14/site-packages/hiwonder-board.egg-link (link to .)
+Installing hiwonder_board_node script to /home/admin/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/hiwonder_board/lib/hiwonder_board
+Installing test_listener script to /home/admin/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/hiwonder_board/lib/hiwonder_board
+Installing test_talker script to /home/admin/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/hiwonder_board/lib/hiwonder_board
+
+Installed /home/admin/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/hiwonder_board
+running symlink_data
+creating /home/admin/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/hiwonder_board/share/ament_index/resource_index/packages
+symbolically linking /home/admin/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/hiwonder_board/resource/hiwonder_board -> /home/admin/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/hiwonder_board/share/ament_index/resource_index/packages
+symbolically linking /home/admin/MSE112_MPi5_Hiwonder_ROS2/ros2ws/build/hiwonder_board/package.xml -> /home/admin/MSE112_MPi5_Hiwonder_ROS2/ros2ws/install/hiwonder_board/share/hiwonder_board

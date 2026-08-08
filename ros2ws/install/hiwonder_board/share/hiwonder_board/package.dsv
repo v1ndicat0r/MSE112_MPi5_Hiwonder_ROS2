@@ -1,0 +1,9 @@
+source;share/hiwonder_board/hook/pythonpath.ps1
+source;share/hiwonder_board/hook/pythonpath.dsv
+source;share/hiwonder_board/hook/pythonpath.sh
+source;share/hiwonder_board/hook/ament_prefix_path.ps1
+source;share/hiwonder_board/hook/ament_prefix_path.dsv
+source;share/hiwonder_board/hook/ament_prefix_path.sh
+source;../../build/hiwonder_board/share/hiwonder_board/hook/pythonpath_develop.ps1
+source;../../build/hiwonder_board/share/hiwonder_board/hook/pythonpath_develop.dsv
+source;../../build/hiwonder_board/share/hiwonder_board/hook/pythonpath_develop.sh

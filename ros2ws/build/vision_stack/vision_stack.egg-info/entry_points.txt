@@ -1,0 +1,6 @@
+[console_scripts]
+bin_mask = vision_stack.bin_mask:main
+edge_recog = vision_stack.edge_recog:main
+image_publisher = vision_stack.image_publisher:main
+line_recog = vision_stack.line_recog:main
+line_tracking = vision_stack.line_tracking:main

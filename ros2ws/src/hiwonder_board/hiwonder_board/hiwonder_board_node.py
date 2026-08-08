@@ -675,7 +675,7 @@ class Sonar:
         except BaseException as e:
             print(e)
         return dist
-        
+
 
 class HiwonderBoard(Node):
 
