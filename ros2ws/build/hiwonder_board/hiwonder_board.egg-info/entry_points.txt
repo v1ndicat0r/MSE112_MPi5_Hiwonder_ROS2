@@ -1,4 +1,0 @@
-[console_scripts]
-hiwonder_board_node = hiwonder_board.hiwonder_board_node:main
-test_listener = hiwonder_board.subscriber_member_function:main
-test_talker = hiwonder_board.publisher_member_function:main
