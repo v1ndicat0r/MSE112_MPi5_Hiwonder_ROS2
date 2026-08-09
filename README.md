@@ -23,7 +23,7 @@ To date this workspace contains 3 packages:
  
  To run all the nodes and executables needed for project 1: line tracking, use the proj1_run.sh bash script:
  	
- 	./run_all_with_terminals.sh
+ 	./proj1_run.sh
 
 
 
