@@ -19,7 +19,12 @@ These handle the flow of data between the main file and the ros framework and pr
 
 ## cv_interface
 #### Functions
-This node contains 5 attributes that should be accessed:
+This node contains 6 attributes that should be accessed and 1 function to be called:
+* line_centroid_x:
+
+  	This attribute contains the live output from the line_tracking node and algorithm: pixel distance of the centroid of the detected line (line color defaults to green but can be set with the later mentioned set function. This value is to be used with project 1. 
+
+
 * green_line:
 
 	This attribute is updated on triggered recieve from the line_recog node and contains the start and end positions of the best fit green line in the form of a 4tuple
@@ -45,16 +50,23 @@ This node contains 5 attributes that should be accessed:
 	
 	This attribute is updated on receive from the bin_mask node and contains the green mask generated from the captured image. Returns a binary mask.
 
+* set_target_line_color(target):
+
+  	This function sets the target line color for the line tracking algorithm in line_tracking. This is done via the target_line_color_topic
+
+
 
 #### ros Information
-This node is subscribed to 5 topics:
+This node is subscribed to 6 topics:
 * image_topic
 * green_mask
 * blue_mask
 * green_line_recog
 * blue_line_recog
+* line_tracking_topic
 
-This node publishes 0 topics.
+This node publishes 1 topic:
+* target_line_color_topic
 
 ## board_interface
 ### Functions
